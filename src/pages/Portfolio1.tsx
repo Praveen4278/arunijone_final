@@ -8,7 +8,7 @@ import PortfolioMetadata from "../components/PortfolioMetadata";
 import PortfolioMetadataMobile from "../components/PortfolioMetadataMobile";
 import MobFooter from "../components/MobFooter";
 
-const DESIGN_HEIGHT = 8800;
+const DESIGN_HEIGHT = 10220;
 
 type CoreTab = "Research" | "Design" | "Development" | "Creative" | "Marketing";
 type RelatedTab = "Overview" | "Website" | "Mobile App";
@@ -30,7 +30,7 @@ const PillButton = ({
   <button
     type="button"
     onClick={onClick}
-    className={`h-[78px] min-w-[198px] rounded-[24px] px-[28px] flex items-center justify-center gap-[22px] text-[18px] leading-[24px] transition-colors ${
+    className={`h-[78px] min-w-[198px] rounded-[24px] border-0 px-[28px] flex items-center justify-center gap-[22px] text-[18px] leading-[24px] transition-colors ${
       active ? "bg-[#0161FE] text-white" : "bg-white text-[#0161FE]"
     }`}
   >
@@ -52,7 +52,7 @@ const SectionBadge = ({ children }: { children: React.ReactNode }) => (
 );
 
 const ResearchCaseStudy = () => (
-  <div className="w-full bg-white rounded-[24px] px-[82px] py-[58px]">
+  <div className="h-[3203px] w-full bg-white rounded-[24px] px-[82px] py-[58px]">
     <div className="flex justify-between items-start">
       <div>
         <SectionBadge>Case Studies</SectionBadge>
@@ -67,16 +67,17 @@ const ResearchCaseStudy = () => (
       </p>
     </div>
 
-    <div className="mt-[82px] mx-auto w-[860px]">
+    <div className="mt-[82px] mx-auto h-[2770px] w-[822px] rounded-[24px] bg-[#f6f7f9] px-[68px] py-[58px]">
+      <div className="mx-auto mb-[48px] h-[360px] w-full overflow-hidden rounded-[18px] bg-white">
+        <img src="/assets/portfolio/images/gemini_logo_removed_1.png" alt="" className="h-full w-full object-cover" />
+      </div>
       <h3 className="text-center text-[#111] text-[30px] leading-[36px] font-semibold">Executive Summary</h3>
       <div className="mt-[34px] border-t border-[#9b9b9b]" />
       <h4 className="mt-[34px] text-[#111] text-[22px] leading-[30px] font-semibold">Overview of the Project</h4>
-      <p className="mt-[26px] text-[#7d7d7d] text-[19px] leading-[32px]">
-        MyRameswaramTrip is a region-focused digital platform designed to simplify and enhance pilgrimage
-        and travel experiences in Rameswaram, Tamil Nadu. The ecosystem consists of four tightly connected
-        products:
+      <p className="mt-[26px] text-[#7d7d7d] text-[18px] leading-[30px]">
+        MyRameswaramTrip is a region-focused digital platform designed to simplify and enhance pilgrimage and travel experiences in Rameswaram, Tamil Nadu. The ecosystem consists of four tightly connected products:
       </p>
-      <ul className="mt-[24px] ml-[26px] space-y-[20px] text-[#7d7d7d] text-[18px] leading-[30px] list-disc">
+      <ul className="mt-[24px] ml-[26px] space-y-[16px] text-[#7d7d7d] text-[18px] leading-[30px] list-disc">
         <li>A public website for devotees and travelers to book pujas, rituals, attractions, accommodations, and combo packages</li>
         <li>A Pandit Partner App that empowers temple priests to manage puja bookings, pricing, earnings, and direct communication with devotees</li>
         <li>A Travel Partner App that enables local drivers and travel agencies to manage trips, pricing, schedules, and traveler coordination</li>
@@ -86,9 +87,31 @@ const ResearchCaseStudy = () => (
         The platform focuses on trust, transparency, and cultural sensitivity, ensuring that spiritual services are delivered respectfully while using modern digital tools to reduce friction for all stakeholders.
       </p>
       <h4 className="mt-[40px] text-[#111] text-[22px] leading-[30px] font-semibold">Research Purpose</h4>
-      <p className="mt-[18px] text-[#7d7d7d] text-[18px] leading-[30px]">
-        The purpose of this UX research is to understand user needs, booking expectations, partner workflows, and opportunities to make the complete pilgrimage experience smoother.
-      </p>
+      <p className="mt-[18px] text-[#7d7d7d] text-[18px] leading-[30px]">The purpose of this UX research is to:</p>
+      <ul className="mt-[18px] ml-[26px] space-y-[13px] text-[#7d7d7d] text-[18px] leading-[30px] list-disc">
+        <li>Understand the needs, behaviors, and pain points of key user groups: devotees and travelers, pandits, travel partners, and admin and operations teams</li>
+        <li>Evaluate how effectively the current platform supports puja and ritual booking, travel and attraction management, partner autonomy and trust, and administrative efficiency</li>
+        <li>Identify usability gaps, workflow issues, and emotional concerns, especially in spiritual and culturally sensitive contexts</li>
+        <li>Provide actionable insights to improve puja and ritual booking, operational efficiency, platform adoption, and long-term trust</li>
+      </ul>
+      <h4 className="mt-[40px] text-[#111] text-[22px] leading-[30px] font-semibold">Key Insights</h4>
+      <ul className="mt-[18px] ml-[26px] space-y-[13px] text-[#7d7d7d] text-[18px] leading-[30px] list-disc">
+        <li>Trust and spiritual dignity are critical for pandits. Direct payment receipt, pricing control, and personal communication significantly increase acceptance of the platform.</li>
+        <li>Partners value autonomy over automation. Both pandits and travel partners prefer flexible pricing and booking acceptance control rather than forced availability.</li>
+        <li>Clear dashboards reduce dependency on manual coordination. Simple booking cards, earnings summaries, and status indicators reduce the need for admin calls and WhatsApp follow-ups.</li>
+        <li>Admin users face high cognitive load due to the scale and complexity of data across bookings, partners, finances, and communications, requiring better prioritization and visibility.</li>
+        <li>Users trust verified labels and transparency more than discounts or promotions, especially for religious services.</li>
+        <li>Some features marked coming soon create expectation gaps, leading to uncertainty among users about service availability.</li>
+      </ul>
+      <h4 className="mt-[40px] text-[#111] text-[22px] leading-[30px] font-semibold">High-Level Recommendations</h4>
+      <ul className="mt-[18px] ml-[26px] space-y-[13px] text-[#7d7d7d] text-[18px] leading-[30px] list-disc">
+        <li>Strengthen clarity and consistency across platforms by aligning terminology, booking status labels, and pricing logic between website, partner apps, and admin dashboard.</li>
+        <li>Improve onboarding and guidance with simple onboarding flows for pandits and travel partners with visual explanations instead of text-heavy instructions.</li>
+        <li>Enhance admin usability by introducing role-based dashboards with prioritized KPIs to reduce information overload.</li>
+        <li>Reinforce trust signals by highlighting verification, completed services, and real partner profiles more prominently on the website.</li>
+        <li>Progressively release coming soon features with clear timelines or phased rollouts to manage user expectations.</li>
+        <li>Preserve spiritual UX principles by avoiding aggressive monetization patterns and maintaining a service-first, respectful experience.</li>
+      </ul>
     </div>
   </div>
 );
@@ -105,15 +128,17 @@ const PhoneFrame = ({
   image,
   className = "",
   imageFit = "cover",
+  large = false,
 }: {
   image: string;
   className?: string;
   imageFit?: "cover" | "contain";
+  large?: boolean;
 }) => (
   <div
-    className={`relative h-[258px] w-[126px] rounded-[24px] border-[5px] border-[#111] bg-white shadow-sm overflow-hidden ${className}`}
+    className={`relative ${large ? "h-[409.89px] w-[201px] rounded-[38px] border-[8px]" : "h-[258px] w-[126px] rounded-[24px] border-[5px]"} border-[#111] bg-white shadow-sm overflow-hidden ${className}`}
   >
-    <div className="absolute left-[42px] top-[8px] h-[11px] w-[42px] rounded-full bg-[#111] z-10" />
+    <div className={`absolute ${large ? "left-[67px] top-[13px] h-[17px] w-[67px]" : "left-[42px] top-[8px] h-[11px] w-[42px]"} rounded-full bg-[#111] z-10`} />
     <img src={image} alt="" className={`h-full w-full object-${imageFit}`} />
   </div>
 );
@@ -127,11 +152,11 @@ const TabletPhoneMockup = ({
   phoneImage?: string;
   dim?: boolean;
 }) => (
-  <div className="relative h-[296px] w-[410px]">
-    <div className="absolute left-0 top-[20px] h-[250px] w-[372px] rounded-[14px] border-[10px] border-[#111] bg-white overflow-hidden shadow-sm">
+  <div className="relative h-[399.67px] w-[521.74px]">
+    <div className="absolute left-0 top-[26.99px] h-[337.56px] w-[473.41px] rounded-[18px] border-[13px] border-[#111] bg-white overflow-hidden shadow-sm">
       <img src={image} alt="" className={`h-full w-full object-cover ${dim ? "brightness-50" : ""}`} />
     </div>
-    <PhoneFrame image={phoneImage} className="absolute right-0 top-[88px]" imageFit="cover" />
+    <PhoneFrame image={phoneImage} className="absolute right-0 top-[118.75px] scale-[1.35] origin-top-right" imageFit="cover" />
   </div>
 );
 
@@ -144,7 +169,7 @@ const WebsiteMockupRow = ({
   reverse?: boolean;
   dim?: boolean;
 }) => (
-  <div className={`flex items-center ${reverse ? "justify-end" : "justify-start"} gap-[120px]`}>
+  <div className={`flex items-center ${reverse ? "justify-end" : "justify-start"} gap-[210px]`}>
     {reverse ? (
       <>
         <MockupText />
@@ -166,21 +191,21 @@ const MobileMockupRow = ({
   images: string[];
   reverse?: boolean;
 }) => (
-  <div className={`flex items-center ${reverse ? "justify-end" : "justify-start"} gap-[168px]`}>
+  <div className={`flex items-center ${reverse ? "justify-end" : "justify-start"} gap-[128px]`}>
     {reverse ? (
       <>
         <MockupText />
-        <div className="flex items-center gap-[30px]">
+        <div className="flex items-center gap-[42px]">
           {images.map((image) => (
-            <PhoneFrame key={image} image={image} imageFit="contain" />
+            <PhoneFrame key={image} image={image} imageFit="contain" large />
           ))}
         </div>
       </>
     ) : (
       <>
-        <div className="flex items-center gap-[30px]">
+        <div className="flex items-center gap-[42px]">
           {images.map((image) => (
-            <PhoneFrame key={image} image={image} imageFit="contain" />
+            <PhoneFrame key={image} image={image} imageFit="contain" large />
           ))}
         </div>
         <MockupText />
@@ -196,11 +221,16 @@ const WebsiteShowcase = () => {
     { image: "/assets/p2/images/screencapturemyrameswaramtripbookings2026011916_23_30_1.png", reverse: false },
     { image: "/assets/p2/images/screencapturemrtstorageinsouth1objectstoree2enetworksnetinvoices20260119invoicepujaaa2e60ac90gfzruopdf2026011916_25_32_1.png", reverse: true },
     { image: "/assets/p2/images/screencaptureapicashfreecheckout2026011916_16_39_2.png", reverse: false },
+    { image: "/assets/p2/images/screencapturemyrameswaramtrippujas2026011915_20_38_5.png", reverse: true },
+    { image: "/assets/p2/images/screencapturemyrameswaramtripbookings2026011916_19_25_2.png", reverse: false, dim: true },
+    { image: "/assets/p2/images/screencapturemyrameswaramtripbookings2026011916_23_30_1.png", reverse: true },
+    { image: "/assets/p2/images/screencapturemrtstorageinsouth1objectstoree2enetworksnetinvoices20260119invoicepujaaa2e60ac90gfzruopdf2026011916_25_32_1.png", reverse: false },
+    { image: "/assets/p2/images/screencaptureapicashfreecheckout2026011916_16_39_2.png", reverse: true },
   ];
 
   return (
-    <div className="mt-[54px] w-full bg-white rounded-[24px] px-[72px] py-[36px]">
-      <div className="mx-auto w-[1120px] flex flex-col gap-[88px]">
+    <div className="mx-auto mt-[50px] h-[4800px] w-[1337px] bg-white rounded-[24px] px-[72px] py-[56px]">
+      <div className="mx-auto w-full flex flex-col gap-[76px]">
         {rows.map((row, index) => (
           <WebsiteMockupRow key={`${row.image}-${index}`} {...row} />
         ))}
@@ -219,8 +249,8 @@ const MobileAppShowcase = () => {
   ];
 
   return (
-    <div className="mt-[54px] w-full bg-white rounded-[24px] px-[72px] py-[48px]">
-      <div className="mx-auto w-[1000px] flex flex-col gap-[92px]">
+    <div className="mx-auto mt-[50px] h-[2370px] w-[1337px] bg-white rounded-[24px] px-[72px] py-[54px]">
+      <div className="mx-auto w-full flex flex-col gap-[74px]">
         {rows.map((row, index) => (
           <MobileMockupRow key={`${row.images.join("-")}-${index}`} {...row} />
         ))}
@@ -229,22 +259,23 @@ const MobileAppShowcase = () => {
   );
 };
 
-const RelatedContent = ({ active }: { active: RelatedTab }) => {
-  const content = {
-    Overview: {
-      title: "Overview",
-      text: "A connected service ecosystem covering travel discovery, booking support, partner coordination, and customer-facing digital experience.",
-    },
-    Website: {
-      title: "Website",
-      text: "A public-facing website experience for visitors to explore services, understand packages, and move toward booking with clarity.",
-    },
-    "Mobile App": {
-      title: "Partners App",
-      text: "Partner apps help Pandits, travel partners, and stay partners manage their service flow from one simple digital system.",
-    },
-  };
+const ProjectRegionSection = () => (
+  <section className="relative w-[1416px] h-[1179px] overflow-hidden rounded-[24px]">
+    <div className="pt-[50px] text-center">
+      <SectionBadge>Project Region</SectionBadge>
+      <h2 className="mx-auto mt-[30px] w-[530px] text-[36px] font-normal leading-[45px] text-[#111]">
+        Solutions built for businesses across regions.
+      </h2>
+    </div>
+    <img
+      src="/assets/about/images/group_2.svg"
+      alt="Project region map"
+      className="absolute left-[41px] top-[218px] h-[879px] w-[1334px]"
+    />
+  </section>
+);
 
+const RelatedContent = ({ active }: { active: RelatedTab }) => {
   if (active === "Website") {
     return <WebsiteShowcase />;
   }
@@ -252,7 +283,7 @@ const RelatedContent = ({ active }: { active: RelatedTab }) => {
   if (active === "Mobile App") {
     return (
       <>
-        <div className="mt-[42px] bg-[#F6F7F9] rounded-[24px] h-[262px] flex flex-col items-center justify-center">
+        <div className="mt-[42px] bg-[#F6F7F9] rounded-[24px] h-[366px] w-[1420.5px] flex flex-col items-center justify-center">
           <SectionBadge>Partners App</SectionBadge>
           <h3 className="mt-[30px] text-center text-[#111] text-[32px] leading-[40px] font-normal">
             Related Work Across
@@ -270,12 +301,11 @@ const RelatedContent = ({ active }: { active: RelatedTab }) => {
     );
   }
 
-  return (
-    <div className="mt-[42px] bg-white rounded-[24px] border border-[#e3e5e8] px-[52px] py-[34px] text-center">
-      <h3 className="text-[#111] text-[30px] leading-[38px] font-normal">{content[active].title}</h3>
-      <p className="mt-[14px] mx-auto max-w-[720px] text-[#7d7d7d] text-[18px] leading-[28px]">{content[active].text}</p>
-    </div>
-  );
+  if (active === "Overview") {
+    return <ProjectRegionSection />;
+  }
+
+  return null;
 };
 
 const PortfolioCoreSwitch = () => {
@@ -301,20 +331,22 @@ const PortfolioCoreSwitch = () => {
       {coreTab === "Research" && <ResearchCaseStudy />}
 
       {coreTab === "Design" && (
-        <section className="bg-[#F6F7F9] rounded-[24px] min-h-[366px] px-[40px] py-[50px] flex flex-col items-center">
-          <SectionBadge>Related Works</SectionBadge>
-          <h2 className="mt-[34px] text-center text-[#111] text-[36px] leading-[42px] font-normal">
-            Related Work Across
-            <br />
-            My Core Services
-          </h2>
-          <div className="mt-[38px] flex items-center justify-center gap-[20px]">
-            {RELATED_TABS.map((tab) => (
-              <PillButton key={tab} label={tab} active={relatedTab === tab} onClick={() => setRelatedTab(tab)} />
-            ))}
-          </div>
+        <>
+          <section className="bg-[#F6F7F9] rounded-[24px] h-[366px] px-[40px] py-[50px] flex flex-col items-center">
+            <SectionBadge>Related Works</SectionBadge>
+            <h2 className="mt-[34px] text-center text-[#111] text-[36px] leading-[42px] font-normal">
+              Related Work Across
+              <br />
+              My Core Services
+            </h2>
+            <div className="mt-[38px] flex items-center justify-center gap-[20px]">
+              {RELATED_TABS.map((tab) => (
+                <PillButton key={tab} label={tab} active={relatedTab === tab} onClick={() => setRelatedTab(tab)} />
+              ))}
+            </div>
+          </section>
           <RelatedContent active={relatedTab} />
-        </section>
+        </>
       )}
 
       {coreTab !== "Research" && coreTab !== "Design" && (
@@ -670,15 +702,15 @@ const Portfolio1UXUIUIDesignWebsite = () => {
               <div
                 id="_231_4797__Border"
                 style={{transform:"translateY(-1px)"}}
-                className="absolute h-[38.06px] w-[116.06px] flex flex-col justify-start items-start flex-nowrap gap-2.5 px-[9px] py-0 rounded-[236.84442138671875px] border-[#202833ff] border-solid border-[0.9695612788200378px] left-[740.00px] top-[50.00px]"
+                className="absolute h-[38.06px] w-[116.06px] flex items-center justify-center rounded-[236.84442138671875px] border-[#202833ff] border-solid border-[0.9695612788200378px] left-[740.00px] top-[50.00px]"
               >
                 <div
                   id="_231_4798__Frame_135"
-                  className="relative h-[20.00px] w-[calc(100%-10px-10px)] flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
+                  className="relative flex h-full w-full items-center justify-center"
                 >
                   <span
                     id="_231_4799__Milestone"
-                    className="flex justify-start text-left items-center h-[20.00px] w-[91.00px] relative"
+                    className="flex h-full w-full items-center justify-center text-center"
                   >
                     <span
                       className="whitespace-nowrap bg-[rgba(32,40,51,1.00)] bg-clip-text text-transparent not-italic text-[14.0px] font-medium leading-[19.61px] tracking-[2.0719525814056396px] uppercase"

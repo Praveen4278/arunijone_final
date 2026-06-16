@@ -5,7 +5,7 @@ import DesktopPageWrapper from "../components/DesktopPageWrapper";
 import MobBanner from "../components/MobBanner";
 import MobFooter from "../components/MobFooter";
 
-const DESIGN_HEIGHT = 1760;
+const DESIGN_HEIGHT = 1810;
 
 const ContactDesktop = () => {
   const [firstName, setFirstName] = useState("");
@@ -111,7 +111,7 @@ const ContactDesktop = () => {
 
             <div
               id="_212_141__Section"
-              className="relative overflow-hidden h-[323.00px] w-full rounded-[20.41314125061035px]"
+              className="relative overflow-hidden h-[323.00px] w-full rounded-[20.41314125061035px] mt-[50px]"
             >
               <div
                 id="_212_142__Frame_174"
@@ -163,7 +163,7 @@ const ContactDesktop = () => {
 
               <div
                 id="_212_148__Background"
-                className="absolute bg-white h-[28.19px] w-[242.75px] left-[calc(50%-146.00px)] flex flex-row justify-start items-center flex-nowrap gap-3 px-6 py-[17px] rounded-[calc(142.58309936523438px_*_1.0)] border-[#1e88e5ff] border-solid border-[0.6481050252914429px] top-[231.00px]"
+                className="absolute bg-white h-[28.19px] w-[242.75px] left-[calc(50%-146.00px)] flex flex-row justify-start items-center flex-nowrap gap-3 px-6 py-[17px] rounded-[calc(142.58309936523438px_*_1.0)] border-0 top-[231.00px]"
               >
                 <div
                   id="_212_149__Frame"
@@ -256,7 +256,7 @@ const ContactDesktop = () => {
             >
               <div
                 id="_212_163__Border"
-                className="absolute border h-[36.52px] w-[155.16px] left-[calc(50%-78.29px)] top-[calc(50%-123.51px)] rounded-[244.27999877929688px] border-[#202833ff] border-solid"
+                className="absolute h-[36.52px] w-[155.16px] left-[calc(50%-78.29px)] top-[calc(50%-123.51px)] rounded-[244.27999877929688px] border-0"
               >
                 <span
                   id="_212_164__Contact_Us"
@@ -511,7 +511,7 @@ const ContactDesktop = () => {
             </span>
             <div
               id="_266_548__Background"
-              className="absolute bg-white h-[23.29px] w-[192.48px] left-[calc(50%-115.50px)] flex flex-row justify-start items-center flex-nowrap gap-2.5 px-[19px] py-[13px] rounded-[calc(112.95833587646484px_*_1.0)] border-[#1e88e5ff] border-solid border-[0.5134470462799072px] top-[325.00px]"
+              className="absolute bg-white h-[23.29px] w-[192.48px] left-[calc(50%-115.50px)] flex flex-row justify-start items-center flex-nowrap gap-2.5 px-[19px] py-[13px] rounded-[calc(112.95833587646484px_*_1.0)] border-0 top-[325.00px]"
             >
               <div
                 id="_266_549__Frame"
@@ -647,7 +647,7 @@ const ContactDesktop = () => {
           >
             <div
               id="_266_568__Border"
-              className="absolute border h-[30.00px] w-[123.00px] left-[calc(50%-62.50px)] rounded-[228.8300018310547px] border-[#202833ff] border-solid top-[35.00px]"
+              className="absolute h-[30.00px] w-[123.00px] left-[calc(50%-62.50px)] rounded-[228.8300018310547px] border-0 top-[35.00px]"
             >
               <span
                 id="_266_569__Contact_Us"

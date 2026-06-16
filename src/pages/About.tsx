@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import AboutMob from "./Aboutmob.tsx";
 import DesktopPageWrapper from "../components/DesktopPageWrapper";
 
-const DESIGN_HEIGHT = 5130;
+const DESIGN_HEIGHT = 5339;
 const asset = (name: string) => `/assets/about/images/${name}`;
 
 type Ecosystem = "Products" | "Services" | "Partners";
@@ -58,7 +58,7 @@ const BlueButton = ({
 }) => (
   <button
     onClick={onClick}
-    className={`inline-flex h-[55px] items-center justify-center gap-[10px] whitespace-nowrap rounded-full bg-[#0161fe] px-[26px] text-[16px] font-medium leading-none text-white ${className}`}
+    className={`inline-flex h-[55px] items-center justify-center gap-[10px] whitespace-nowrap rounded-full border-0 bg-[#0161fe] px-[26px] text-[16px] font-medium leading-none text-white ${className}`}
   >
     {children}
     <ArrowRight size={20} strokeWidth={1.8} />
@@ -90,7 +90,7 @@ const PillButton = ({
 }) => (
   <button
     onClick={onClick}
-    className={`flex h-[78px] items-center justify-center gap-[26px] rounded-[18px] transition-colors ${
+    className={`flex h-[78px] items-center justify-center gap-[26px] rounded-[18px] border-0 transition-colors ${
       active ? "bg-[#0161fe] text-white" : "bg-white text-[#0161fe]"
     }`}
     style={{ width }}
@@ -122,7 +122,7 @@ const About = () => {
         <main className="absolute left-[10px] top-[108px] flex w-[1420px] flex-col gap-[50px]">
           <section
             className="relative w-full overflow-hidden rounded-[20px] bg-[#f6f7f9]"
-            style={{ height: 650 }}
+            style={{ height: 904 }}
           >
             <div
               className="absolute text-center"
@@ -150,22 +150,22 @@ const About = () => {
               </div>
             </div>
 
-            <div className="absolute" style={{ left: 42, top: 200, width: 1335, height: 390 }}>
+            <div className="absolute" style={{ left: 42, top: 290, width: 1335, height: 520 }}>
               <img
                 src={asset("image 262.webp")}
                 alt=""
                 className="absolute object-cover"
-                style={{ left: 0, top: 0, width: 440, height: 390, borderRadius: 18 }}
+                style={{ left: 0, top: 0, width: 440, height: 520, borderRadius: 18 }}
               />
-              <div className="absolute flex flex-col gap-[8px]" style={{ left: 448, top: 0, width: 440, height: 390 }}>
-                <div className="p-[18px] text-white" style={{ height: 191, backgroundColor: "#0161fe", borderRadius: 18, overflow: "hidden" }}>
+              <div className="absolute flex flex-col gap-[8px]" style={{ left: 448, top: 0, width: 440, height: 520 }}>
+                <div className="p-[18px] text-white" style={{ height: 256, backgroundColor: "#0161fe", borderRadius: 18, overflow: "hidden" }}>
                   <p className="w-[395px] text-[16px] leading-[22px]">
                     Adaptability that helps you scale confidently with a flexible system built
                     to support your growth at every stage.
                   </p>
                   <div className="mt-[36px] text-[51px] leading-[61px]">100%</div>
                 </div>
-                <div className="p-[17px] text-white" style={{ height: 191, backgroundColor: "#232323", borderRadius: 18, overflow: "hidden" }}>
+                <div className="p-[17px] text-white" style={{ height: 256, backgroundColor: "#232323", borderRadius: 18, overflow: "hidden" }}>
                   <div className="flex h-[36px] w-[36px] items-center justify-center rounded-full bg-white/20 text-[16px]">↯</div>
                   <div className="mt-[18px] text-[41px] leading-[48px]">3+</div>
                   <p className="mt-[10px] w-[386px] text-[15px] leading-[20px]">
@@ -178,14 +178,12 @@ const About = () => {
                 src={asset("image 263.webp")}
                 alt=""
                 className="absolute object-cover"
-                style={{ left: 896, top: 0, width: 440, height: 390, borderRadius: 18 }}
+                style={{ left: 896, top: 0, width: 440, height: 520, borderRadius: 18 }}
               />
             </div>
           </section>
 
-          <IntroStatement />
-
-          <section className="w-full h-[378px] rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
+          <section className="w-full h-[367px] rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
             <Badge>Our Ecosystem</Badge>
             <h2 className="mt-[39px] text-[36px] font-normal leading-[43px] text-[#111]">
               Explore Our Business
@@ -205,7 +203,7 @@ const About = () => {
           </section>
 
           {activeEcosystem && (
-            <section className="w-full mt-[50px] h-[381px] rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
+            <section className="w-full mt-[25px] h-[367px] rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
               <Badge>Our Expertise</Badge>
               <h2 className="mt-[39px] text-[36px] font-normal leading-[43px] text-[#111]">
                 Our Core Capabilities &amp;
@@ -228,7 +226,7 @@ const About = () => {
 
           <section
             className="relative rounded-[20px] bg-white pt-[9px] text-center"
-            style={{ minHeight: 760 }}
+            style={{ height: 843 }}
           >
             <div className="mx-auto h-[2px] w-[16px] bg-[#ff27cf]" />
             <div className="mt-[45px]">
@@ -237,7 +235,18 @@ const About = () => {
             <h2 className="mx-auto mt-[22px] w-[430px] text-[36px] font-normal leading-[43px] text-[#111]">
               {gallery.title}
             </h2>
-            <div className="mt-[34px] grid grid-cols-4 gap-[22px] px-[42px]">
+            <div className="mt-[38px] flex justify-center gap-[22px]">
+              {["Website", "Mobile App", "Saas", "Poster", "Logo"].map((item, index) => (
+                <PillButton
+                  key={item}
+                  label={item}
+                  active={index === 0}
+                  onClick={() => {}}
+                  width={index === 0 ? 194 : index === 1 ? 188 : 150}
+                />
+              ))}
+            </div>
+            <div className="mt-[50px] grid grid-cols-4 gap-[22px] px-[42px]">
               {Array.from({ length: 8 }).map((_, index) => (
                 <button
                   key={index}
@@ -254,8 +263,8 @@ const About = () => {
           </section>
 
           <section
-            className="relative w-[1416px] overflow-hidden rounded-[24px]"
-            style={{ height: 1179 }}
+            className="relative w-full overflow-hidden rounded-[24px]"
+            style={{ height: 1211 }}
           >
             <div className="pt-[50px] text-center">
               <Badge>Project Region</Badge>

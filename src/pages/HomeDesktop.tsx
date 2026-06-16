@@ -6,7 +6,7 @@ import HomeUXUI from "./Homemob";
 import DesktopPageWrapper from "../components/DesktopPageWrapper";
 import MobilePageWrapper from "../components/MobilePageWrapper";
 
-const DESIGN_HEIGHT = 6493;
+const DESIGN_HEIGHT = 6030;
 const img = (name: string) => `/assets/Home/images/${name}`;
 
 const Badge = ({ children }: { children: React.ReactNode }) => (
@@ -26,7 +26,7 @@ const BlueButton = ({
 }) => (
   <button
     onClick={onClick}
-    className={`inline-flex h-[55px] items-center justify-center gap-[10px] whitespace-nowrap rounded-full bg-[#0161fe] px-[26px] text-[16px] font-medium leading-none text-white ${className}`}
+    className={`inline-flex h-[55px] items-center justify-center gap-[10px] whitespace-nowrap rounded-full border-0 bg-[#0161fe] px-[26px] text-[16px] font-medium leading-none text-white ${className}`}
   >
     {children}
     <ArrowRight size={20} strokeWidth={1.8} />
@@ -55,7 +55,7 @@ const Pill = ({
 }) => (
   <button
     onClick={onClick}
-    className={`flex h-[78px] items-center justify-center gap-[26px] rounded-[18px] transition-colors ${
+    className={`flex h-[78px] items-center justify-center gap-[26px] rounded-[18px] border-0 transition-colors ${
       active ? "bg-[#0161fe] text-white" : "bg-white text-[#0161fe]"
     }`}
     style={{ width }}
@@ -111,17 +111,17 @@ const HomeDesktop = () => {
       <DesktopPageWrapper designHeight={DESIGN_HEIGHT}>
         <Navbar activePage="home" />
 
-        <main className="absolute left-0 top-[108px] w-[1440px]">
-          <section className="relative h-[1032px] overflow-hidden bg-white">
+        <main className="absolute left-[10px] top-[108px] w-[1420px]">
+          <section className="relative h-[980px] overflow-hidden bg-white">
             <div
-              className="absolute left-[489px] top-[95px] h-[848px] w-[951px] bg-right-bottom bg-no-repeat"
+              className="absolute left-[469px] top-[-40px] h-[980px] w-[951px] bg-right-bottom bg-no-repeat"
               style={{
                 backgroundImage: `url(${img("image_266.webp")})`,
-                backgroundPosition: "right top",
-                backgroundSize: "951px 714px",
+                backgroundPosition: "right bottom",
+                backgroundSize: "1060px 796px",
               }}
             />
-            <div className="absolute left-[78px] top-[286px]">
+            <div className="absolute left-[68px] top-[250px]">
               <h1 className="w-[590px] text-[76px] font-normal leading-[92px] text-[#111]">
                 For Those Who
                 <br />
@@ -135,8 +135,8 @@ const HomeDesktop = () => {
             </div>
           </section>
 
-          <section className="relative h-[186px] bg-white">
-            <p className="absolute left-[352px] top-[50px] w-[736px] text-center text-[28px] leading-[43px] text-[#111]">
+          <section className="relative h-[256px] bg-white">
+            <p className="absolute left-[342px] top-[81px] w-[736px] text-center text-[22px] leading-[31px] text-[#111]">
               This We deliver high-quality digital solutions while creating
               meaningful work <span className="text-[#777]">opportunities for individuals with disabilities</span>
               <br />
@@ -144,7 +144,7 @@ const HomeDesktop = () => {
             </p>
           </section>
 
-          <section className="mx-[36px] mt-[50px] h-[850px] rounded-[20px] bg-[#f6f7f9] px-[48px] pt-[50px]">
+          <section className="mt-[50px] h-[856px] w-full rounded-[20px] bg-[#f6f7f9] px-[48px] pt-[50px]">
             <Badge>About Us</Badge>
             <div className="mt-[36px] flex items-start justify-between">
               <h2 className="w-[560px] text-[36px] font-normal leading-[42px] text-[#111]">
@@ -181,7 +181,7 @@ const HomeDesktop = () => {
             </div>
           </section>
 
-          <section className="mx-[36px] mt-[50px] h-[378px] rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
+          <section className="mt-[50px] h-[367px] w-full rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
             <Badge>Our Ecosystem</Badge>
             <h2 className="mt-[39px] text-[36px] font-normal leading-[43px] text-[#111]">
               Explore Our Business
@@ -200,7 +200,7 @@ const HomeDesktop = () => {
             </div>
           </section>
 
-          <section className="mx-[36px] mt-[50px] h-[381px] rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
+          <section className="mt-[50px] h-[367px] w-full rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
             <Badge>Our Expertise</Badge>
             <h2 className="mt-[39px] text-[36px] font-normal leading-[43px] text-[#111]">
               Our Core Capabilities &amp;
@@ -220,7 +220,7 @@ const HomeDesktop = () => {
             </div>
           </section>
 
-          <section className="mx-[36px] mt-[50px] h-[1052px] rounded-[20px] bg-[#f6f7f9] px-[42px] pt-[48px]">
+          <section className="mt-[50px] h-[1084px] w-full rounded-[20px] bg-[#f6f7f9] px-[42px] pt-[48px]">
             <div className="flex items-start justify-between">
               <div>
                 <Badge>Our Services</Badge>
@@ -267,7 +267,7 @@ const HomeDesktop = () => {
             </div>
           </section>
 
-          <section className="h-[900px] bg-white px-[78px] pt-[97px]">
+          <section className="h-[849px] w-full bg-white px-[78px] pt-[97px]">
             <div className="flex items-start justify-between">
               <div>
                 <Badge>Our Blog</Badge>
@@ -293,7 +293,7 @@ const HomeDesktop = () => {
             </div>
           </section>
 
-          <section className="mx-[36px] h-[386px] rounded-[20px] bg-[#f6f7f9] px-[42px] pt-[48px]">
+          <section className="mt-[100px] h-[402px] w-full rounded-[20px] bg-[#f6f7f9] px-[42px] pt-[58px]">
             <div className="grid grid-cols-[610px_1fr] gap-[70px]">
               <div>
                 <Badge>Contact Us</Badge>
@@ -312,7 +312,7 @@ const HomeDesktop = () => {
             </div>
           </section>
 
-          <footer className="mx-[36px] mt-[89px] h-[362px] rounded-[20px] bg-[#232323] px-[52px] py-[50px] text-white">
+          <footer className="mt-[89px] h-[361.28px] w-full rounded-[20px] bg-[#232323] px-[52px] py-[50px] text-white">
             <div className="flex h-full justify-between">
               <div className="flex flex-col justify-between">
                 <div className="flex items-center gap-[17px]">

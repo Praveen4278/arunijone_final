@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import ProductsUXUIMob from "./Productsmob.tsx";
 import DesktopPageWrapper from "../components/DesktopPageWrapper";
 
-const DESIGN_HEIGHT = 4460;
+const DESIGN_HEIGHT = 4714;
 
 type Ecosystem = "Products" | "Services" | "Partners";
 type Expertise = "Research" | "Design" | "Development" | "Creative" | "Marketing";
@@ -57,7 +57,7 @@ const PillButton = ({
 }) => (
   <button
     onClick={onClick}
-    className={`flex items-center justify-center gap-[26px] rounded-[18px] transition-colors ${
+    className={`flex items-center justify-center gap-[26px] rounded-[18px] border-0 transition-colors ${
       active ? "bg-[#0161fe] text-white" : "bg-white text-[#0161fe]"
     }`}
     style={{ width, height: 78 }}
@@ -92,7 +92,7 @@ const ProductsUXUI = () => {
 
         <div
           id="_229_4197__Frame_1171277012"
-          className="absolute h-[3859.28px] w-[1420.00px] flex flex-col justify-start items-start flex-nowrap gap-[50px] left-[10.00px] top-[107.00px]"
+          className="absolute h-[4607px] w-[1420.00px] flex flex-col justify-start items-start flex-nowrap gap-[50px] left-[10.00px] top-[107.00px]"
           >
             <div
               id="_229_4198__Section"
@@ -127,7 +127,7 @@ const ProductsUXUI = () => {
             ></div>
             </div>
 
-          <section className="w-full mt-[50px] h-[430px] rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
+          <section className="w-full mt-[50px] h-[367px] rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
             <Badge>Our Ecosystem</Badge>
             <h2 className="mt-[39px] text-[36px] font-normal leading-[43px] text-[#111]">
               Explore Our Business
@@ -146,7 +146,7 @@ const ProductsUXUI = () => {
             </div>
           </section>
 
-          <section className="w-full mt-[50px] h-[433px] rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
+          <section className="w-full mt-[50px] h-[367px] rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
             <Badge>Our Expertise</Badge>
             <h2 className="mt-[39px] text-[36px] font-normal leading-[43px] text-[#111]">
               Our Core Capabilities &amp;
@@ -168,7 +168,7 @@ const ProductsUXUI = () => {
 
           <section
             className="w-full rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center"
-            style={{ height: 420 }}
+            style={{ height: 367 }}
           >
             <Badge>Our Solutions</Badge>
             <h2 className="mt-[32px] text-[36px] font-normal leading-[43px] text-[#111]">
@@ -180,7 +180,7 @@ const ProductsUXUI = () => {
               {["Website", "Mobile App", "Saas", "Poster", "Logo"].map((item, index) => (
                 <button
                   key={item}
-                  className={`flex items-center justify-center gap-[24px] rounded-[18px] ${
+                  className={`flex items-center justify-center gap-[24px] rounded-[18px] border-0 ${
                     index === 0 ? "bg-[#0161fe] text-white" : "bg-white text-[#0161fe]"
                   }`}
                   style={{ height: 78, width: index === 0 ? 194 : index === 1 ? 188 : 150 }}
@@ -201,7 +201,7 @@ const ProductsUXUI = () => {
 
           <div
             id="_229_4212__Big_box"
-            className="relative overflow-hidden bg-[rgba(246,247,249,1.00)] h-[1900.00px] w-full flex flex-col justify-start items-center flex-nowrap gap-[60px] px-[49px] py-[50px] rounded-[23.686382293701172px]"
+            className="relative overflow-hidden bg-[rgba(246,247,249,1.00)] h-[1973px] w-full flex flex-col justify-start items-center flex-nowrap gap-[60px] px-[49px] py-[50px] rounded-[23.686382293701172px]"
           >
             <div
               id="_229_4213__Frame_129"

@@ -56,7 +56,7 @@ const About = () => {
             >
               <div
                 id="_274_1240__Link"
-                className="bg-[#0161fe] h-[46.34px] w-[126.33px] rounded-[95.3499984741211px] flex items-center justify-center"
+                className="bg-[#0161fe] h-[46.34px] w-[126.33px] rounded-[95.3499984741211px] border-0 flex items-center justify-center"
                 onClick={() => navigate('/contact')}
               >
                 <div
@@ -1351,7 +1351,7 @@ const About = () => {
             >
               <div
                 id="_274_1458__Link"
-                      className="bg-[#0161fe] h-[46.34px] w-[126.33px] rounded-[95.3499984741211px] flex items-center justify-center"
+                      className="bg-[#0161fe] h-[46.34px] w-[126.33px] rounded-[95.3499984741211px] border-0 flex items-center justify-center"
                 onClick={() => navigate('/contact')}
               >
                 <div

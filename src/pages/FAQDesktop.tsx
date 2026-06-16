@@ -34,7 +34,7 @@ const PillButton = ({
 }) => (
   <button
     onClick={onClick}
-    className={`flex items-center justify-center gap-[26px] rounded-[18px] transition-colors ${
+    className={`flex items-center justify-center gap-[26px] rounded-[18px] border-0 transition-colors ${
       active ? "bg-[#0161fe] text-white" : "bg-white text-[#0161fe]"
     }`}
     style={{ width, height: 78 }}
@@ -52,7 +52,7 @@ const PillButton = ({
 );
 
 const FAQProjectCard = ({ project }: { project: string }) => (
-  <section className="relative h-[690px] w-full rounded-[23px] bg-[#f6f7f9] px-[42px] py-[50px]">
+  <section className="relative h-[750px] w-full rounded-[23px] bg-[#f6f7f9] px-[42px] py-[50px]">
     <Badge>{project}</Badge>
     <div className="mt-[42px] flex items-center justify-between">
       <h2 className="w-[650px] text-[42px] font-normal leading-[45px] text-[#111]">
@@ -60,7 +60,7 @@ const FAQProjectCard = ({ project }: { project: string }) => (
         <br />
         Service Platform
       </h2>
-      <button className="flex h-[49px] w-[132px] items-center justify-center gap-[10px] rounded-full bg-[#0161fe] text-[14px] font-medium text-white">
+      <button className="flex h-[49px] w-[132px] items-center justify-center gap-[10px] rounded-full border-0 bg-[#0161fe] text-[14px] font-medium text-white">
         View All
         <span className="text-[22px] leading-none">-&gt;</span>
       </button>
@@ -107,7 +107,7 @@ const FAQDesktop = () => {
 
         <div
           id="_493_205__Frame_1171277071"
-          className="absolute h-[4461.28px] w-[1420.00px] flex flex-col justify-start items-start flex-nowrap gap-[50px] left-[10.00px] top-[108.00px]"
+          className="absolute h-[4986px] w-[1420.00px] flex flex-col justify-start items-start flex-nowrap gap-[50px] left-[10.00px] top-[108.00px]"
         >
           <div
             id="_493_206__Section"
@@ -166,7 +166,7 @@ const FAQDesktop = () => {
             </div>
           </div>
 
-          <section className="w-full mt-[50px] h-[430px] rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
+          <section className="w-full mt-[50px] h-[367px] rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
             <Badge>Our Ecosystem</Badge>
             <h2 className="mt-[39px] text-[36px] font-normal leading-[43px] text-[#111]">
               Explore Our Business
@@ -185,7 +185,7 @@ const FAQDesktop = () => {
             </div>
           </section>
 
-          <section className="w-full mt-[50px] h-[433px] rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
+          <section className="w-full mt-[50px] h-[367px] rounded-[20px] bg-[#f6f7f9] pt-[50px] text-center">
             <Badge>Our Expertise</Badge>
             <h2 className="mt-[39px] text-[36px] font-normal leading-[43px] text-[#111]">
               Our Core Capabilities &amp;
@@ -207,7 +207,7 @@ const FAQDesktop = () => {
 
           <section
             className="w-full rounded-[20px] bg-[#f6f7f9] pt-[37px] text-center"
-            style={{ height: 420 }}
+            style={{ height: 367 }}
           >
             <Badge>Our Solutions</Badge>
             <h2 className="mt-[32px] text-[36px] font-normal leading-[43px] text-[#111]">
@@ -219,7 +219,7 @@ const FAQDesktop = () => {
               {["Website", "Mobile App", "Saas", "Poster", "Logo"].map((item, index) => (
                 <button
                   key={item}
-                  className={`flex items-center justify-center gap-[24px] rounded-[18px] ${
+                  className={`flex items-center justify-center gap-[24px] rounded-[18px] border-0 ${
                     index === 0 ? "bg-[#0161fe] text-white" : "bg-white text-[#0161fe]"
                   }`}
                   style={{ height: 78, width: index === 0 ? 194 : index === 1 ? 188 : 150 }}
@@ -238,7 +238,7 @@ const FAQDesktop = () => {
             </div>
           </section>
 
-          <div className="flex w-full flex-col gap-[30px]">
+          <div className="flex h-[2310px] w-full flex-col gap-[30px]">
             <FAQProjectCard project="FAQ" />
             <FAQProjectCard project="Project 2" />
             <FAQProjectCard project="Project 1" />
@@ -1083,15 +1083,15 @@ const FAQDesktop = () => {
 
           <div
             id="_493_329__Frame_1171277072"
-            className="relative h-[59.00px] w-full"
+            className="relative flex h-[59.00px] w-full items-start justify-center"
           >
             <div
               id="_493_330__Link"
-              className="absolute border h-[51.00px] w-[77.00px] left-[calc(50%-74.00px)] flex flex-row justify-start items-center flex-nowrap gap-2 px-[35px] py-[3px] rounded-[109.07755279541016px] border-[#a7a7a7ff] border-solid top-[0.00px]"
+              className="flex h-[51.00px] w-[147px] items-center justify-center rounded-[109.07755279541016px] border border-[#a7a7a7ff] border-solid"
             >
               <span
                 id="_493_331__Load_More"
-                className="flex justify-center text-center items-center h-[19.00px] w-[79.00px] relative"
+                className="flex h-[19.00px] w-full items-center justify-center text-center"
               >
                 <span
                   className="whitespace-nowrap cursor-pointer bg-[rgba(68,68,68,1.00)] bg-clip-text text-transparent not-italic text-[15.395560264587402px] font-medium leading-[23.04px] tracking-[-0.07697779685258865px]"
