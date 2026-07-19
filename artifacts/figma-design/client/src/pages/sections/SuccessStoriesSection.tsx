@@ -103,42 +103,26 @@ export const SuccessStoriesSection = (): React.JSX.Element => {
                   )}
 
                   {logo.type === "image-overlay" && (
-                    <>
-                      <img
-                        className="h-full w-full object-cover"
-                        alt=""
-                        src={logo.background}
-                      />
-                      <img
-                        className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 ${logo.overlayClassName}`}
-                        alt=""
-                        src={logo.overlay}
-                      />
-                    </>
+                    <img
+                      className={`object-contain ${logo.overlayClassName}`}
+                      alt=""
+                      src={logo.overlay}
+                    />
                   )}
 
                   {logo.type === "resora" && (
-                    <>
+                    <div className="flex items-center gap-[7.6px]">
                       <img
-                        className="h-full w-full object-cover"
+                        className="h-[23.84px] w-[25.35px]"
                         alt=""
-                        src={logo.background}
+                        src={logo.icon}
                       />
-                      <div className="absolute left-1/2 top-1/2 flex h-[26px] w-[93px] -translate-x-1/2 -translate-y-1/2 items-start gap-[7.6px]">
-                        <img
-                          className="h-[23.84px] w-[25.35px]"
-                          alt=""
-                          src={logo.icon}
-                        />
-                        <span className="mt-[1.5px] h-[25px] w-[58px] [font-family:'Poppins',Helvetica] text-[16.6px] font-normal leading-normal tracking-[0]">
-                          <span className="font-semibold text-[#1f64ff]">
-                            R
-                          </span>
-                          <span className="font-medium text-[#1f64ff]">e</span>
-                          <span className="font-medium text-black">sora</span>
-                        </span>
-                      </div>
-                    </>
+                      <span className="[font-family:'Poppins',Helvetica] text-[16.6px] font-normal leading-normal tracking-[0]">
+                        <span className="font-semibold text-[#1f64ff]">R</span>
+                        <span className="font-medium text-[#1f64ff]">e</span>
+                        <span className="font-medium text-black">sora</span>
+                      </span>
+                    </div>
                   )}
                 </CardContent>
               </Card>
