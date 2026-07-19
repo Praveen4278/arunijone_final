@@ -19,7 +19,7 @@ export const HeroSection = (): React.JSX.Element => {
       <Card className="relative h-[212px] w-full overflow-hidden rounded-[4.72px] border-0 bg-[#fefefe] shadow-none min-[640px]:h-[916px] min-[640px]:rounded-[20.41px]">
         <CardContent className="relative h-full w-full p-0">
           <img
-            className="absolute left-[20.49%] top-[calc(50%-90px)] h-[196px] w-[91.76%] object-cover min-[640px]:top-[calc(50%-390px)] min-[640px]:h-[848px]"
+            className="absolute left-[20.49%] top-[calc(50%-90px)] h-[196px] w-[91.76%] object-cover object-top min-[640px]:top-[calc(50%-390px)] min-[640px]:h-[848px]"
             alt="Image"
             src="/figmaAssets/image-266.png"
           />

@@ -17,7 +17,7 @@ const showcaseImages = [
 
 export const ServiceShowcaseSection = (): React.JSX.Element => {
   return (
-    <section className="w-full overflow-hidden rounded-[20px] bg-[#f6f7f9] px-3 py-4 sm:px-6 sm:py-8 lg:px-[47px] lg:py-[50px]">
+    <section className="relative w-full overflow-hidden rounded-[20px] bg-[#f6f7f9] px-3 py-4 sm:px-6 sm:py-8 lg:px-[47px] lg:py-[50px]">
       <div className="mx-auto flex w-full max-w-[1327px] flex-col gap-4 lg:gap-7">
         <Badge
           variant="outline"
@@ -77,8 +77,9 @@ export const ServiceShowcaseSection = (): React.JSX.Element => {
         </div>
       </div>
       <img
-        className="pointer-events-none hidden h-[1254px] w-[1254px] object-cover min-[1500px]:ml-[1379px] min-[1500px]:mt-[-122px] min-[1500px]:block"
-        alt="Image"
+        className="pointer-events-none absolute right-[-400px] top-[-122px] hidden h-[1254px] w-[1254px] object-cover min-[1500px]:block"
+        alt=""
+        aria-hidden="true"
         src="/figmaAssets/image-252.png"
       />
     </section>
