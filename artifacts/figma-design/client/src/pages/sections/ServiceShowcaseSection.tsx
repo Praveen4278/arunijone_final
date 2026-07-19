@@ -17,7 +17,7 @@ const showcaseImages = [
 
 export const ServiceShowcaseSection = (): React.JSX.Element => {
   return (
-    <section className="w-full overflow-hidden rounded-[20px] bg-[#f6f7f9] px-3 py-4 sm:px-6 sm:py-8 lg:min-h-[856px] lg:px-[47px] lg:py-[50px]">
+    <section className="w-full overflow-hidden rounded-[20px] bg-[#f6f7f9] px-3 py-4 sm:px-6 sm:py-8 lg:px-[47px] lg:py-[50px]">
       <div className="mx-auto flex w-full max-w-[1327px] flex-col gap-4 lg:gap-7">
         <Badge
           variant="outline"
