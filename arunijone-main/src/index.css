@@ -1,0 +1,240 @@
+/* ── SF Pro Display – local font (sole typeface for the entire app) ── */
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/assets/fonts/sf-pro-display/SFPRODISPLAYREGULAR.OTF') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ── Plus Jakarta Sans – for Contact button ── */
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('/assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/assets/fonts/sf-pro-display/SFPRODISPLAYMEDIUM.OTF') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/assets/fonts/sf-pro-display/SFPRODISPLAYBOLD.OTF') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.contact-input::placeholder {
+  opacity: 0.4;
+  color: #111111;
+}
+
+.contact-input::-webkit-input-placeholder {
+  opacity: 0.4;
+  color: #111111;
+}
+
+
+@layer base {
+  * {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: revert;
+    font-weight: revert;
+    margin: 0;
+    padding: 0;
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: 'SF Pro Display', system-ui, sans-serif;
+    background: #ffffff;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    all: revert;
+    outline: none;
+    background: transparent;
+    font-family: 'SF Pro Display', system-ui, sans-serif;
+  }
+
+  ul,
+  ol {
+    list-style: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+/* Mobile: leave room for the fixed bottom nav + safe area.
+   Nav height: 72px, nav bottom gap: 30px, desired footer gap above nav: 100px. */
+@media (max-width: 767px) {
+  body {
+    padding-bottom: calc(202px + env(safe-area-inset-bottom));
+  }
+}
+
+/* Shift entire About page content (all containers, text, images) down by 3px.
+   Targets the single root content frame so everything moves as one unit. */
+#_228_1947__Frame_1171277010 {
+  transform: translateY(3px);
+}
+
+/* Shift About page navbar (banner, nav links, contact button) down by 3px.
+   Targets every direct-child div of the About root that isn't the main frame. */
+#_228_1946__About > div:not(#_228_1947__Frame_1171277010) {
+  transform: translateY(5px);
+}
+
+/* Products page — navbar only (banner, nav links, contact button) down by 5px.
+   Content frame is intentionally untouched. */
+#_229_4179__Products_-_UXUI > div:not(#_229_4197__Frame_1171277012) {
+  transform: translateY(5px);
+}
+
+/* Portfolio page — navbar only (banner, nav links, contact button) down by 4px. */
+#_231_4665__Portfolio_1_UX_UI_-_ > div:not(#_231_4683__Frame_1171277014) {
+  transform: translateY(4px);
+}
+
+/* Portfolio 1 — move main image down */
+#_231_4687__Image_Box {
+  transform: translateY(-2px);
+}
+
+/* Contact page — navbar only (banner, nav links, contact button) down by 5px. */
+#_212_37__Contact_-_Desktop > div:not(#_212_126__Frame_1171277065) {
+  transform: translateY(5px);
+}
+
+#_231_4752__Frame_9 {
+  transform: translateY(36px);
+}
+
+#_231_4797__Border {
+  transform: translateY(-4px);
+}
+
+#_231_4769__Heading_2___Project_ {
+  transform: translateY(-4px);
+}
+
+#_231_4770__Frame_137 {
+  transform: translateY(-4px);
+}
+
+#_231_4772__Frame_8 {
+  transform: translateY(-4px);
+}
+
+#_231_4785__Frame_7 {
+  transform: translateY(-4px);
+}
+
+/* Portfolio page sections — specific adjustments */
+
+#_231_4745__Frame_1171276963 {
+  transform: translateY(4px);
+}
+
+/* Contact page — navbar only (banner, nav links, contact button) down by 5px. */
+#_229_4197__Frame_1171277012 > div:not(:first-child) {
+  transform: translateY(9px);
+}
+
+#_231_4759__67ac895b30cafb42cfac {
+  transform: translateY(3px);
+}
+
+/* Products page footer only: cancel the 37px section shift to restore natural position. */
+#_229_4179__Products_-_UXUI #Footer {
+  transform: translateY(-5px);
+}
+
+/* Products page — move service category buttons up by 3px */
+#_240_686__Button_-_UXUI_main {
+  transform: translateY(-3px);
+}
+
+#_240_687__Button_-_DM {
+  transform: translateY(-3px);
+}
+
+#_240_688__Button_-_ERA {
+  transform: translateY(-3px);
+}
+
+#_240_689__Button_-_FSD {
+  transform: translateY(-3px);
+}
+
+/* Blog page — navbar only (banner, nav links, contact button) down by 5px. */
+#_236_944__Blog_-_Desktop > div:not(#_236_945__Frame_1171277066) {
+  transform: translateY(5px);
+}
+
+/* Portfolio 4 page — navbar only (banner, nav links, contact button) down by 5px. */
+#_236_316__Portfolio_4 > div:not(#_236_334__Frame_1171277049) {
+  transform: translateY(5px);
+}
+
+/* Portfolio 4 page — footer move up by 50px */
+#_236_334__Frame_1171277049 #Footer {
+  transform: translateY(-5px);
+}
+
+/* FAQ page — navbar only (banner, nav links, contact button) down by 4px. */
+#_493_187__FAQ_-_Desktop > div:not(#_493_205__Frame_1171277071) {
+  transform: translateY(4px);
+}
+
+/* FAQ Details page — navbar only (banner, nav links, contact button) down by 4px. */
+#_240_227__FAQ_Details_-_Deskto > div:not(#_240_245__Frame_1171277074) {
+  transform: translateY(4px);
+}
+
