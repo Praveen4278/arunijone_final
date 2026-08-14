@@ -1917,7 +1917,7 @@ const BlogDesktop = () => {
             {/* Heading */}
             <div className="flex justify-center px-[8px]">
               <span className="text-center text-[34px] leading-[38px] text-[#111111]" style={{ fontFamily: "SF Pro Display", fontWeight: 400 }}>
-                Our Success Stories Real<br />Results, Real Impact
+                Real Results. Real Impact.<br />Our Success Stories
               </span>
             </div>
             {/* Description */}
