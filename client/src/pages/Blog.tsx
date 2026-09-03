@@ -16,7 +16,7 @@ const BlogDesktop = () => {
       <DesktopPageWrapper designHeight={0} dynamicHeight>
         <header style={{ position: 'absolute', left: 10, top: 10, width: 1420, height: 87.76 }}>
           <div style={{ width: 1420, height: 87.76, background: '#F6F7F9', borderRadius: 22.3551, position: 'relative' }}>
-            <div style={{ position: 'absolute', left: 42, top: 'calc(50% - 33px + 0.12px)', width: 66, height: 66 }}>
+            <div onClick={() => { navigate('/'); window.scrollTo(0, 0); }} style={{ position: 'absolute', left: 42, top: 'calc(50% - 33px + 0.12px)', width: 66, height: 66, cursor: 'pointer' }}>
               <div style={{ position: 'absolute', width: 66, height: 66, background: '#FFFFFF', borderRadius: 1000 }} />
               <img
                 src="/figmaAssets/logo.png"
@@ -134,7 +134,7 @@ const BlogDesktop = () => {
               <div style={{ width: 1323, flexShrink: 0, display: "flex", flexDirection: "column", gap: 20 }}>
                 {/* Image card */}
                 <div
-                  onClick={() => navigate('/portfolio1')}
+                  onClick={() => { navigate('/blog-details'); window.scrollTo(0, 0); }}
                   style={{ width: 426.67, height: 320, background: "#FFFFFF", borderRadius: 17.3813, flexShrink: 0, position: "relative", overflow: "hidden", cursor: "pointer" }}
                 >
                   <div style={{ position: "absolute", width: 180, height: 222, left: "calc(50% - 90px + 0.38px)", top: "calc(50% - 111px - 0.18px)", background: "url(/assets/Home/images/image_26.png) center / cover no-repeat" }} />
@@ -151,7 +151,7 @@ const BlogDesktop = () => {
                   {/* Explore button */}
                   <div style={{ width: 427, display: "flex", justifyContent: "center" }}>
                     <div
-                      onClick={() => navigate('/portfolio1')}
+                      onClick={() => { navigate('/blog-details'); window.scrollTo(0, 0); }}
                       style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", padding: "13px 21px", gap: 4, background: "#0161FE", borderRadius: 98.6819, cursor: "pointer" }}
                     >
                       <div style={{ display: "flex", flexDirection: "row", alignItems: "center", padding: 0, gap: 5 }}>
@@ -260,7 +260,7 @@ const BlogDesktop = () => {
               <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", padding: "3px 0px", gap: 25, height: 380, borderRadius: 22.88 }}>
                 {/* Image card */}
                 <div
-                  onClick={() => navigate('/portfolio1')}
+                  onClick={() => { navigate('/blog-details'); window.scrollTo(0, 0); }}
                   style={{ width: 360, height: 230.08, background: "#FFFFFF", borderRadius: 15.26, flexShrink: 0, position: "relative", overflow: "hidden", cursor: "pointer" }}
                 >
                   <div style={{ position: "absolute", width: 157, height: 195, left: "calc(50% - 157px/2 + 0.5px)", top: "calc(50% - 195px/2 + 0.46px)", background: "url(/assets/bl/images/image_26.png) center / contain no-repeat" }} />
@@ -275,7 +275,7 @@ const BlogDesktop = () => {
                 <div style={{ width: 360, height: 40.1, flexShrink: 0, position: "relative" }}>
                   <div style={{ position: "absolute", width: 116, height: 40.1, left: "calc(50% - 58px)", top: -0.08, display: "flex", flexDirection: "row", alignItems: "center", gap: 15 }}>
                     <div
-                      onClick={() => navigate('/portfolio1')}
+                      onClick={() => { navigate('/blog-details'); window.scrollTo(0, 0); }}
                       style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-end", padding: "11.33px 18.31px", gap: 3.49, width: 115.74, height: 40.1, background: "#0161FE", borderRadius: 86.02, cursor: "pointer", boxSizing: "border-box" }}
                     >
                       <span style={{ fontFamily: "SF Pro Display", fontWeight: 500, fontSize: 13.78, lineHeight: "21px", letterSpacing: -0.068, color: "#FFFFFF", width: 58.4, height: 17.43, display: "flex", alignItems: "center", textAlign: "center" }}>Explore</span>

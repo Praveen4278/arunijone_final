@@ -50,6 +50,7 @@ const MobBanner = ({
         >
           {/* Logo circle */}
           <div
+            onClick={() => { navigate("/"); window.scrollTo(0, 0); }}
             style={{
               position: "absolute",
               width: 47,
@@ -61,6 +62,7 @@ const MobBanner = ({
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
+              cursor: "pointer",
             }}
           >
             <img
@@ -71,7 +73,7 @@ const MobBanner = ({
           </div>
           {/* WhatsApp button */}
           <a
-            href="https://wa.me/919489456581"
+            href="https://wa.me/919489456580"
             target="_blank"
             rel="noopener noreferrer"
             style={{

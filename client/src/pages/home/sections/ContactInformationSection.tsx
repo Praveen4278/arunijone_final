@@ -10,9 +10,9 @@ const contactDetails = [
   },
   {
     label: "Phone Number",
-    value: "+91 9489456581",
+    value: "+91 9489456580",
     icon: "/figmaAssets/svg-6.svg",
-    href: "tel:+919489456581",
+    href: "tel:+919489456580",
   },
   {
     label: "My Location",

@@ -21,7 +21,7 @@ export const About = (): React.JSX.Element => {
             <div style={{ width: 1420, height: 87.76, background: "#F6F7F9", borderRadius: 22.3551, position: "relative" }}>
 
               {/* Logo */}
-              <div style={{ position: "absolute", left: 42, top: "calc(50% - 33px + 0.12px)", width: 66, height: 66 }}>
+              <div onClick={() => { navigate("/"); window.scrollTo(0, 0); }} style={{ position: "absolute", left: 42, top: "calc(50% - 33px + 0.12px)", width: 66, height: 66, cursor: "pointer" }}>
                 <div style={{ position: "absolute", width: 66, height: 66, background: "#FFFFFF", borderRadius: 1000 }} />
                 <img
                   src="/figmaAssets/logo.png"
@@ -109,7 +109,7 @@ export const About = (): React.JSX.Element => {
                   <img src="/assets/about/images/vector_3.svg" alt="" style={{ width: 14, height: 10 }} />
                 </button>
                 <a
-                  href="https://wa.me/919489456581"
+                  href="https://wa.me/919489456580"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-[8px] bg-[#25D366] rounded-[95px] px-[18px] py-[12px] no-underline"

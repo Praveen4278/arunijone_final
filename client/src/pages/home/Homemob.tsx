@@ -511,7 +511,7 @@ const HomeUXUI = () => {
               </div>
               <div className="flex flex-col">
                 <span className="text-[rgba(17,17,17,0.60)] text-[18.0px] font-normal leading-[30.00px]" style={{ fontFamily: "SF Pro Display" }}>Phone Number</span>
-                <span className="text-[rgba(17,17,17,1.00)] text-[18.0px] font-normal leading-[28.00px]" style={{ fontFamily: "SF Pro Display" }}>+91 9489456581</span>
+                <span className="text-[rgba(17,17,17,1.00)] text-[18.0px] font-normal leading-[28.00px]" style={{ fontFamily: "SF Pro Display" }}>+91 9489456580</span>
               </div>
             </div>
 

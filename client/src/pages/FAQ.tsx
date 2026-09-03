@@ -182,7 +182,7 @@ const FAQ = () => {
         <DesktopPageWrapper designHeight={DESIGN_HEIGHT} dynamicHeight={dynamicHeight} className="!block">
           <header style={{ position: 'absolute', left: 10, top: 10, width: 1420, height: 87.76 }}>
             <div style={{ width: 1420, height: 87.76, background: '#F6F7F9', borderRadius: 22.3551, position: 'relative' }}>
-              <div style={{ position: 'absolute', left: 42, top: 'calc(50% - 33px + 0.12px)', width: 66, height: 66 }}>
+              <div onClick={() => { navigate('/'); window.scrollTo(0, 0); }} style={{ position: 'absolute', left: 42, top: 'calc(50% - 33px + 0.12px)', width: 66, height: 66, cursor: 'pointer' }}>
                 <div style={{ position: 'absolute', width: 66, height: 66, background: '#FFFFFF', borderRadius: 1000 }} />
                 <img
                   src="/figmaAssets/logo.png"
@@ -367,6 +367,7 @@ const FAQ = () => {
                           id="_493_303__Link"
                           className="relative bg-[rgba(1,97,254,1.00)] h-[49.00px] flex flex-row justify-start items-center flex-nowrap gap-2 px-[23px] py-[3px] rounded-[101.68245697021484px] cursor-pointer"
                           onClick={() => navigate('/faq-details')}
+                          style={{ height: 55 }}
                         >
                           <span
                             id="_493_304__View_All"
@@ -410,11 +411,13 @@ const FAQ = () => {
                         >
                           <div
                             id="_493_321__Paragraph_Background"
-                            className="relative bg-[rgba(1,97,254,1.00)] h-auto min-h-[57.00px] w-full flex flex-row justify-start items-center flex-nowrap gap-[628px] px-[15px] py-[10px] rounded-[20px]"
+                            className="relative bg-[rgba(1,97,254,1.00)] w-full flex flex-row justify-start items-center flex-nowrap px-[15px] py-[6px] rounded-[20px]"
+                            style={{ height: 69, boxSizing: "border-box" }}
                           >
                             <div
                               id="_493_322__Frame_189"
                               className="relative h-[37.00px] flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
+                              style={{ width: 420, flexShrink: 0 }}
                             >
                               <span
                                 id="_493_323__Overview"
@@ -431,7 +434,8 @@ const FAQ = () => {
 
                             <div
                               id="_493_324__Frame_188"
-                              className="relative h-[30.00px] flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
+                              className="absolute flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
+                              style={{ left: 750, right: 25, top: "50%", transform: "translateY(-50%)" }}
                             >
                               <div
                                 id="_493_325__Frame_1171277006"
@@ -479,11 +483,13 @@ const FAQ = () => {
 
                         <div
                           id="_493_315__Paragraph_Background"
-                          className="relative bg-white h-auto min-h-[57.00px] w-full flex flex-row justify-start items-center flex-nowrap gap-[461px] px-[15px] py-[10px] rounded-[20px]"
+                          className="relative bg-white w-full flex flex-row justify-start items-center flex-nowrap px-[15px] py-[6px] rounded-[20px]"
+                          style={{ height: 69, boxSizing: "border-box" }}
                         >
                           <div
                             id="_493_316__Frame_189"
                             className="relative h-[37.00px] flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
+                            style={{ width: 420, flexShrink: 0 }}
                           >
                             <span
                               id="_493_317__UX_Research_Approach"
@@ -500,7 +506,8 @@ const FAQ = () => {
 
                           <div
                             id="_493_318__Frame_188"
-                            className="relative h-[30.00px] flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
+                            className="absolute flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
+                            style={{ left: 750, right: 25, top: "50%", transform: "translateY(-50%)" }}
                           >
                             <span
                               id="_493_319__What_UX_research_met"
@@ -519,11 +526,13 @@ const FAQ = () => {
 
                         <div
                           id="_493_310__Paragraph_Background"
-                          className="relative bg-white h-auto min-h-[57.00px] w-full flex flex-row justify-start items-center flex-nowrap gap-[446px] px-[15px] py-[10px] rounded-[20px]"
+                          className="relative bg-white w-full flex flex-row justify-start items-center flex-nowrap px-[15px] py-[6px] rounded-[20px]"
+                          style={{ height: 69, boxSizing: "border-box" }}
                         >
                           <div
                             id="_493_311__Frame_189"
                             className="relative h-[37.00px] flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
+                            style={{ width: 420, flexShrink: 0 }}
                           >
                             <span
                               id="_493_312__User_Problems_Identi"
@@ -540,7 +549,8 @@ const FAQ = () => {
 
                           <div
                             id="_493_313__Frame_188"
-                            className="relative h-[30.00px] flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
+                            className="absolute flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
+                            style={{ left: 750, right: 25, top: "50%", transform: "translateY(-50%)" }}
                           >
                             <span
                               id="_493_314__What_key_user_proble"
@@ -617,41 +627,33 @@ const FAQ = () => {
                   <img src="/assets/faqmob/images/vector_10.svg" alt="" style={{ width: 22.88, height: 22.88 }} />
                 </div>
                 {/* Overview blue pill */}
-                <div className="flex flex-col items-center w-full rounded-[15px] bg-[#0161FE]" style={{ paddingTop: 15, paddingBottom: 20 }}>
-                  <span className="text-center" style={{ fontFamily: "'SF Pro Display', sans-serif", fontSize: 28, fontWeight: 300, color: "#FFFFFF", textTransform: "capitalize" }}>Overview</span>
-                  <div className="flex items-center justify-center" style={{ width: 322, marginTop: 10 }}>
-                    <span className="text-center" style={{ fontFamily: "'SF Pro Display', sans-serif", fontSize: 18.1, fontWeight: 300, color: "#FFFFFF", lineHeight: "27.21px" }}>
+                <div className="flex flex-col items-center w-full rounded-[20px] bg-[#0161FE]" style={{ padding: "6px 15px", minHeight: 69, boxSizing: "border-box", justifyContent: "center" }}>
+                  <span style={{ fontFamily: "'SF Pro Display', sans-serif", fontSize: 27.2, fontWeight: 400, color: "#FFFFFF", textTransform: "capitalize", lineHeight: "36px" }}>Overview</span>
+                  <div style={{ marginTop: 6 }}>
+                    <span style={{ fontFamily: "'SF Pro Display', sans-serif", fontSize: 18, fontWeight: 400, color: "#FFFFFF", lineHeight: "30px" }}>
                       What is the My Rameswaram Trip UX/UI project about?
                     </span>
                   </div>
                 </div>
                 {/* Answer box */}
-                <div className="flex items-center justify-center bg-white rounded-[15px]" style={{ width: 345, padding: "15px 10px", margin: "10px auto 0" }}>
-                  <span className="text-center" style={{ fontFamily: "'SF Pro Display', sans-serif", fontSize: 15, fontWeight: 400, color: "#6D6D6E", lineHeight: "28px", textTransform: "capitalize" }}>
+                <div className="flex items-center justify-start bg-white rounded-[20px]" style={{ width: "100%", padding: "22px", boxSizing: "border-box" }}>
+                  <span style={{ fontFamily: "'SF Pro Display', sans-serif", fontSize: 20, fontWeight: 400, color: "rgba(109,109,110,0.8)", lineHeight: "28px", textTransform: "capitalize" }}>
                     This project focuses on designing a user-centered digital platform that combines pilgrimage services and travel planning for Rameswaram. The goal is to create a seamless experience for devotees and travelers by simplifying temple services, travel bookings, and local guidance through an intuitive and respectful interface.
                   </span>
                 </div>
                 {/* Card 2 */}
-                <div className="relative w-full rounded-[15px] bg-white" style={{ paddingTop: 20, paddingBottom: 20 }}>
-                  <div className="flex items-center justify-center" style={{ width: 280, margin: "0 auto" }}>
-                    <span className="text-center" style={{ fontFamily: "'SF Pro Display', sans-serif", fontSize: 34, fontWeight: 400, color: "#000000", lineHeight: "42px", textTransform: "capitalize" }}>UX Research<br />Approach</span>
-                  </div>
-                  <div className="flex items-center justify-center" style={{ width: 322, margin: "12px auto 0" }}>
-                    <span className="text-center" style={{ fontFamily: "'SF Pro Display', sans-serif", fontSize: 18.1, fontWeight: 300, color: "#6D6D6E", lineHeight: "27.21px" }}>
-                      What UX research methods were used in this project?
-                    </span>
-                  </div>
+                <div className="relative w-full rounded-[20px] bg-white" style={{ minHeight: 69, padding: "6px 15px", boxSizing: "border-box", display: "flex", alignItems: "center" }}>
+                  <span style={{ fontFamily: "'SF Pro Display', sans-serif", fontSize: 27.2, fontWeight: 400, color: "#000000", lineHeight: "36px", textTransform: "capitalize", width: "50%", flexShrink: 0 }}>UX Research Approach</span>
+                  <span style={{ fontFamily: "'SF Pro Display', sans-serif", fontSize: 18, fontWeight: 400, color: "rgba(17,17,17,0.6)", lineHeight: "30px" }}>
+                    What UX research methods were used in this project?
+                  </span>
                 </div>
                 {/* Card 3 */}
-                <div className="relative w-full rounded-[15px] bg-white" style={{ paddingTop: 20, paddingBottom: 20 }}>
-                  <div className="flex items-center justify-center" style={{ width: 280, margin: "0 auto" }}>
-                    <span className="text-center" style={{ fontFamily: "'SF Pro Display', sans-serif", fontSize: 34, fontWeight: 400, color: "#000000", lineHeight: "42px", textTransform: "capitalize" }}>User Problems<br />Identified</span>
-                  </div>
-                  <div className="flex items-center justify-center" style={{ width: 322, margin: "12px auto 0" }}>
-                    <span className="text-center" style={{ fontFamily: "'SF Pro Display', sans-serif", fontSize: 18.1, fontWeight: 300, color: "#6D6D6E", lineHeight: "27.21px" }}>
-                      What key user problems did the research uncover?
-                    </span>
-                  </div>
+                <div className="relative w-full rounded-[20px] bg-white" style={{ minHeight: 69, padding: "6px 15px", boxSizing: "border-box", display: "flex", alignItems: "center" }}>
+                  <span style={{ fontFamily: "'SF Pro Display', sans-serif", fontSize: 27.2, fontWeight: 400, color: "#000000", lineHeight: "36px", textTransform: "capitalize", width: "50%", flexShrink: 0 }}>User Problems Identified</span>
+                  <span style={{ fontFamily: "'SF Pro Display', sans-serif", fontSize: 18, fontWeight: 400, color: "rgba(17,17,17,0.6)", lineHeight: "30px" }}>
+                    What key user problems did the research uncover?
+                  </span>
                 </div>
               </div>
             </div>

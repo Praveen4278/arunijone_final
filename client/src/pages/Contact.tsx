@@ -16,7 +16,7 @@ const ContactDesktop = () => {
       <DesktopPageWrapper designHeight={DESIGN_HEIGHT}>
         <header style={{ position: 'absolute', left: 10, top: 10, width: 1420, height: 87.76 }}>
           <div style={{ width: 1420, height: 87.76, background: '#F6F7F9', borderRadius: 22.3551, position: 'relative' }}>
-            <div style={{ position: 'absolute', left: 42, top: 'calc(50% - 33px + 0.12px)', width: 66, height: 66 }}>
+            <div onClick={() => { navigate('/'); window.scrollTo(0, 0); }} style={{ position: 'absolute', left: 42, top: 'calc(50% - 33px + 0.12px)', width: 66, height: 66, cursor: 'pointer' }}>
               <div style={{ position: 'absolute', width: 66, height: 66, background: '#FFFFFF', borderRadius: 1000 }} />
               <img
                 src="/figmaAssets/logo.png"
@@ -116,9 +116,12 @@ const ContactDesktop = () => {
                 </span>
               </div>
 
-              <div
+              <a
                 id="_212_134__Background"
-                className="absolute bg-[rgba(37,211,102,1.00)] h-auto w-auto left-[calc(50%-88.00px)] flex flex-row justify-start items-center flex-nowrap gap-3 px-[23px] py-4 rounded-[calc(136.94776916503906px_*_1.0)] top-[210.00px]"
+                href="https://wa.me/919489456580"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute bg-[rgba(37,211,102,1.00)] h-auto w-auto left-[calc(50%-88.00px)] flex flex-row justify-start items-center flex-nowrap gap-3 px-[23px] py-4 rounded-[calc(136.94776916503906px_*_1.0)] top-[210.00px] no-underline cursor-pointer"
               >
                 <div
                   id="_212_135__whatsapp-business-ap"
@@ -142,7 +145,7 @@ const ContactDesktop = () => {
                     WhatsApp
                   </span>
                 </span>
-              </div>
+              </a>
             </div>
 
             <div
@@ -468,7 +471,7 @@ const ContactDesktop = () => {
             <span className="text-center text-[14px] leading-[20px] px-[16px] max-w-[295px]" style={{ fontFamily: "SF Pro Display", color: "rgba(109,109,110,0.8)" }}>
               Adapt easily and scale confidently with a flexible system designed to support your business at every stage of growth.
             </span>
-            <a href="https://wa.me/919489456581" target="_blank" rel="noopener noreferrer" className="flex items-center gap-[10px] bg-[#25D366] rounded-[110px] px-[18px] py-[13px] no-underline">
+            <a href="https://wa.me/919489456580" target="_blank" rel="noopener noreferrer" className="flex items-center gap-[10px] bg-[#25D366] rounded-[110px] px-[18px] py-[13px] no-underline">
               <div className="relative overflow-hidden h-[24px] w-[23px]">
                 <img src="/assets/contact/images/group_1.svg" alt="WhatsApp" className="absolute left-[1%] top-[1%]" />
               </div>

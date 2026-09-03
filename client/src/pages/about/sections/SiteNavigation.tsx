@@ -10,7 +10,7 @@ export const SiteNavigation = (): JSX.Element => {
     <nav className="flex w-full items-center justify-between rounded-[20.41px] bg-white px-6 py-3.5">
       {/* Logo */}
       <a
-        href="#"
+        href="/"
         aria-label="Arunijone home"
         className="flex h-[56px] w-[56px] shrink-0 items-center justify-center rounded-full bg-[#f6f7f9]"
       >

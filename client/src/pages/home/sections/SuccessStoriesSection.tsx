@@ -108,7 +108,7 @@ export const SuccessStoriesSection = (): React.JSX.Element => {
           </div>
 
           {/* Image Box: 1335.15×605, #FEFEFE, border-radius:23.69 */}
-          <div onClick={() => navigate("/portfolio1")} style={{
+          <div onClick={() => { navigate("/portfolio1"); window.scrollTo(0, 0); }} style={{
             width: 1335.15, height: 605, background: "#FEFEFE", borderRadius: 23.6864,
             position: "relative", overflow: "hidden", flexShrink: 0, cursor: "pointer",
           }}>
@@ -137,7 +137,7 @@ export const SuccessStoriesSection = (): React.JSX.Element => {
           position: "absolute", left: "calc(50% - 159px/2)", top: 808,
         }}>
           <div
-            onClick={() => navigate("/portfolio1")}
+            onClick={() => { navigate("/portfolio1"); window.scrollTo(0, 0); }}
             style={{
               boxSizing: "border-box", width: 138.12, height: 74,
               background: "#FFFFFF", border: "0.1px solid rgba(142,131,131,0.3)", borderRadius: 6,

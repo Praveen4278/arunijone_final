@@ -20,7 +20,7 @@ const Portfolio2 = () => {
           {/* Navbar — same as ServicePage */}
           <header style={{ position: 'absolute', left: 10, top: 10, width: 1420, height: 87.76 }}>
             <div style={{ width: 1420, height: 87.76, background: '#F6F7F9', borderRadius: 22.3551, position: 'relative' }}>
-              <div style={{ position: 'absolute', left: 42, top: 'calc(50% - 33px + 0.12px)', width: 66, height: 66 }}>
+              <div onClick={() => { navigate('/'); window.scrollTo(0, 0); }} style={{ position: 'absolute', left: 42, top: 'calc(50% - 33px + 0.12px)', width: 66, height: 66, cursor: 'pointer' }}>
                 <div style={{ position: 'absolute', width: 66, height: 66, background: '#FFFFFF', borderRadius: 1000 }} />
                 <img
                   src="/figmaAssets/logo.png"
