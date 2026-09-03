@@ -341,7 +341,8 @@ const HomeUXUI = () => {
 
               <div
                 id="_274_1049__Region_-_carousel"
-                className="absolute overflow-hidden bg-[rgba(254,254,253,1.00)] h-[212.00px] w-[calc(100%-16.00px)] rounded-[22.8799991607666px] left-[8.00px] top-[282.00px]"
+                className="absolute overflow-hidden bg-[rgba(254,254,253,1.00)] h-[212.00px] w-[calc(100%-16.00px)] rounded-[22.8799991607666px] left-[8.00px] top-[282.00px] cursor-pointer"
+                onClick={() => { navigate("/portfolio1"); window.scrollTo(0, 0); }}
               >
                 <img
                   src="/figmaAssets/image-box.svg"
@@ -352,8 +353,9 @@ const HomeUXUI = () => {
 
               <div
                 id="_274_1051__Images_Container"
-                className="absolute rounded-[12px] left-[calc(50%-79.5px)] top-[504.00px]"
+                className="absolute rounded-[12px] left-[calc(50%-79.5px)] top-[504.00px] cursor-pointer"
                 style={{ width: 159, height: 94, background: "#FFFFFF", display: "flex", flexDirection: "row", alignItems: "flex-start", padding: 10, gap: 10, borderRadius: 12 }}
+                onClick={() => { navigate("/portfolio1"); window.scrollTo(0, 0); }}
               >
                 <div style={{
                   boxSizing: "border-box", width: 138.12, height: 74,
