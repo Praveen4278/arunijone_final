@@ -1,0 +1,1051 @@
+/* Section */
+
+width: 376px;
+height: 451px;
+
+background: #F6F7F9;
+border-radius: 22.88px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1171276986 */
+
+position: absolute;
+width: 359px;
+height: 381px;
+left: calc(50% - 359px/2 - 0.5px);
+top: 35px;
+
+
+
+/* Frame 1171277142 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 25px;
+
+position: absolute;
+width: 360px;
+height: 378px;
+left: 0px;
+top: 0px;
+
+
+
+/* Frame 94 */
+
+width: 138px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Border */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+position: absolute;
+width: 140px;
+height: 32px;
+left: calc(50% - 140px/2 - 0.5px);
+top: calc(50% - 32px/2 + 1px);
+
+border: 1px solid #202833;
+border-radius: 228.83px;
+
+
+/* our expertise */
+
+width: 108px;
+height: 14px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 117% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 1.716px;
+text-transform: uppercase;
+
+color: #202833;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Heading 2 → Comprehensive
+solutions for your
+business needs */
+
+width: 321px;
+height: 85px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+/* or 117% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #111111;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Choice Box */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 360px;
+height: 211px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 20px 23px;
+gap: 7px;
+
+width: 360px;
+height: 211px;
+
+border-radius: 15.26px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 185 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 15px;
+
+width: 357px;
+height: 210.6px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 177 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 15px;
+
+width: 316px;
+height: 60.6px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button - UXUI */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 13.3016px 18.7788px;
+gap: 18.78px;
+
+width: 150.34px;
+height: 60.6px;
+
+background: #0161FE;
+border-radius: 18.5334px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* SVG */
+
+width: 34px;
+height: 34px;
+
+background: rgba(255, 255, 255, 0.3);
+border-radius: 29.733px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* document_search */
+
+position: absolute;
+width: 19px;
+height: 19px;
+left: calc(50% - 19px/2 - 0.28px);
+top: calc(50% - 19px/2 + 0.2px);
+
+
+
+/* Bounding box */
+
+position: absolute;
+width: 19px;
+height: 19px;
+left: 7.22px;
+top: 7.7px;
+
+background: #D9D9D9;
+
+
+/* document_search */
+
+position: absolute;
+left: 28.06%;
+right: 25.66%;
+top: 27.14%;
+bottom: 24.26%;
+
+background: #FFFFFF;
+
+
+/* UX/UI */
+
+width: 60px;
+height: 24px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button - DM */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 13.3016px 18.7788px;
+gap: 18.78px;
+
+width: 149.34px;
+height: 60.6px;
+
+background: #FFFFFF;
+border: 0.1px solid #8E8383;
+border-radius: 18.5334px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* SVG */
+
+width: 34px;
+height: 34px;
+
+background: #0161FE;
+border-radius: 29.733px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* library_books */
+
+position: absolute;
+width: 19.29px;
+height: 19.29px;
+left: calc(50% - 19.29px/2 + 0.32px);
+top: calc(50% - 19.29px/2 + 0.34px);
+
+
+
+/* Bounding box */
+
+position: absolute;
+width: 19.29px;
+height: 19.29px;
+left: 7.67px;
+top: 7.7px;
+
+background: #D9D9D9;
+
+
+/* library_books */
+
+position: absolute;
+left: 27.11%;
+right: 25.9%;
+top: 27.18%;
+bottom: 25.83%;
+
+background: #FFFFFF;
+
+
+/* Digital Marketing */
+
+width: 59px;
+height: 22px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height, or 144% */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #0161FE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 181 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 15px;
+
+width: 314px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button - ERA */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12.4842px 17.6248px;
+gap: 17.62px;
+
+width: 131.87px;
+height: 60px;
+
+background: #FFFFFF;
+border: 0.1px solid #8E8383;
+border-radius: 17.3944px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* SVG */
+
+width: 34px;
+height: 34px;
+
+background: #0161FE;
+border-radius: 29.733px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* draw */
+
+position: absolute;
+width: 19.34px;
+height: 19.34px;
+left: calc(50% - 19.34px/2 + 0.27px);
+top: calc(50% - 19.34px/2 - 0.38px);
+
+
+
+/* Bounding box */
+
+position: absolute;
+width: 19.34px;
+height: 19.34px;
+left: 7.6px;
+top: 6.95px;
+
+background: #D9D9D9;
+
+
+/* draw */
+
+position: absolute;
+left: 29.3%;
+right: 25.94%;
+top: 27.39%;
+bottom: 30.2%;
+
+background: #FFFFFF;
+
+
+/* Equity Research Analysis */
+
+width: 45px;
+height: 21px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 135% */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #0161FE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button - ERA */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12.4842px 17.6248px;
+gap: 17.62px;
+
+width: 170.87px;
+height: 60px;
+
+background: #FFFFFF;
+border: 0.1px solid #8E8383;
+border-radius: 17.3944px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* SVG */
+
+width: 34px;
+height: 34px;
+
+background: #0161FE;
+border-radius: 27.9059px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* code_xml */
+
+position: absolute;
+width: 20.34px;
+height: 20.34px;
+left: calc(50% - 20.34px/2 - 0.54px);
+top: calc(50% - 20.34px/2 + 0.36px);
+
+
+
+/* Bounding box */
+
+position: absolute;
+width: 20.34px;
+height: 20.34px;
+left: calc(50% - 20.34px/2 - 0.54px);
+top: calc(50% - 20.34px/2 + 0.36px);
+
+background: #D9D9D9;
+
+
+/* code_xml */
+
+position: absolute;
+left: 19.51%;
+right: 22.41%;
+top: 28.47%;
+bottom: 27.7%;
+
+background: #FFFFFF;
+
+
+/* Equity Research Analysis */
+
+width: 84px;
+height: 21px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 135% */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #0161FE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 182 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 15px;
+
+width: 302px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Button - FSD */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12.4842px 17.6248px;
+gap: 17.62px;
+
+width: 139.87px;
+height: 60px;
+
+background: #FFFFFF;
+border: 0.1px solid #8E8383;
+border-radius: 17.3944px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* SVG */
+
+width: 34px;
+height: 34px;
+
+background: #0161FE;
+border-radius: 27.9059px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* lightbulb_2 */
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: calc(50% - 21px/2 - 1.12px);
+top: calc(50% - 21px/2 - 1.26px);
+
+
+
+/* Bounding box */
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: 5.38px;
+top: 5.24px;
+
+background: #D9D9D9;
+
+
+/* lightbulb_2 */
+
+position: absolute;
+left: 30.38%;
+right: 31.47%;
+top: 21.78%;
+bottom: 23.71%;
+
+background: #FFFFFF;
+
+
+/* Full - Stack Development */
+
+width: 53px;
+height: 21px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 135% */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #0161FE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2px 7px;
+gap: 10px;
+
+display: none;
+width: 62px;
+height: 28px;
+
+background: #0161FE;
+border-radius: 85.0435px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Container */
+
+width: 48px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* See More */
+
+position: absolute;
+width: 54.32px;
+height: 14.25px;
+left: calc(50% - 54.32px/2 + 2.16px);
+top: calc(50% - 14.25px/2 + 53.32px);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12.0033px;
+line-height: 18px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.0600166px;
+
+color: #FFFFFF;
+
+
+
+/* Frame 244 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 3px;
+
+position: absolute;
+width: 45px;
+height: 14px;
+left: calc(50% - 45px/2 + 2.5px);
+top: calc(50% - 14px/2 - 0.19px);
+
+
+
+/* fluent:people-team-20-filled */
+
+width: 11px;
+height: 11px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.01%;
+right: 9.99%;
+top: 10.01%;
+bottom: 9.99%;
+
+background: #FFFFFF;
+
+
+/* Team */
+
+width: 29px;
+height: 18px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 12.0033px;
+line-height: 18px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button - FSD */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12.4842px 17.6248px;
+gap: 17.62px;
+
+width: 149.87px;
+height: 60px;
+
+background: #FFFFFF;
+border: 0.1px solid #8E8383;
+border-radius: 17.3944px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* SVG */
+
+width: 34px;
+height: 34px;
+
+background: #0161FE;
+border-radius: 27.9059px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* campaign */
+
+position: absolute;
+width: 20.66px;
+height: 20.66px;
+left: calc(50% - 20.66px/2 + 0.72px);
+top: calc(50% - 20.66px/2 - 1.61px);
+
+
+
+/* Bounding box */
+
+position: absolute;
+width: 20.66px;
+height: 20.66px;
+left: 7.39px;
+top: 5.05px;
+
+background: #D9D9D9;
+
+
+/* campaign */
+
+position: absolute;
+left: 28.4%;
+right: 17.97%;
+top: 26.45%;
+bottom: 30.65%;
+
+background: #FFFFFF;
+
+
+/* Full - Stack Development */
+
+width: 63px;
+height: 21px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 135% */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #0161FE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2px 7px;
+gap: 10px;
+
+display: none;
+width: 62px;
+height: 28px;
+
+background: #0161FE;
+border-radius: 85.0435px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Container */
+
+width: 48px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* See More */
+
+position: absolute;
+width: 54.32px;
+height: 14.25px;
+left: calc(50% - 54.32px/2 + 2.16px);
+top: calc(50% - 14.25px/2 + 53.32px);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12.0033px;
+line-height: 18px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.0600166px;
+
+color: #FFFFFF;
+
+
+
+/* Frame 244 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 3px;
+
+position: absolute;
+width: 45px;
+height: 14px;
+left: calc(50% - 45px/2 + 2.5px);
+top: calc(50% - 14px/2 - 0.19px);
+
+
+
+/* fluent:people-team-20-filled */
+
+width: 11px;
+height: 11px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.01%;
+right: 9.99%;
+top: 10.01%;
+bottom: 9.99%;
+
+background: #FFFFFF;
+
+
+/* Team */
+
+width: 29px;
+height: 18px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 12.0033px;
+line-height: 18px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;

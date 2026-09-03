@@ -1,27 +1,19 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 
-const primaryLinks = [
-  { label: "Home", sectionId: "home" },
-  { label: "About", sectionId: "about" },
-  { label: "Service", sectionId: "service" },
-  { label: "Blog", sectionId: "blog" },
-];
-
-const serviceLinks = [
-  "UX/UI",
-  "Digital Marketing",
-  "Equity Research",
-  "Developement",
-];
-
-const companyLinks = [
-  { label: "MyRameswaramTrip", href: "https://myrameswaramtrip.com", external: true },
-  { label: "Seafsoft", href: "#service", external: false },
-  { label: "Contact", sectionId: "contact" },
-  { label: "FAQ", sectionId: "contact" },
-];
+const linkStyle: React.CSSProperties = {
+  fontFamily: "'SF Pro Display', Helvetica",
+  fontWeight: 400,
+  fontSize: 16,
+  lineHeight: "20px",
+  color: "#FFFFFF",
+  opacity: 0.7,
+  textDecoration: "none",
+  display: "flex",
+  alignItems: "center",
+  height: 40.8,
+  paddingLeft: 10.27,
+  cursor: "pointer",
+};
 
 function scrollToSection(id: string) {
   const el = document.getElementById(id);
@@ -30,103 +22,117 @@ function scrollToSection(id: string) {
 
 export const SiteFooterSection = (): React.JSX.Element => {
   return (
-    <footer className="self-stretch w-full bg-transparent">
-      <Card className="min-h-[361px] w-full overflow-hidden rounded-[20px] border-0 bg-[#232323] text-white shadow-none">
-        <CardContent className="flex min-h-[361px] flex-col px-[50px] pb-[41px] pt-[50px]">
-          <div className="grid flex-1 grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-[minmax(260px,1fr)_83px_131px_145px] lg:gap-x-[49px]">
-            <div className="flex items-start gap-4">
-              <div className="flex h-[50px] w-[50px] shrink-0 items-center justify-center rounded-full bg-white">
-                <img
-                  className="ml-[-0.6px] mt-[-0.2px] h-[31.67px] w-[37.3px] object-cover"
-                  alt="Arunijone logo final"
-                  src="/figmaAssets/arunijone-logo-final-v1-3.svg"
-                />
-              </div>
-              <p className="mt-3 [font-family:'SF_Pro_Display-Regular',Helvetica] text-[28px] font-normal leading-7 tracking-[0] whitespace-nowrap">
-                Arunijone
-              </p>
-            </div>
-            <nav aria-label="Primary navigation">
-              <ul className="flex flex-col gap-[13.6px]">
-                {primaryLinks.map((link) => (
-                  <li key={link.label}>
-                    <Button
-                      type="button"
-                      variant="ghost"
-                      onClick={() => scrollToSection(link.sectionId)}
-                      className="h-[40.8px] w-full justify-start px-[10.3px] py-0 [font-family:'SF_Pro_Display-Regular',Helvetica] text-base font-normal leading-[20.4px] text-white opacity-70 hover:bg-white/10 hover:text-white hover:opacity-100"
-                    >
-                      {link.label}
-                    </Button>
-                  </li>
-                ))}
-              </ul>
-            </nav>
-            <nav aria-label="Services">
-              <ul className="flex flex-col gap-[13.6px]">
-                {serviceLinks.map((link) => (
-                  <li key={link}>
-                    <Button
-                      type="button"
-                      variant="ghost"
-                      onClick={() => scrollToSection("service")}
-                      className="h-[40.8px] w-full justify-start px-[10.3px] py-0 [font-family:'SF_Pro_Display-Regular',Helvetica] text-left text-base font-normal leading-[20.4px] text-white opacity-70 hover:bg-white/10 hover:text-white hover:opacity-100"
-                    >
-                      {link}
-                    </Button>
-                  </li>
-                ))}
-              </ul>
-            </nav>
-            <nav aria-label="Company information">
-              <ul className="flex flex-col gap-[13.6px]">
-                {companyLinks.map((link) => (
-                  <li key={link.label}>
-                    {"href" in link && link.external ? (
-                      <a
-                        href={link.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex h-[40.8px] w-full items-center px-[10.3px] [font-family:'SF_Pro_Display-Regular',Helvetica] text-base font-normal leading-[20.4px] text-white opacity-70 hover:opacity-100 transition-opacity"
-                      >
-                        {link.label}
-                      </a>
-                    ) : (
-                      <Button
-                        type="button"
-                        variant="ghost"
-                        onClick={() => "sectionId" in link && link.sectionId ? scrollToSection(link.sectionId) : undefined}
-                        className={`h-[40.8px] w-full justify-start px-[10.3px] py-0 text-left text-base leading-[20.4px] text-white hover:bg-white/10 hover:text-white ${
-                          link.label === "FAQ"
-                            ? "[font-family:'SF_Pro_Display-Semibold',Helvetica] font-normal"
-                            : "[font-family:'SF_Pro_Display-Regular',Helvetica] font-normal opacity-70 hover:opacity-100"
-                        }`}
-                      >
-                        {link.label}
-                      </Button>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </nav>
-          </div>
-          <div className="mt-7 grid grid-cols-1 items-center gap-5 text-sm leading-[18px] sm:grid-cols-[1fr_auto_1fr]">
-            <p className="[font-family:'SF_Pro_Display-Regular',Helvetica] font-normal tracking-[0]">
-              Designed by Arunijone
-            </p>
-            <p className="text-center [font-family:'SF_Pro_Display-Regular',Helvetica] font-normal tracking-[0] whitespace-nowrap">
-              © 2025 Arunijone. All rights reserved.
-            </p>
-            <div className="flex justify-start sm:justify-end">
-              <img
-                className="h-[38px] w-full max-w-[404px]"
-                alt="Frame"
-                src="/figmaAssets/frame-280.svg"
-              />
-            </div>
-          </div>
-        </CardContent>
-      </Card>
+    <footer style={{ width: 1420, height: 361.28, position: "relative", flexShrink: 0 }}>
+      {/* Background */}
+      <div style={{
+        position: "absolute", height: 361.28, left: 0, right: 0, top: 0,
+        background: "#232323", borderRadius: 20,
+      }} />
+
+      {/* Logo — Frame 290: left:50, top:50, width:180, height:49 */}
+      <div style={{ position: "absolute", width: 180, height: 49, left: 50, top: 50, display: "flex", alignItems: "center", gap: 16 }}>
+        <div style={{ width: 50, height: 50, background: "#FFFFFF", borderRadius: 1000, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+          <img
+            src="/figmaAssets/arunijone-logo-final-v1-3.svg"
+            alt="Arunijone logo"
+            style={{ width: 37.3, height: 31.67, objectFit: "cover" }}
+          />
+        </div>
+        <span style={{
+          fontFamily: "'SF Pro Display', Helvetica", fontWeight: 400, fontSize: 28,
+          lineHeight: "28px", color: "#FFFFFF",
+        }}>
+          Arunijone
+        </span>
+      </div>
+
+      {/* Primary nav — Frame 14: left:910.73, top:50.16, width:82.61, height:204 */}
+      <nav aria-label="Primary" style={{ position: "absolute", width: 82.61, left: 910.73, top: 50.16 }}>
+        {["Home", "About", "Service", "Blog"].map((label, i) => (
+          <button
+            key={label}
+            onClick={() => scrollToSection(label.toLowerCase())}
+            style={{ ...linkStyle, position: "absolute", left: 0, right: 0, top: i * 54.4, background: "none", border: "none" }}
+          >
+            {label}
+          </button>
+        ))}
+      </nav>
+
+      {/* Services nav — Group 43: left:1043.34, top:50.16, width:131, height:204 */}
+      <nav aria-label="Services" style={{ position: "absolute", width: 131, left: 1043.34, top: 50.16 }}>
+        {["UX/UI", "Digital Marketing", "Equity Research", "Developement"].map((label, i) => (
+          <button
+            key={label}
+            onClick={() => scrollToSection("service")}
+            style={{ ...linkStyle, position: "absolute", left: 0, right: 0, top: i * 54.4, background: "none", border: "none" }}
+          >
+            {label}
+          </button>
+        ))}
+      </nav>
+
+      {/* Company nav — Group 42: left:1224.34, top:50.16, width:145.34, height:203.87 */}
+      <nav aria-label="Company" style={{ position: "absolute", width: 145.34, left: 1224.34, top: 50.16 }}>
+        {[
+          { label: "MyRameswaramTrip", href: "https://myrameswaramtrip.com" },
+          { label: "Seafsoft", sectionId: "service" },
+          { label: "Contact", sectionId: "contact" },
+          { label: "FAQ", sectionId: "contact", bold: true },
+        ].map((link, i) => (
+          link.href ? (
+            <a
+              key={link.label}
+              href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ ...linkStyle, position: "absolute", left: 0, right: 0, top: i * 54.4 }}
+            >
+              {link.label}
+            </a>
+          ) : (
+            <button
+              key={link.label}
+              onClick={() => link.sectionId && scrollToSection(link.sectionId)}
+              style={{
+                ...linkStyle,
+                position: "absolute", left: 0, right: 0, top: i * 54.4,
+                background: "none", border: "none",
+                fontWeight: link.bold ? 600 : 400,
+                opacity: link.bold ? 1 : 0.7,
+              }}
+            >
+              {link.label}
+            </button>
+          )
+        ))}
+      </nav>
+
+      {/* Bottom bar */}
+      {/* "Designed by Arunijone" — left:50.62, top:292 */}
+      <p style={{
+        position: "absolute", left: 50.62, top: 292,
+        fontFamily: "'SF Pro Display', Helvetica", fontWeight: 400, fontSize: 14,
+        lineHeight: "18px", color: "#FFFFFF", margin: 0,
+      }}>
+        Designed by Arunijone
+      </p>
+
+      {/* Copyright — centered horizontally, top:292.16 */}
+      <p style={{
+        position: "absolute", width: 222, left: "calc(50% - 111px)", top: 292.16,
+        fontFamily: "'SF Pro Display', Helvetica", fontWeight: 400, fontSize: 14,
+        lineHeight: "18px", color: "#FFFFFF", margin: 0, textAlign: "center", whiteSpace: "nowrap",
+      }}>
+        © 2025 Arunijone. All rights reserved.
+      </p>
+
+      {/* Social icons row — Frame 280: left:965.7, top:282.24, width:403.78, height:38.22 */}
+      <img
+        src="/figmaAssets/frame-280.svg"
+        alt="Social media links"
+        style={{ position: "absolute", width: 403.78, height: 38.22, right: 50.62, top: 282.24 }}
+      />
     </footer>
   );
 };

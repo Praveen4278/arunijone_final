@@ -1,98 +1,438 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-
-const insights = [
-  {
-    title:
-      "My Rameswaram Trip: Book Pandits & Temple Services with Our New Website",
-    image: "/figmaAssets/image-26-1.png",
-    imageClassName: "h-[299px] w-[241px]",
-    backgroundImage:
-      "linear-gradient(0deg, rgba(254, 253, 254, 1) 0%, rgba(254, 253, 254, 1) 100%), url('/figmaAssets/67ac895b30cafb42cfac0a19-frame-202147226836-webp.png')",
-  },
-  {
-    title: "Seafsoft: The Ultimate Seafood Inventory System for Export Success",
-    image: "/figmaAssets/image-10-1.png",
-    imageClassName: "h-[196px] w-[278px] object-cover",
-  },
-];
-
-const ArrowIcon = () => (
-  <img
-    className="h-[19.89px] w-[18.94px]"
-    alt=""
-    aria-hidden="true"
-    src="/figmaAssets/img.svg"
-  />
-);
+import { useLocation } from "wouter";
 
 export const LatestInsightsSection = (): React.JSX.Element => {
+  const [, navigate] = useLocation();
+
   return (
-    <section
-      className="w-full overflow-hidden rounded-[20.41px] px-4 py-[51px] sm:px-8 lg:px-12 xl:px-0"
-      aria-labelledby="latest-insights-heading"
+    /* Frame 1171277101 */
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-start",
+        padding: 0,
+        gap: 25,
+        position: "relative",
+        width: 1420,
+        height: 849,
+        boxSizing: "border-box",
+        background: "#F6F7F9",
+        borderRadius: 20.4131,
+      }}
     >
-      <div className="mx-auto flex w-full max-w-[1335px] flex-col gap-[25px]">
-        <div className="flex h-[38.75px] w-[116px] items-center justify-center rounded-[204.11px] border-[0.75px] border-[#202833]">
-          <span className="[font-family:'SF_Pro_Display-Medium',Helvetica] text-sm font-medium leading-[18px] tracking-[1.79px] text-[#202833]">
-            OUR BLOG
-          </span>
-        </div>
-        <header className="flex items-end justify-between gap-6">
-          <h2
-            id="latest-insights-heading"
-            className="[font-family:'SF_Pro_Display-Regular',Helvetica] text-2xl font-normal leading-[38px] text-[#111111] sm:text-4xl"
+      {/* Inner frame: left:42, top:50 */}
+      <div style={{ position: "absolute", left: 42, top: 50, display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 25 }}>
+      {/* Border — badge */}
+      <div
+        style={{
+          boxSizing: "border-box",
+          width: 116,
+          height: 38.75,
+          border: "0.750207px solid #202833",
+          borderRadius: 204.109,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexShrink: 0,
+        }}
+      >
+        <span
+          style={{
+            fontFamily: "'SF Pro Display', Helvetica",
+            fontStyle: "normal",
+            fontWeight: 500,
+            fontSize: 14,
+            lineHeight: "18px",
+            display: "flex",
+            alignItems: "center",
+            letterSpacing: 1.78624,
+            textTransform: "uppercase",
+            color: "#202833",
+            whiteSpace: "nowrap",
+          }}
+        >
+          Our blog
+        </span>
+      </div>
+
+      {/* Frame 1171277099 — heading row */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-between",
+          alignItems: "flex-end",
+          padding: 0,
+          gap: 726,
+          width: 1335,
+          height: 55,
+          flexShrink: 0,
+          alignSelf: "stretch",
+        }}
+      >
+        {/* Heading */}
+        <span
+          style={{
+            width: 475,
+            height: 46,
+            fontFamily: "'SF Pro Display', Helvetica",
+            fontStyle: "normal",
+            fontWeight: 400,
+            fontSize: 36,
+            lineHeight: "38px",
+            display: "flex",
+            alignItems: "center",
+            color: "#111111",
+            flexShrink: 0,
+          }}
+        >
+          Latest insights and trends
+        </span>
+
+        {/* View All button */}
+        <div
+          onClick={() => navigate("/blog")}
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-between",
+            alignItems: "flex-end",
+            padding: "13px 21px 17px",
+            gap: 4,
+            width: 133,
+            height: 55,
+            background: "#0161FE",
+            borderRadius: 98.6819,
+            cursor: "pointer",
+            boxSizing: "border-box",
+            flexShrink: 0,
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              padding: 0,
+              gap: 5,
+              width: 90.94,
+              height: 20,
+            }}
           >
-            Latest insights and trends
-          </h2>
-          <Button
-            type="button"
-            className="h-[55px] shrink-0 rounded-[98.68px] bg-[#0161fe] px-[21px] py-[13px] [font-family:'SF_Pro_Display-Medium',Helvetica] text-base font-medium leading-6 text-white hover:bg-[#0161fe]/90"
-          >
-            <span>View All</span>
-            <ArrowIcon />
-          </Button>
-        </header>
-        <div className="grid grid-cols-2 gap-3 sm:gap-[13px]">
-          {insights.map((insight) => (
-            <article key={insight.title} className="min-w-0">
-              <Card className="border-0 bg-transparent shadow-none">
-                <CardContent className="flex flex-col items-center p-0">
-                  <div
-                    className="flex h-[436px] w-full items-center justify-center overflow-hidden rounded-[20.41px] border-[0.1px] border-[#8e8383] bg-white p-2.5"
-                    style={
-                      insight.backgroundImage
-                        ? {
-                            backgroundImage: insight.backgroundImage,
-                            backgroundPosition: "center",
-                            backgroundSize: "cover",
-                          }
-                        : undefined
-                    }
-                  >
-                    <img
-                      className={insight.imageClassName}
-                      alt=""
-                      src={insight.image}
-                    />
-                  </div>
-                  <h3 className="mt-[27px] flex min-h-[66px] items-center justify-center text-center [font-family:'SF_Pro_Display-Regular',Helvetica] text-sm font-normal leading-5 text-[#111111cc] sm:text-[32px] sm:leading-10">
-                    {insight.title}
-                  </h3>
-                  <Button
-                    type="button"
-                    className="mt-[20px] h-[46px] rounded-[98.68px] bg-[#0161fe] px-[21px] py-[13px] [font-family:'SF_Pro_Display-Medium',Helvetica] text-base font-medium leading-5 text-white hover:bg-[#0161fe]/90"
-                  >
-                    <span>Explore</span>
-                    <ArrowIcon />
-                  </Button>
-                </CardContent>
-              </Card>
-            </article>
-          ))}
+            <span
+              style={{
+                width: 67,
+                height: 20,
+                fontFamily: "'SF Pro Display', Helvetica",
+                fontWeight: 500,
+                fontSize: 16,
+                lineHeight: "24px",
+                display: "flex",
+                alignItems: "center",
+                textAlign: "center",
+                color: "#FFFFFF",
+                whiteSpace: "nowrap",
+              }}
+            >
+              View All
+            </span>
+            <img
+              src="/assets/Home/images/vector_23.svg"
+              alt=""
+              style={{ width: 18.94, height: 19.89 }}
+            />
+          </div>
         </div>
       </div>
-    </section>
+
+      {/* Frame 1171277100 — cards row */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-between",
+          alignItems: "center",
+          padding: 0,
+          gap: 13,
+          width: 1335,
+          height: 613,
+          flexShrink: 0,
+          alignSelf: "stretch",
+        }}
+      >
+        {/* Card 1 — My Rameswaram Trip */}
+        <div
+          style={{
+            position: "relative",
+            width: 661,
+            height: 613,
+            borderRadius: 20.4131,
+            flexShrink: 0,
+          }}
+        >
+          {/* Image Box */}
+          <div
+            style={{
+              boxSizing: "border-box",
+              position: "absolute",
+              width: 661,
+              height: 436,
+              left: "calc(50% - 661px/2 - 0.45px)",
+              top: "calc(50% - 436px/2 - 86.31px)",
+              background: "#FEFEFE",
+              border: "0.1px solid #8E8383",
+              borderRadius: 23.6864,
+              overflow: "hidden",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                padding: 10,
+                gap: 10,
+                position: "absolute",
+                width: 661,
+                height: 437,
+                left: "calc(50% - 661px/2)",
+                top: 0,
+              }}
+            >
+              <div style={{ position: "relative", width: 641, height: 417, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <img
+                  src="/assets/Home/images/image_26.png"
+                  alt="My Rameswaram Trip"
+                  style={{
+                    position: "absolute",
+                    width: 241,
+                    height: 299,
+                    left: "calc(50% - 241px/2 - 0.05px)",
+                    top: "calc(50% - 299px/2 - 0.19px)",
+                    objectFit: "contain",
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Title */}
+          <div
+            style={{
+              position: "absolute",
+              width: 651,
+              height: 66,
+              left: "calc(50% - 651px/2)",
+              top: 469,
+              fontFamily: "'SF Pro Display', Helvetica",
+              fontWeight: 400,
+              fontSize: 32,
+              lineHeight: "40px",
+              display: "flex",
+              alignItems: "center",
+              textAlign: "center",
+              color: "rgba(17,17,17,0.8)",
+            }}
+          >
+            My Rameswaram Trip: Book Pandits &amp; Temple Services with Our New Website
+          </div>
+
+          {/* Frame 1171276961 — bottom row */}
+          <div
+            style={{
+              position: "absolute",
+              width: 661,
+              height: 46,
+              left: 0,
+              top: 569,
+            }}
+          >
+            {/* Frame 126 */}
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                padding: 0,
+                gap: 20,
+                position: "absolute",
+                width: 132.78,
+                height: 46,
+                left: "calc(50% - 132.78px/2 - 0.25px)",
+                top: 0,
+              }}
+            >
+              {/* Background button */}
+              <div
+                onClick={() => navigate("/blog")}
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  justifyContent: "space-between",
+                  alignItems: "flex-end",
+                  padding: "13px 21px",
+                  gap: 4,
+                  position: "absolute",
+                  width: 132.78,
+                  height: 46,
+                  left: "calc(50% - 132.78px/2)",
+                  top: 0,
+                  background: "#0161FE",
+                  borderRadius: 98.6819,
+                  cursor: "pointer",
+                  boxSizing: "border-box",
+                }}
+              >
+                {/* Frame 256 */}
+                <div style={{ display: "flex", flexDirection: "row", alignItems: "center", padding: 0, gap: 5, width: 90.94, height: 20 }}>
+                  <span style={{ width: 67, height: 20, fontFamily: "'SF Pro Display', Helvetica", fontWeight: 500, fontSize: 16, lineHeight: "24px", display: "flex", alignItems: "center", textAlign: "center", color: "#FFFFFF", whiteSpace: "nowrap" }}>
+                    Explore
+                  </span>
+                  <img src="/assets/Home/images/vector_24.svg" alt="" style={{ width: 18.94, height: 19.89 }} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Card 2 — Seafsoft */}
+        <div
+          style={{
+            position: "relative",
+            width: 661,
+            height: 613,
+            borderRadius: 20.4131,
+            flexShrink: 0,
+          }}
+        >
+          {/* Container */}
+          <div
+            style={{
+              boxSizing: "border-box",
+              position: "absolute",
+              left: "0%",
+              right: "0%",
+              top: "0%",
+              bottom: "28.87%",
+              background: "#FFFFFF",
+              border: "0.1px solid #8E8383",
+              borderRadius: 20.4131,
+              overflow: "hidden",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                padding: 10,
+                gap: 10,
+                position: "absolute",
+                width: 661,
+                height: 437,
+                left: "calc(50% - 661px/2 + 0px)",
+                top: "calc(50% - 437px/2 + 2.5px)",
+                background: "#FFFFFF",
+              }}
+            >
+              <div style={{ position: "relative", width: 641, height: 417 }}>
+                <img
+                  src="/assets/Home/images/image_10.png"
+                  alt="Seafsoft"
+                  style={{
+                    position: "absolute",
+                    width: 278,
+                    height: 196,
+                    left: "calc(50% - 278px/2 + 0.5px)",
+                    top: "calc(50% - 196px/2 + 0.5px)",
+                    objectFit: "contain",
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Title */}
+          <div
+            style={{
+              position: "absolute",
+              width: 655,
+              height: 75,
+              left: "calc(50% - 655px/2)",
+              top: 466,
+              fontFamily: "'SF Pro Display', Helvetica",
+              fontWeight: 400,
+              fontSize: 32,
+              lineHeight: "40px",
+              display: "flex",
+              alignItems: "center",
+              textAlign: "center",
+              color: "rgba(17,17,17,0.8)",
+            }}
+          >
+            Seafsoft: The Ultimate Seafood Inventory System for Export Success
+          </div>
+
+          {/* Frame 1171276962 — bottom row */}
+          <div
+            style={{
+              position: "absolute",
+              width: 655,
+              height: 46,
+              left: 6,
+              top: 569,
+            }}
+          >
+            {/* Frame 127 */}
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                padding: 0,
+                gap: 20,
+                position: "absolute",
+                width: 132.78,
+                height: 46,
+                left: "calc(50% - 132.78px/2 - 0.25px)",
+                top: 0,
+              }}
+            >
+              {/* Background button */}
+              <div
+                onClick={() => navigate("/blog")}
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  justifyContent: "space-between",
+                  alignItems: "flex-end",
+                  padding: "13px 21px",
+                  gap: 4,
+                  position: "absolute",
+                  width: 132.78,
+                  height: 46,
+                  left: "calc(50% - 132.78px/2)",
+                  top: 0,
+                  background: "#0161FE",
+                  borderRadius: 98.6819,
+                  cursor: "pointer",
+                  boxSizing: "border-box",
+                }}
+              >
+                {/* Frame 256 */}
+                <div style={{ display: "flex", flexDirection: "row", alignItems: "center", padding: 0, gap: 5, width: 90.94, height: 20 }}>
+                  <span style={{ width: 67, height: 20, fontFamily: "'SF Pro Display', Helvetica", fontWeight: 500, fontSize: 16, lineHeight: "24px", display: "flex", alignItems: "center", textAlign: "center", color: "#FFFFFF", whiteSpace: "nowrap" }}>
+                    Explore
+                  </span>
+                  <img src="/assets/Home/images/vector_25.svg" alt="" style={{ width: 18.94, height: 19.89 }} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
   );
 };

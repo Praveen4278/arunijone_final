@@ -7,23 +7,21 @@ import MobBanner from "../components/MobBanner";
 import PortfolioMetadata from "../components/PortfolioMetadata";
 import MobFooter from "../components/MobFooter";
 
-const DESIGN_HEIGHT = 5189.28;
-
 const FAQDetailsDesktop = () => {
 
   const navigate = useNavigate();
   return (
     <>
-      <DesktopPageWrapper designHeight={DESIGN_HEIGHT}>
+      <DesktopPageWrapper className="min-h-screen">
         <Navbar activePage="home" />
 
         <div
           id="_240_245__Frame_1171277074"
-          className="absolute h-[5080.28px] w-[1420.00px] flex flex-col justify-start items-start flex-nowrap gap-[50px] left-[10.00px] top-[107.00px]"
+          className="relative w-[1420.00px] flex flex-col justify-start items-start flex-nowrap gap-[50px] left-[10.00px] top-[107.00px] min-h-[5080.28px]"
         >
           <div
             id="_231_4684__Section"
-            className="relative overflow-hidden bg-[#F6F7F9] h-[926.00px] w-full rounded-[20.41314125061035px]"
+            className="relative overflow-hidden bg-[#F6F7F9] min-h-[926.00px] w-full rounded-[20.41314125061035px]"
           >
             {/* Heading */}
             <span
@@ -62,11 +60,11 @@ const FAQDetailsDesktop = () => {
 
           <div
             id="_240_295__Frame_1171276955"
-            className="relative h-[3042.00px] w-[94%] flex flex-col justify-start items-start flex-nowrap gap-[30px]"
+            className="relative w-[94%] flex flex-col justify-start items-start flex-nowrap gap-[30px] min-h-[3042.00px]"
           >
             <div
               id="_240_296__Frame_1171276954"
-              className="relative overflow-hidden bg-[rgba(246,247,249,1.00)] h-[3042.00px] w-full flex flex-col justify-start items-center flex-nowrap gap-2.5 px-[42px] py-[50px] rounded-[23px]"
+              className="relative overflow-hidden bg-[rgba(246,247,249,1.00)] w-full flex flex-col justify-start items-center flex-nowrap gap-2.5 px-[42px] py-[50px] rounded-[23px] min-h-[3042.00px]"
             >
               <div
                 id="_240_297__Group_37"
@@ -1224,7 +1222,7 @@ const FAQDetailsDesktop = () => {
       <div className="md:hidden bg-white w-full overflow-x-hidden">
         <div
           id="_266_679__Blog_Details"
-          className="relative overflow-hidden bg-white h-[4921px] w-full mx-auto"
+          className="relative overflow-hidden bg-white w-full mx-auto min-h-[4921px]"
         >
           <MobBanner iconSrc="/assets/faq-detailsmob/images/group.svg" />
 
@@ -1559,15 +1557,15 @@ const FAQDetailsDesktop = () => {
 
           <div
             id="_266_807__Frame_1171276956"
-            className="absolute h-[2773.00px] w-[calc(100%-16px)] left-[8.00px] flex flex-col justify-start items-center flex-nowrap gap-[30px] top-[1109.00px]"
+            className="absolute w-[calc(100%-16px)] left-[8.00px] flex flex-col justify-start items-center flex-nowrap gap-[30px] top-[1109.00px] min-h-[2773.00px]"
           >
             <div
               id="_266_808__Frame_1171276959"
-              className="relative bg-[rgba(246,247,249,1.00)] h-[2773.00px] w-full rounded-[23px]"
+              className="relative bg-[rgba(246,247,249,1.00)] w-full rounded-[23px] min-h-[2773.00px]"
             >
               <div
                 id="_266_810__Frame_270"
-                className="absolute h-[2645.00px] w-[calc(100%-12px)] flex flex-col justify-start items-center flex-nowrap gap-[25px] left-[6px] top-[35.47px]"
+                className="absolute w-[calc(100%-12px)] flex flex-col justify-start items-center flex-nowrap gap-[25px] left-[6px] top-[35.47px] min-h-[2645.00px]"
               >
                 <div
                   id="_266_811__Border"

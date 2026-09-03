@@ -5,23 +5,21 @@ import Footer from "../components/Footer";
 import DesktopPageWrapper from "../components/DesktopPageWrapper";
 import ServiceCategoriesSection from "../components/ServiceCategoriesSection";
 
-const DESIGN_HEIGHT = 4579;
-
 const FAQDesktop = () => {
   const navigate = useNavigate();
 
   return (
     <>
-      <DesktopPageWrapper designHeight={DESIGN_HEIGHT} className="!block">
+      <DesktopPageWrapper className="!block min-h-screen">
         <Navbar activePage="home" />
 
         <div
           id="_493_205__Frame_1171277071"
-          className="absolute h-[4461.28px] w-[1420.00px] flex flex-col justify-start items-start flex-nowrap gap-[50px] left-[10.00px] top-[108.00px]"
+          className="relative w-[1420.00px] flex flex-col justify-start items-start flex-nowrap gap-[50px] left-[10.00px] top-[108.00px] min-h-[4461.28px]"
         >
           <div
             id="_493_206__Section"
-            className="relative overflow-hidden bg-[rgba(246,247,249,1.00)] h-[905.00px] w-full rounded-[20.41314125061035px]"
+            className="relative overflow-hidden bg-[rgba(246,247,249,1.00)] min-h-[905.00px] w-full rounded-[20.41314125061035px]"
           >
             <div
               id="_493_207__Frame_174"
@@ -84,7 +82,7 @@ const FAQDesktop = () => {
           >
             <div
               id="_493_224__Frame_1171276961"
-              className="relative bg-[rgba(246,247,249,1.00)] h-[691.00px] w-[calc(100%-42px-42px)] flex flex-col justify-start items-start flex-nowrap gap-2.5 px-[42px] py-[50px] rounded-[23px]"
+              className="relative bg-[rgba(246,247,249,1.00)] min-h-[691.00px] w-[calc(100%-42px-42px)] flex flex-col justify-start items-start flex-nowrap gap-2.5 px-[42px] py-[50px] rounded-[23px]"
             >
               <div
                 id="_493_225__Group_37"
@@ -362,7 +360,7 @@ const FAQDesktop = () => {
 
             <div
               id="_493_259__Frame_1171276960"
-              className="relative bg-[rgba(246,247,249,1.00)] h-[691.00px] w-[calc(100%-42px-42px)] flex flex-col justify-start items-start flex-nowrap gap-2.5 px-[42px] py-[50px] rounded-[23px]"
+              className="relative bg-[rgba(246,247,249,1.00)] min-h-[691.00px] w-[calc(100%-42px-42px)] flex flex-col justify-start items-start flex-nowrap gap-2.5 px-[42px] py-[50px] rounded-[23px]"
             >
               <div
                 id="_493_260__Group_37"
@@ -639,7 +637,7 @@ const FAQDesktop = () => {
 
             <div
               id="_493_294__Frame_1171276959"
-              className="relative bg-[rgba(246,247,249,1.00)] h-[691.00px] w-[calc(100%-42px-42px)] flex flex-col justify-start items-start flex-nowrap gap-2.5 px-[42px] py-[50px] rounded-[23px]"
+              className="relative bg-[rgba(246,247,249,1.00)] min-h-[691.00px] w-[calc(100%-42px-42px)] flex flex-col justify-start items-start flex-nowrap gap-2.5 px-[42px] py-[50px] rounded-[23px]"
             >
               <div
                 id="_493_295__Group_37"

@@ -11,6 +11,7 @@ import Portfolio4 from "./pages/Portfolio4";
 import BlogDesktop from "./pages/Blog";
 import FAQ from "./pages/FAQ";
 import FAQDetailsDesktop from "./pages/FAQDetails";
+import BlogDetails from "./pages/BlogDetails";
 import SlideTransition from "./components/SlideTransition";
 import BottomNavMobile from "./components/BottomNavMobile";
 
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="/blog" element={<BlogDesktop />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/faq-details" element={<FAQDetailsDesktop />} />
+          <Route path="/blog-details" element={<BlogDetails />} />
         </Routes>
       </SlideTransition>
       <BottomNavMobile />

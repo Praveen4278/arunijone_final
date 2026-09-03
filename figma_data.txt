@@ -1,0 +1,542 @@
+NAME: "Arunijone.com X Freelancer"
+
+GLOBAL_VARS:
+fill_658ab2fa:
+  - '#FFFFFF'
+fill_ab058eaf:
+  - '#F6F7F9'
+fill_9da94c05:
+  - type: IMAGE
+    imageRef: aa0bd349298cb421d5e9cd609d785a410ce7d5b1
+    scaleMode: FILL
+    objectFit: cover
+    isBackground: false
+    imageDownloadArguments:
+      needsCropping: false
+      requiresImageDimensions: false
+fill_637e9b19:
+  - '#0161FE'
+layout_177c5efc:
+  mode: none
+  sizing:
+    horizontal: hug
+    vertical: hug
+style_5c8957b8:
+  fontFamily: SF Pro Display
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 22.35px
+  textAlignHorizontal: CENTER
+  textAlignVertical: CENTER
+fill_a9212bf5:
+  - '#111111'
+fill_2af8b51a:
+  - '#FEFEFE'
+fill_97d170e1: []
+ts1:
+  lineHeight: 40px
+ts2:
+  fills:
+    - rgba(17, 17, 17, 0.6)
+  lineHeight: 40px
+fill_6e74a77e:
+  - '#202833'
+style_27fffbb6:
+  fontFamily: SF Pro Display
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 36
+  lineHeight: 38px
+  textAlignHorizontal: LEFT
+  textAlignVertical: CENTER
+fill_bdc34db5:
+  - rgba(109, 109, 110, 0.8)
+fill_dd7f3e3e:
+  - '#232323'
+style_df69b38f:
+  fontFamily: SF Pro Display
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 46
+  lineHeight: 54px
+  textAlignHorizontal: LEFT
+  textAlignVertical: CENTER
+style_bf51b26b:
+  fontFamily: SF Pro Display
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 24px
+  textAlignHorizontal: LEFT
+  textAlignVertical: CENTER
+style_a6714536:
+  fontFamily: SF Pro
+  fontStyle: Medium
+  fontWeight: 510
+  fontSize: 14
+  lineHeight: 18px
+  letterSpacing: 0.1279em
+  textCase: UPPER
+  textAlignHorizontal: CENTER
+  textAlignVertical: CENTER
+layout_35291c55:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 466
+    height: 72
+style_19f2420d:
+  fontFamily: SF Pro Display
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 36
+  lineHeight: 42px
+  textAlignHorizontal: CENTER
+  textAlignVertical: CENTER
+layout_a0d3ca88:
+  mode: row
+  padding: 17px 24px
+  alignItems: center
+  gap: 24px
+  sizing:
+    horizontal: hug
+    vertical: hug
+layout_fe1bddda:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 43.72
+    height: 43.72
+style_86bfd81e:
+  fontFamily: SF Pro
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 20
+  lineHeight: 30px
+  letterSpacing: '-0.0296em'
+  textCase: TITLE
+  textAlignHorizontal: LEFT
+  textAlignVertical: CENTER
+layout_eb314187:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 138.13
+    height: 74
+fill_25b93b17:
+  - '#8E8383'
+fill_faa9a2d4:
+  - type: IMAGE
+    imageRef: 444633585c73db92a276f30c994472367180426b
+    scaleMode: STRETCH
+    objectFit: fill
+    isBackground: false
+    imageDownloadArguments:
+      needsCropping: true
+      requiresImageDimensions: false
+      cropTransform:
+        - - 0.583984375
+          - 0
+          - 0.2099609375
+        - - 0
+          - 0.72265625
+          - 0.134765625
+      filenameSuffix: 3831aa
+layout_b8deb5ca:
+  mode: none
+  sizing: {}
+  locationRelativeToParent:
+    x: 0
+    y: 0
+  dimensions:
+    width: 138.13
+    height: 74
+fill_675abfac:
+  - type: IMAGE
+    imageRef: ed48206273504527e3409d46ace2aceb9d6c7a90
+    scaleMode: FILL
+    objectFit: cover
+    isBackground: false
+    imageDownloadArguments:
+      needsCropping: false
+      requiresImageDimensions: false
+ts3:
+  fontStyle: SemiBold
+  fills:
+    - '#1F64FF'
+ts4:
+  fills:
+    - '#1F64FF'
+layout_81d8c022:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 67
+    height: 20
+style_dc203d7b:
+  fontFamily: SF Pro Display
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 16
+  lineHeight: 24px
+  textAlignHorizontal: CENTER
+  textAlignVertical: CENTER
+layout_21852631:
+  mode: none
+  sizing: {}
+  locationRelativeToParent:
+    x: 0
+    y: 0
+  dimensions:
+    width: 50
+    height: 50
+style_2e0f7ad8:
+  fontFamily: SF Pro Display
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 32
+  lineHeight: 40px
+  textAlignHorizontal: CENTER
+  textAlignVertical: CENTER
+fill_d0e62edb:
+  - rgba(17, 17, 17, 0.8)
+style_b6c0733c:
+  fontFamily: SF Pro Display
+  fontStyle: Light
+  fontWeight: 300
+  fontSize: 18
+  lineHeight: 19.88px
+  textAlignHorizontal: LEFT
+  textAlignVertical: CENTER
+fill_508a6207:
+  - rgba(17, 17, 17, 0.6)
+style_795e1d02:
+  fontFamily: SF Pro Display
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 20
+  lineHeight: 23.25px
+  textAlignHorizontal: LEFT
+  textAlignVertical: CENTER
+style_dee7dfd9:
+  fontFamily: SF Pro Display
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 20.41px
+  textAlignHorizontal: LEFT
+  textAlignVertical: CENTER
+style_793294da:
+  fontFamily: SF Pro Display
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 14
+  lineHeight: 17.96px
+  textAlignHorizontal: LEFT
+  textAlignVertical: CENTER
+
+ELEMENTS:
+EL-4fb8de08:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    gap: 10px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-bb582553:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    justifyContent: space-between
+    alignItems: center
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-d41a0198:
+  type: FRAME
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 0
+      y: 0
+    dimensions:
+      width: 320.33
+      height: 281.89
+  fills:
+    - rgba(0, 0, 0, 0.2)
+EL-56257e89:
+  type: GROUP
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 42
+      y: 49.72
+    dimensions:
+      width: 1336.32
+      height: 265.72
+EL-c7de5122:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: center
+    gap: 40px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    locationRelativeToParent:
+      x: 0
+      y: 0
+    dimensions:
+      width: 1336.32
+EL-46911a73:
+  type: FRAME
+  layout:
+    mode: row
+    padding: 9px 20px
+    justifyContent: center
+    alignItems: center
+    gap: 10px
+    sizing:
+      horizontal: hug
+      vertical: hug
+  strokes: fill_6e74a77e
+  strokeWeight: 0.9695612192153931px
+  borderRadius: 236.84442138671875px
+EL-542b2594:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    justifyContent: center
+    alignItems: center
+    gap: 20px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-338924e1:
+  type: FRAME
+  layout: layout_a0d3ca88
+  fills: fill_658ab2fa
+  borderRadius: 23.686382293701172px
+EL-f9811a45:
+  type: IMAGE-SVG
+  layout: layout_fe1bddda
+  fills: fill_637e9b19
+  borderRadius: 38px
+EL-ebd74257:
+  type: IMAGE-SVG
+  layout: layout_fe1bddda
+  fills:
+    - '#4D90FE'
+  borderRadius: 38px
+EL-52872973:
+  type: INSTANCE
+  layout: layout_a0d3ca88
+  fills: fill_658ab2fa
+  borderRadius: 23.686382293701172px
+  componentId: 0:410
+EL-40e9c829:
+  type: FRAME
+  layout: layout_eb314187
+EL-ac493c69:
+  type: RECTANGLE
+  layout: layout_b8deb5ca
+  fills: fill_2af8b51a
+  strokes: fill_25b93b17
+  strokeWeight: 0.10000000149011612px
+  borderRadius: 6px
+EL-b7cafc8a:
+  type: FRAME
+  layout:
+    mode: row
+    padding: 13px 21px 17px
+    justifyContent: space-between
+    alignItems: flex-end
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 133
+      height: 55
+  fills: fill_637e9b19
+  borderRadius: 98.68194580078125px
+EL-62387e23:
+  type: FRAME
+  layout:
+    mode: row
+    alignItems: center
+    gap: 5px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-83ae1505:
+  type: TEXT
+  layout: layout_81d8c022
+  text: View All
+  textStyle: style_dc203d7b
+  fills: fill_658ab2fa
+EL-fe46154d:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 18.94
+      height: 19.89
+EL-36eb585b:
+  type: FRAME
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 661
+      height: 613
+  borderRadius: 20.41314125061035px
+EL-feeae0fc:
+  type: FRAME
+  layout:
+    mode: none
+    sizing:
+      horizontal: fill
+      vertical: fixed
+    dimensions:
+      height: 417
+EL-88560216:
+  type: GROUP
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 132.78
+      height: 46
+  borderRadius: 98.68194580078125px
+EL-69ac45ec:
+  type: FRAME
+  layout:
+    mode: row
+    padding: 13px 21px
+    justifyContent: space-between
+    alignItems: flex-end
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    locationRelativeToParent:
+      x: 0
+      y: 0
+    dimensions:
+      width: 132.78
+  fills: fill_637e9b19
+  borderRadius: 98.68194580078125px
+EL-31d0e812:
+  type: TEXT
+  layout: layout_81d8c022
+  text: Explore
+  textStyle: style_dc203d7b
+  fills: fill_658ab2fa
+EL-5d639415:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 20.28
+      y: 13.27
+    dimensions:
+      width: 43.18
+      height: 43.18
+EL-1dcd328b:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 38.22
+      height: 38.22
+  strokes:
+    - rgba(255, 255, 255, 0.12)
+  strokeWeight: 0.7502073645591736px
+  borderRadius: 40.818782806396484px
+
+COMPONENTS:
+0:410:
+  id: 0:410
+  key: a8d0c86430da7182b0e87f8526e5fff079ccd04a
+  name: Property 1=Unselect
+  componentSetId: 0:403
+
+COMPONENT_SETS:
+0:403:
+  id: 0:403
+  key: 5f58f6c8e91ac055cead7d54ef1c1b7ecf48ea80
+  name: Project Sub Topic D
+  description: ''
+
+NODES:
+[FRAME] "Home - Desktop" #1326:4063 layout={"mode":"none","sizing":{}} fills=fill_658ab2fa
+  [GROUP] "heater Navigation" #1326:4064 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":10,"y":10},"dimensions":{"width":1420,"height":87.76}}
+    [GROUP] #1326:4065 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":1420,"height":87.76}}
+      [FRAME] #1326:4066 layout={"mode":"column","alignItems":"stretch","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":1420}}
+        [FRAME] "Banner" #1326:4067 layout={"mode":"none","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":87.76}} fills=fill_ab058eaf borderRadius=22.355138778686523px
+          [GROUP] #1326:4068 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":42,"y":11},"dimensions":{"width":66,"height":66}} borderRadius="0px 0px 0px 0px"
+            [RECTANGLE] #1326:4069 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":66,"height":66}} fills=fill_658ab2fa borderRadius=1000px
+            [RECTANGLE] "Arunijone Logo Final v1 3" #1326:4070 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":8,"y":12},"dimensions":{"width":49,"height":42}} fills=fill_9da94c05 borderRadius=12px
+      [FRAME] #1326:4071 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":1262.55,"y":17.3},"dimensions":{"width":115,"height":53}}
+        [FRAME] "Contact Button" #1326:4072 layout={"mode":"row","padding":"15px 26px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":0.45,"y":-0.3}} fills=fill_637e9b19 borderRadius=111.78555297851562px
+          [TEXT] #1326:4073 layout=layout_177c5efc fills=fill_658ab2fa textStyle={"fontFamily":"Plus Jakarta Sans","fontStyle":"Medium","fontWeight":500,"fontSize":15.777778625488281,"lineHeight":"22.47px","letterSpacing":"-0.005em","textAlignHorizontal":"CENTER","textAlignVertical":"CENTER"} text="Contact"
+    [FRAME] #1326:4074 layout={"mode":"row","padding":"12px 13px","alignItems":"center","gap":"72px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":502,"y":20.38}}
+      [FRAME] #1326:4075 layout={"mode":"column","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":44}}
+        [TEXT] #1326:4076 layout=layout_177c5efc fills=fill_637e9b19 textStyle=style_5c8957b8 text="Home"
+      [FRAME] #1326:4077 template=EL-4fb8de08
+        [TEXT] #1326:4078 layout=layout_177c5efc fills=fill_a9212bf5 textStyle=style_5c8957b8 text="About"
+      [FRAME] #1326:4079 template=EL-4fb8de08
+        [TEXT] #1326:4080 layout=layout_177c5efc fills=fill_a9212bf5 textStyle=style_5c8957b8 text="Service"
+      [FRAME] #1326:4081 template=EL-4fb8de08
+        [TEXT] #1326:4082 layout=layout_177c5efc fills=fill_a9212bf5 textStyle=style_5c8957b8 text="Blogs"
+  [FRAME] #1326:4083 layout={"mode":"column","gap":"50px","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":10,"y":108},"dimensions":{"width":1420,"height":5857}}
+    [FRAME] #1326:4084 layout={"mode":"column","alignSelf":"stretch","alignItems":"stretch","gap":"14px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [FRAME] "Hero Page" #1326:4085 layout={"mode":"none","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":916}} fills=fill_2af8b51a borderRadius=20.41314125061035px
+        [RECTANGLE] "image 266" #1326:4086 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":291,"y":68},"dimensions":{"width":1303,"height":1040}} fills=[{"type":"IMAGE","imageRef":"ce79952e83a0d92456ffb9058853965923851dc7","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+        [FRAME] #1326:4087 layout={"mode":"column","gap":"40px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":42,"y":280},"dimensions":{"width":551}}
+          [TEXT] #1326:4088 layout={"mode":"none","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":261}} fills=fill_a9212bf5 textStyle={"fontFamily":"SF Pro Display","fontStyle":"Medium","fontWeight":500,"fontSize":81,"lineHeight":"90px","textAlignHorizontal":"LEFT","textAlignVertical":"CENTER"} text="For Those Who Demand #1 Quality"
+          [FRAME] #1326:4089 layout={"mode":"row","alignItems":"center","gap":"16px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":350,"height":55}}
+            [FRAME] "Link" #1326:4090 layout={"mode":"none","sizing":{"horizontal":"fill","vertical":"fill"}} fills=fill_637e9b19 borderRadius=85.04350280761719px
+              [FRAME] #1326:4091 layout={"mode":"row","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":25.18,"y":20.5}}
+                [TEXT] #1326:4092 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":60,"height":15}} fills=fill_658ab2fa textStyle={"fontFamily":"SF Pro Display","fontStyle":"Regular","fontWeight":400,"fontSize":16,"lineHeight":"17.96px","textAlignHorizontal":"LEFT","textAlignVertical":"CENTER"} text="My NGO"
+                [IMAGE-SVG] "Vector" #1326:4093 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":13.64,"height":10}} strokes=fill_658ab2fa strokeWeight=1.2753524780273438px
+            [FRAME] #1326:4094 layout={"mode":"row","padding":"10px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":200,"height":54}} borderRadius=85px
+              [FRAME] #1326:4095 layout={"mode":"row","alignItems":"center","gap":"6px","sizing":{"horizontal":"hug","vertical":"hug"}}
+                [TEXT] #1326:4096 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":127,"height":14}} fills=fill_97d170e1 textStyle={"fontFamily":"SF Pro Display","fontStyle":"Regular","fontWeight":400,"fontSize":16,"lineHeight":"17.1px","textAlignHorizontal":"CENTER","textAlignVertical":"CENTER"} text="Download Resume"
+                [IMAGE-SVG] "bytesize:download" #1326:4097 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":21,"height":21}} fills=fill_97d170e1
+    [FRAME] #1326:4099 layout={"mode":"row","alignSelf":"stretch","padding":"100px 309px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":256}}
+      [TEXT] #1326:4100 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":760,"height":128}} fills=fill_a9212bf5 textStyle={"fontFamily":"SF Pro Display","fontStyle":"Regular","fontWeight":400,"fontSize":30,"lineHeight":"40px","textAlignHorizontal":"CENTER","textAlignVertical":"CENTER"} text="{ts1}This We deliver high-quality digital solutions while creating meaningful work {/ts1}{ts2}opportunities for individuals with disabilities through our collaboration with{/ts2}{ts1} Arunijone Philanthropy.{/ts1}"
+    [FRAME] "About Us Section" #1326:4101 layout={"mode":"none","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":856}} fills=fill_ab058eaf borderRadius=20px
+      [FRAME] #1326:4102 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":46.82,"y":50},"dimensions":{"width":1327.18,"height":756.63}}
+        [FRAME] #1326:4103 layout={"mode":"column","gap":"28px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":0.18,"y":1},"dimensions":{"width":1327.18}}
+          [FRAME] "Border" #1326:4104 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":123,"height":38}} strokes=fill_6e74a77e strokeWeight=0.8893398642539978px borderRadius=225.14527893066406px
+            [TEXT] #1326:4105 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":19,"y":11},"dimensions":{"width":84.06,"height":16.01}} fills=fill_6e74a77e textStyle={"fontFamily":"SF Pro Display","fontStyle":"Medium","fontWeight":500,"fontSize":14,"lineHeight":"20px","letterSpacing":"0.1407em","textCase":"UPPER","textAlignHorizontal":"LEFT","textAlignVertical":"CENTER"} text="About us"
+          [FRAME] #1326:4106 template=EL-bb582553
+            [TEXT] #1326:4107 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":553,"height":78}} fills=fill_a9212bf5 textStyle=style_27fffbb6 text="Unlocking creativity, strategy, and innovation for every business"
+            [TEXT] #1326:4108 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":473,"height":82}} fills=fill_bdc34db5 textStyle={"fontFamily":"SF Pro Display","fontStyle":"Regular","fontWeight":400,"fontSize":16,"lineHeight":"22px","textAlignHorizontal":"LEFT","textAlignVertical":"CENTER"} text="At Arunijone, I bring together skills from UX/UI design, digital marketing, stock research and product innovation to deliver practical, impactful solutions for individuals and businesses."

@@ -1,87 +1,103 @@
 import React from "react";
-import { Badge } from "@/components/ui/badge";
-import { Card, CardContent } from "@/components/ui/card";
-
-const showcaseImages = [
-  {
-    src: "/figmaAssets/image-260.png",
-    alt: "Image",
-    className: "h-full w-full object-cover",
-  },
-  {
-    src: "/figmaAssets/image-257.png",
-    alt: "Image",
-    className: "h-full w-full object-cover",
-  },
-];
 
 export const ServiceShowcaseSection = (): React.JSX.Element => {
   return (
-    <section className="relative w-full overflow-hidden rounded-[20px] bg-[#f6f7f9] px-3 py-4 sm:px-6 sm:py-8 lg:px-[47px] lg:py-[50px]">
-      <div className="mx-auto flex w-full max-w-[1327px] flex-col gap-4 lg:gap-7">
-        <Badge
-          variant="outline"
-          className="flex h-[38px] w-fit items-center rounded-[225.15px] border-[0.89px] border-[#202833] bg-transparent px-5 [font-family:'SF_Pro_Display-Medium',Helvetica] text-sm font-medium tracking-[1.97px] text-[#202833] hover:bg-transparent"
-        >
-          ABOUT US
-        </Badge>
-        <header className="grid gap-4 lg:grid-cols-[553px_minmax(0,473px)] lg:items-center lg:justify-between lg:gap-8">
-          <h2 className="max-w-[553px] [font-family:'SF_Pro_Display-Regular',Helvetica] text-xl font-normal leading-[1.05] text-[#111111] sm:text-3xl lg:text-4xl lg:leading-[38px]">
+    <section
+      aria-labelledby="about-heading"
+      id="about"
+      style={{ width: 1420, height: 856, background: "#F6F7F9", borderRadius: 20, position: "relative", flexShrink: 0 }}
+    >
+      <div style={{
+        position: "absolute", width: 1327.18, left: 46.82, top: 49,
+        display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 28,
+      }}>
+
+        {/* Badge */}
+        <div style={{
+          width: 123, height: 38, border: "0.88934px solid #202833", borderRadius: 225.145,
+          display: "flex", alignItems: "center", justifyContent: "center", boxSizing: "border-box",
+        }}>
+          <span style={{
+            fontFamily: "'SF Pro Display', Helvetica", fontWeight: 500, fontSize: 14,
+            lineHeight: "20px", letterSpacing: 1.96989, textTransform: "uppercase", color: "#202833",
+            whiteSpace: "nowrap",
+          }}>About us</span>
+        </div>
+
+        {/* Header row */}
+        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", gap: 301, width: 1327.18, height: 82 }}>
+          <h2 id="about-heading" style={{
+            width: 553, height: 78, margin: 0,
+            fontFamily: "'SF Pro Display', Helvetica", fontWeight: 400, fontSize: 36,
+            lineHeight: "38px", color: "#111111",
+            display: "flex", alignItems: "center",
+          }}>
             Unlocking creativity, strategy, and innovation for every business
           </h2>
-          <p className="max-w-[473px] [font-family:'SF_Pro_Display-Regular',Helvetica] text-xs font-normal leading-[1.35] text-[#6d6d6ecc] sm:text-sm lg:text-base lg:leading-[22px]">
-            At Arunijone, I bring together skills from UX/UI design, digital
-            marketing, stock research and product innovation to deliver
-            practical, impactful solutions for individuals and businesses.
+          <p style={{
+            width: 473, height: 82, margin: 0,
+            fontFamily: "'SF Pro Display', Helvetica", fontWeight: 400, fontSize: 16,
+            lineHeight: "22px", color: "rgba(109,109,110,0.8)",
+            display: "flex", alignItems: "center",
+          }}>
+            At Arunijone, I bring together skills from UX/UI design, digital marketing, stock research and product innovation to deliver practical, impactful solutions for individuals and businesses.
           </p>
-        </header>
-        <div className="grid grid-cols-4 gap-2 sm:gap-4 lg:gap-[15px]">
-          <div className="col-span-2 aspect-[656/282] overflow-hidden rounded-[12px] bg-[url('/figmaAssets/image-259.png')] bg-cover bg-center lg:rounded-[22.52px]" />
-          <Card className="aspect-[321/282] rounded-[12px] border-0 bg-[#232323] text-white shadow-none lg:rounded-[18.77px]">
-            <CardContent className="flex h-full flex-col justify-between p-2 sm:p-3 lg:p-[18.8px]">
-              <p className="[font-family:'SF_Pro_Display-Regular',Helvetica] text-base font-normal leading-none sm:text-2xl lg:text-[46px] lg:leading-[54px]">
-                3+
-              </p>
-              <p className="[font-family:'SF_Pro_Display-Regular',Helvetica] text-[5px] font-normal leading-[1.45] sm:text-[9px] lg:text-base lg:leading-6">
-                Years of continuous innovation and valuable insights, helping
-                businesses improve their digital presence, design better
-                products, and make informed decisions through research-led
-                strategies.
-              </p>
-            </CardContent>
-          </Card>
-          <Card className="aspect-[320/282] overflow-hidden rounded-[12px] border-0 bg-[#c5c6c7] shadow-none lg:rounded-[22.52px]">
-            <CardContent className="h-full p-0">
-              <img
-                className={showcaseImages[0].className}
-                alt={showcaseImages[0].alt}
-                src={showcaseImages[0].src}
-              />
-            </CardContent>
-          </Card>
-          <img
-            className="col-span-2 aspect-[656/282] h-full w-full rounded-[12px] object-cover lg:rounded-[22.52px]"
-            alt="Background"
-            src="/figmaAssets/background.png"
-          />
-          <div className="aspect-[320/282] rounded-[12px] bg-[url('/figmaAssets/67b5b9ebc673f016ac4e6456-frame-202147226954-webp.png')] bg-cover bg-[100%_100%] lg:rounded-[22.52px]" />
-          <Card className="aspect-[320/282] overflow-hidden rounded-[12px] border-0 bg-black/20 shadow-none lg:rounded-[22.52px]">
-            <CardContent className="h-full p-0">
-              <img
-                className={showcaseImages[1].className}
-                alt={showcaseImages[1].alt}
-                src={showcaseImages[1].src}
-              />
-            </CardContent>
-          </Card>
+        </div>
+
+        {/* Frame 1171276999: w:1327.18, h:578.83 */}
+        <div style={{ width: 1327.18, height: 578.83, position: "relative", flexShrink: 0 }}>
+
+          {/* R1C1: image-259 — left:0, top:0, right:50.57%, bottom:51.29% */}
+          <div style={{ position: "absolute", left: "0%", right: "50.57%", top: "0%", bottom: "51.29%", borderRadius: 22.5181, overflow: "hidden" }}>
+            <img src="/figmaAssets/image-259.png" alt="" style={{ position: "absolute", width: 924, height: 397, left: "50%", top: -49, transform: "translateX(-50%)" , objectFit: "cover" }} />
+            <img src="/figmaAssets/Gemini_Generated_Image_7md0ic7md0ic7md0.png" alt="" style={{ position: "absolute", visibility: "hidden", width: 691, height: 331, left: -6.82, top: -26.8 }} />
+          </div>
+
+          {/* R1C2: dark card "3+" — left:670.68, right:335.17, top:0, h:281.94 */}
+          <div style={{
+            position: "absolute", left: 670.68, right: 335.17, top: 0, height: 281.94,
+            background: "#232323", borderRadius: 18.7651,
+          }}>
+            <p style={{ position: "absolute", left: 18.76, top: 17.87, width: 76.11, height: 54.25, margin: 0, fontFamily: "'SF Pro Display', Helvetica", fontWeight: 400, fontSize: 46, lineHeight: "54px", color: "#FFFFFF", display: "flex", alignItems: "center" }}>3+</p>
+            <p style={{ position: "absolute", left: 18.5, top: 150.2, width: 283, height: 111, margin: 0, fontFamily: "'SF Pro Display', Helvetica", fontWeight: 400, fontSize: 16, lineHeight: "24px", color: "#FFFFFF", display: "flex", alignItems: "center" }}>
+              Years of continuous innovation and valuable insights, helping businesses improve their digital presence, design better products, and make informed decisions through research-led strategies.
+            </p>
+          </div>
+
+          {/* R1C3: testimonial — left:75.85%, right:0, top:0, bottom:51.29% */}
+          <div style={{ position: "absolute", left: "75.85%", right: 0, top: 0, bottom: "51.29%", borderRadius: 22.5181, overflow: "hidden", background: "#C5C6C7" }}>
+            <img src="/figmaAssets/testimonial-1.png" alt="" style={{ position: "absolute", width: 320.33, height: 281.94, left: 0, top: 0, objectFit: "cover" }} />
+          </div>
+
+          {/* R2C1: blue card "100%" — left:0, right:50.57%, top:51.3%, bottom:0 */}
+          <div style={{
+            position: "absolute", left: 0, right: "50.57%", top: "51.3%", bottom: 0,
+            background: "#0161FE", borderRadius: 18.7651,
+          }}>
+            {/* SVG icon: left:18.76, top:18.76, w:48.78, h:48.78 */}
+            <div style={{ position: "absolute", left: 18.76, top: 18.76, width: 48.78, height: 48.78, borderRadius: "50%", background: "rgba(255,255,255,0.3)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <rect x="3" y="3" width="14" height="14" rx="2" fill="white" fillOpacity="0.8"/>
+              </svg>
+            </div>
+            <p style={{ position: "absolute", left: 19.18, top: 119.26, width: 123, height: 55, margin: 0, fontFamily: "'SF Pro Display', Helvetica", fontWeight: 400, fontSize: 46, lineHeight: "54px", color: "#FFFFFF", display: "flex", alignItems: "center" }}>100%</p>
+            <p style={{ position: "absolute", left: 19.18, top: 200.26, width: 609, height: 62, margin: 0, fontFamily: "'SF Pro Display', Helvetica", fontWeight: 400, fontSize: 16, lineHeight: "24px", color: "#FFFFFF", display: "flex", alignItems: "center" }}>
+              Client satisfaction achieved through personalized solutions, proactive support, and a commitment to understanding each client's unique requirements. My focus on excellence ensures that your success remains the priority at every step.
+            </p>
+          </div>
+
+          {/* R2C2: image — left:50.57%, right:25.28%, top:51.3%, bottom:0 */}
+          <div style={{ position: "absolute", left: "50.57%", right: "25.28%", top: "51.3%", bottom: 0, borderRadius: 22.5181, overflow: "hidden", background: "rgba(0,0,0,0.2)" }}>
+            <img src="/figmaAssets/testimonial-1.png" alt="" style={{ position: "absolute", width: 320, height: 320, left: -0.1, top: 0.05, objectFit: "cover" }} />
+          </div>
+
+          {/* R2C3: image-257 — left:75.85%, right:0, top:51.3%, bottom:0 */}
+          <div style={{ position: "absolute", left: "75.85%", right: 0, top: "51.3%", bottom: 0, borderRadius: 22.5181, overflow: "hidden", background: "rgba(0,0,0,0.2)" }}>
+            <img src="/figmaAssets/image-257.png" alt="" style={{ position: "absolute", width: 320, height: 320, left: 0.36, top: 0.05, objectFit: "cover" }} />
+          </div>
+
         </div>
       </div>
-      <img
-        className="pointer-events-none absolute right-[-400px] top-[-122px] hidden h-[1254px] w-[1254px] object-cover min-[1500px]:block"
-        alt=""
-        aria-hidden="true"
-        src="/figmaAssets/image-252.png"
-      />
     </section>
   );
 };

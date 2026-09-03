@@ -514,31 +514,13 @@ const Portfolio1UXUIUIDesignWebsite = () => {
 
                   <div
                     id="_231_4792__SVG"
-                    className="absolute h-[52.00px] w-[52.00px] left-[calc(50%-126.00px)] top-[calc(50%-93.00px)]"
+                    className="absolute h-[52.00px] w-[52.00px] left-[calc(50%-126.00px)] top-[calc(50%-93.00px)] flex items-center justify-center"
                   >
                     <img
-                      id="_231_4793__Vector"
-                      src="/assets/portfolio/images/vector_9.svg"
-                      alt="Vector"
-                      className="absolute left-[calc(100%_*_0.01)]"
-                    />
-                    <img
-                      id="_231_4794__Vector"
-                      src="/assets/portfolio/images/vector_10.svg"
-                      alt="Vector"
-                      className="absolute left-[calc(100%_*_0.63)] top-[calc(100%_*_0.52)]"
-                    />
-                    <img
-                      id="_231_4795__Vector"
-                      src="/assets/portfolio/images/vector_11.svg"
-                      alt="Vector"
-                      className="absolute left-[calc(100%_*_0.31)] top-[calc(100%_*_0.39)]"
-                    />
-                    <img
-                      id="_231_4796__Vector"
-                      src="/assets/portfolio/images/vector_12.svg"
-                      alt="Vector"
-                      className="absolute left-[calc(100%_*_0.42)] top-[calc(100%_*_0.29)]"
+                      id="_231_4792__ClientImpactIcon"
+                      src="/assets/p1/images/client_impact_icon.svg"
+                      alt="Client Impact"
+                      className="w-full h-full object-contain"
                     />
                   </div>
                 </div>
@@ -1667,25 +1649,13 @@ const Portfolio1UXUIUIDesignWebsite = () => {
                   >
                     <div
                       id="_259_457__SVG"
-                      className="relative h-[38.13px] w-[38.13px]"
+                      className="relative h-[38.13px] w-[38.13px] flex items-center justify-center"
                     >
                       <img
-                        id="_259_458__Vector"
-                        src="/assets/p1/images/vector_12.svg"
-                        alt="Vector"
-                        className="absolute"
-                      />
-                      <img
-                        id="_259_459__Vector"
-                        src="/assets/p1/images/vector_13.svg"
-                        alt="Vector"
-                        className="absolute left-[calc(100%_*_0.39)] top-[calc(100%_*_0.29)]"
-                      />
-                      <img
-                        id="_259_460__Vector"
-                        src="/assets/p1/images/vector_14.svg"
-                        alt="Vector"
-                        className="absolute left-[calc(100%_*_0.31)] top-[calc(100%_*_0.54)]"
+                        id="_259_457__ClientImpactIcon"
+                        src="/assets/p1/images/client_impact_icon.svg"
+                        alt="Client Impact"
+                        className="w-full h-full object-contain"
                       />
                     </div>
 

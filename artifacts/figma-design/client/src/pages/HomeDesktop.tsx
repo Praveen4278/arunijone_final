@@ -8,26 +8,98 @@ import { ServiceShowcaseSection } from "./sections/ServiceShowcaseSection";
 import { SiteFooterSection } from "./sections/SiteFooterSection";
 import { SuccessStoriesSection } from "./sections/SuccessStoriesSection";
 
+const DESIGN_WIDTH = 1440;
+const DESIGN_HEIGHT = 5964;
+
 export const HomeDesktop = (): React.JSX.Element => {
+  const [scale, setScale] = React.useState(1);
+
+  React.useEffect(() => {
+    const update = () => {
+      setScale(document.documentElement.clientWidth / DESIGN_WIDTH);
+    };
+    update();
+    window.addEventListener("resize", update);
+    return () => window.removeEventListener("resize", update);
+  }, []);
+
   return (
-    <div className="flex w-full flex-col items-center gap-[10.2px] bg-white">
-      <header className="mt-2.5 w-full max-w-[1420px] px-2.5 xl:px-0">
-        <img
-          className="h-auto w-full max-w-[1420px]"
-          alt="Heater navigation"
-          src="/figmaAssets/heater-navigation.png"
-        />
-      </header>
-      <main className="flex w-full max-w-[1420px] flex-col items-stretch gap-[50px] px-2.5 xl:px-0">
-        <div id="home"><HeroSection /></div>
-        <div id="about"><QualityCommitmentSection /></div>
-        <div id="service"><ServiceShowcaseSection /></div>
-        <BusinessEcosystemAndCapabilitiesSection />
-        <SuccessStoriesSection />
-        <div id="blog"><LatestInsightsSection /></div>
-        <div id="contact"><ContactInformationSection /></div>
-        <SiteFooterSection />
-      </main>
+    <div style={{ width: "100%", height: `${DESIGN_HEIGHT * scale}px`, overflow: "hidden", position: "relative" }}>
+      <div style={{
+        position: "absolute", width: DESIGN_WIDTH, height: DESIGN_HEIGHT, background: "white",
+        overflow: "hidden",
+        transformOrigin: "top center",
+        left: "50%",
+        top: 0,
+        transform: `translateX(-50%) scale(${scale})`,
+      }}>
+        {/* NavBar: position:absolute, left:10, top:10, w:1420, h:87.76 */}
+        <header style={{ position: 'absolute', left: 10, top: 10, width: 1420, height: 87.76 }}>
+          <div style={{ width: 1420, height: 87.76, background: '#F6F7F9', borderRadius: 22.3551, position: 'relative' }}>
+
+            {/* Logo group */}
+            <div style={{ position: 'absolute', left: 42, top: 'calc(50% - 33px + 0.12px)', width: 66, height: 66 }}>
+              <div style={{ position: 'absolute', width: 66, height: 66, background: '#FFFFFF', borderRadius: 1000 }} />
+              <img
+                src="/figmaAssets/logo.png"
+                alt="Arunijone Logo"
+                style={{ position: 'absolute', width: 49, height: 42, top: 'calc(50% - 21px)', left: 'calc(50% - 24.5px)', borderRadius: 12, objectFit: 'cover' }}
+              />
+            </div>
+
+            {/* Nav links */}
+            <div style={{
+              position: 'absolute', width: 416, height: 47,
+              left: 'calc(50% - 208px)', top: 'calc(50% - 23.5px)',
+              display: 'flex', flexDirection: 'row', alignItems: 'center',
+              padding: '12px 13px', gap: 72,
+            }}>
+              {[
+                { label: 'Home',    href: '#home',    color: '#0161FE', w: 44 },
+                { label: 'About',   href: '#about',   color: '#111111', w: 41 },
+                { label: 'Service', href: '#service', color: '#111111', w: 51 },
+                { label: 'Blogs',   href: '#blog',    color: '#111111', w: 38 },
+              ].map(({ label, href, color, w }) => (
+                <a key={label} href={href} style={{
+                  width: w, height: 23, textDecoration: 'none',
+                  fontFamily: "'SF Pro Display', Helvetica", fontWeight: 400,
+                  fontSize: 16, lineHeight: '22px', color,
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  flexShrink: 0,
+                }}>{label}</a>
+              ))}
+            </div>
+
+            {/* Contact button */}
+            <button style={{
+              position: 'absolute', left: 1272.55, top: 'calc(50% - 26.5px - 0.3px)',
+              width: 115, height: 53,
+              display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center',
+              padding: '15px 26px', gap: 10,
+              background: '#0161FE', borderRadius: 111.786, border: 'none', cursor: 'pointer',
+            }}>
+              <span style={{
+                fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 500,
+                fontSize: 15.7778, lineHeight: '22px', letterSpacing: -0.0788889,
+                color: '#FFFFFF', width: 63, height: 23,
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+              }}>Contact</span>
+            </button>
+
+          </div>
+        </header>
+
+        <main style={{ display: 'flex', flexDirection: 'column', alignItems: 'stretch', gap: 50, paddingTop: 108, marginLeft: 10, marginRight: 10 }}>
+          <HeroSection />
+          <QualityCommitmentSection />
+          <ServiceShowcaseSection />
+          <BusinessEcosystemAndCapabilitiesSection />
+          <SuccessStoriesSection />
+          <LatestInsightsSection />
+          <ContactInformationSection />
+          <SiteFooterSection />
+        </main>
+      </div>
     </div>
   );
 };

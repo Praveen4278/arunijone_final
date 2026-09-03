@@ -22,82 +22,13 @@ const HomeUXUI = () => {
     <>
       <div
         id="_274_925__Home_UXUI"
-        className="relative overflow-hidden bg-white h-[6956.0px] w-full mx-auto"
+        className="relative overflow-hidden bg-white w-full mx-auto"
       >
         <MobBanner />
 
         <div
-          id="_274_935__Frame_281"
-          className="absolute h-[89.00px] w-[calc(100%-16px)] left-[8px] top-[7138.00px]"
-        >
-          <div
-            id="_274_937__Rectangle_15"
-            className="absolute bg-white h-[89.00px] w-full rounded-[72px] left-[0.00px] top-[0.00px]"
-          ></div>
-
-          <div
-            id="_274_938___"
-            className="absolute bg-[rgba(1,97,254,1.00)] border h-[24.00px] w-[76.31px] top-[calc(50%-29.50px)] flex flex-row justify-start items-center flex-nowrap gap-2.5 px-5 py-[17px] rounded-[95px] border-[#0161feff] border-solid left-[20.05px]"
-          >
-            <div
-              id="_274_939__Frame_260"
-              className="relative h-[20.00px] flex flex-row justify-start items-center flex-nowrap gap-2.5"
-            >
-              <div
-                id="_274_940__Frame_259"
-                className="relative w-[78.00px] flex flex-row justify-center items-center flex-nowrap gap-2.5"
-              >
-                <div
-                  id="_274_941__Frame_268"
-                  className="relative h-[24.00px] w-[78.00px]"
-                >
-                  <img
-                    id="_274_942__home"
-                    src="/assets/homemob/images/home.svg"
-                    alt="home"
-                    className="absolute left-[calc(100%_*_0.05)] top-[calc(100%_*_0.13)]"
-                  />
-                  <span
-                    id="_274_943__Home"
-                    className="flex justify-start text-left items-center h-[20.00px] w-[44.00px] absolute left-[34.00px] top-[2.00px]"
-                  >
-                    <span
-                      className="whitespace-nowrap bg-white bg-clip-text text-transparent not-italic text-[16.0px] font-bold leading-[27.63px] capitalize"
-                      style={{
-                        fontFamily: "SF Pro Display",
-                      }}
-                    >
-                      Home
-                    </span>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <img
-            id="_274_944__familiar_face_and_zo"
-            src="/assets/homemob/images/familiar_face_and_zone.svg"
-            alt="familiar_face_and_zone"
-            className="absolute left-[calc(100%_*_0.44)] top-[calc(100%_*_0.38)]"
-          />
-          <img
-            id="_274_946__draw"
-            src="/assets/homemob/images/draw.svg"
-            alt="draw"
-            className="absolute left-[calc(100%_*_0.65)] top-[calc(100%_*_0.40)]"
-          />
-          <img
-            id="_274_948__article_person"
-            src="/assets/homemob/images/article_person.svg"
-            alt="article_person"
-            className="absolute left-[calc(100%_*_0.83)] top-[calc(100%_*_0.40)]"
-          />
-        </div>
-
-        <div
           id="_274_950__Frame_1171277009"
-          className="absolute h-[6778.00px] w-[calc(100%-16px)] flex flex-col justify-start items-center flex-nowrap gap-[30px] left-[8px] top-[78.00px]"
+          className="relative w-[calc(100%-16px)] flex flex-col justify-start items-center flex-nowrap gap-[30px] left-[8px] mt-[78px] mb-[30px]"
         >
           <div
             id="_274_951__Section"
@@ -1218,6 +1149,76 @@ const HomeUXUI = () => {
           <MobFooter />
 
         </div >
+
+        <div
+          id="_274_935__Frame_281"
+          className="relative h-[89.00px] w-[calc(100%-16px)] left-[8px] mt-[10px] mb-[20px]"
+        >
+          <div
+            id="_274_937__Rectangle_15"
+            className="absolute bg-white h-[89.00px] w-full rounded-[72px] left-[0.00px] top-[0.00px]"
+          ></div>
+
+          <div
+            id="_274_938___"
+            className="absolute bg-[rgba(1,97,254,1.00)] border h-[24.00px] w-[76.31px] top-[calc(50%-29.50px)] flex flex-row justify-start items-center flex-nowrap gap-2.5 px-5 py-[17px] rounded-[95px] border-[#0161feff] border-solid left-[20.05px]"
+          >
+            <div
+              id="_274_939__Frame_260"
+              className="relative h-[20.00px] flex flex-row justify-start items-center flex-nowrap gap-2.5"
+            >
+              <div
+                id="_274_940__Frame_259"
+                className="relative w-[78.00px] flex flex-row justify-center items-center flex-nowrap gap-2.5"
+              >
+                <div
+                  id="_274_941__Frame_268"
+                  className="relative h-[24.00px] w-[78.00px]"
+                >
+                  <img
+                    id="_274_942__home"
+                    src="/assets/homemob/images/home.svg"
+                    alt="home"
+                    className="absolute left-[calc(100%_*_0.05)] top-[calc(100%_*_0.13)]"
+                  />
+                  <span
+                    id="_274_943__Home"
+                    className="flex justify-start text-left items-center h-[20.00px] w-[44.00px] absolute left-[34.00px] top-[2.00px]"
+                  >
+                    <span
+                      className="whitespace-nowrap bg-white bg-clip-text text-transparent not-italic text-[16.0px] font-bold leading-[27.63px] capitalize"
+                      style={{
+                        fontFamily: "SF Pro Display",
+                      }}
+                    >
+                      Home
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <img
+            id="_274_944__familiar_face_and_zo"
+            src="/assets/homemob/images/familiar_face_and_zone.svg"
+            alt="familiar_face_and_zone"
+            className="absolute left-[calc(100%_*_0.44)] top-[calc(100%_*_0.38)]"
+          />
+          <img
+            id="_274_946__draw"
+            src="/assets/homemob/images/draw.svg"
+            alt="draw"
+            className="absolute left-[calc(100%_*_0.65)] top-[calc(100%_*_0.40)]"
+          />
+          <img
+            id="_274_948__article_person"
+            src="/assets/homemob/images/article_person.svg"
+            alt="article_person"
+            className="absolute left-[calc(100%_*_0.83)] top-[calc(100%_*_0.40)]"
+          />
+        </div>
+
       </div >
 
     </>

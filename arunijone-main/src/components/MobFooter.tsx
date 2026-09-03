@@ -337,14 +337,14 @@ const MobFooter = () => {
 
           <div
             id="_274_1193__Link"
-            className="absolute h-[30.50px] w-[calc(100%-0.22px)] left-[0.00px] top-[137.25px]"
+            className="absolute h-[30.50px] w-[calc(100%-0.22px)] opacity-70 left-[0.00px] top-[137.25px]"
           >
             <span
               id="_274_1194__FAQ"
               className="flex justify-start text-left items-center h-[19.00px] w-[64.85px] absolute left-[0.00px] top-[4.82px]"
             >
               <span
-                className="whitespace-nowrap bg-white bg-clip-text text-transparent not-italic text-[16.0px] font-semibold leading-[22.00px]"
+                className="whitespace-nowrap bg-white bg-clip-text text-transparent not-italic text-[16.0px] font-normal leading-[22.00px]"
                 style={{
                   fontFamily: "SF Pro Display",
                 }}

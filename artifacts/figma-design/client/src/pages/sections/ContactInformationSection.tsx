@@ -26,45 +26,81 @@ export const ContactInformationSection = (): React.JSX.Element => {
   return (
     <section
       aria-labelledby="contact-information-heading"
-      className="w-full rounded-[20px] bg-[#f6f7f9] px-[41px] py-[50px]"
+      id="contact"
+      style={{ width: 1420, height: 402, background: "#F6F7F9", borderRadius: 20, flexShrink: 0 }}
     >
-      <div className="flex min-h-[302px] flex-col justify-between gap-10 lg:grid lg:grid-cols-[minmax(0,1fr)_652px] lg:gap-10">
-        <header className="flex flex-col items-start">
-          <p className="flex h-[38px] items-center justify-center rounded-[199.27px] border-[0.71px] border-solid border-[#202833] px-[18px] [font-family:'SF_Pro_Display-Medium',Helvetica] text-sm font-medium leading-[18px] tracking-[1.74px] text-[#202833]">
-            CONTACT US
-          </p>
-          <h2
-            id="contact-information-heading"
-            className="mt-[30px] [font-family:'SF_Pro_Display-Regular',Helvetica] text-[40px] font-normal leading-[45.7px] text-[#111111]"
-          >
-            Connect with Arunijone
-          </h2>
-          <p className="mt-2 [font-family:'SF_Pro_Display-Regular',Helvetica] text-base font-normal leading-7 text-[#6d6d6ecc]">
-            Learn about my vision, story, and how I bring ideas to life.
-          </p>
-        </header>
-        <address className="m-0 flex flex-col gap-[13.3px] lg:mt-4">
-          {contactDetails.map((detail) => (
+      {/* Inner frame: 1338×302, left:41, top:50 */}
+      <div style={{ position: "relative", width: 1338, height: 302, left: 41, top: 50 }}>
+
+        {/* Left column: label + heading + subtext */}
+        {/* Badge */}
+        <div style={{
+          position: "absolute", width: 140, height: 38, left: 0, top: 0,
+          border: "0.711772px solid #202833", borderRadius: 199.268,
+          display: "flex", alignItems: "center", justifyContent: "center",
+        }}>
+          <span style={{
+            fontFamily: "'SF Pro Display', Helvetica", fontWeight: 500, fontSize: 14,
+            lineHeight: "18px", letterSpacing: 1.74384, textTransform: "uppercase", color: "#202833",
+          }}>
+            Contact Us
+          </span>
+        </div>
+
+        {/* Heading */}
+        <h2
+          id="contact-information-heading"
+          style={{
+            position: "absolute", width: 463, height: 39, left: 0, top: 68,
+            fontFamily: "'SF Pro Display', Helvetica", fontWeight: 400, fontSize: 40,
+            lineHeight: "46px", color: "#111111", margin: 0,
+          }}
+        >
+          Connect with Arunijone
+        </h2>
+
+        {/* Subtext */}
+        <p style={{
+          position: "absolute", width: 409, left: 1.45, top: 122.66,
+          fontFamily: "'SF Pro Display', Helvetica", fontWeight: 400, fontSize: 16,
+          lineHeight: "28px", color: "rgba(109,109,110,0.8)", margin: 0,
+        }}>
+          Learn about my vision, story, and how I bring ideas to life.
+        </p>
+
+        {/* Right column: 3 contact cards, left:686, stacked with top:66/149/232 */}
+        <address className="not-italic" style={{ position: "absolute", width: 651.95, height: 235.76, left: 686, top: 66 }}>
+          {contactDetails.map((detail, i) => (
             <a
               key={detail.label}
               href={detail.href}
               target={detail.href.startsWith("http") ? "_blank" : undefined}
               rel={detail.href.startsWith("http") ? "noopener noreferrer" : undefined}
-              className="block no-underline"
+              style={{ textDecoration: "none", display: "block" }}
             >
-              <Card className="h-[69.73px] rounded-[15px] border-0 bg-white shadow-none transition-shadow hover:shadow-md">
-                <CardContent className="flex h-full items-center gap-5 p-0 pl-5">
+              <Card style={{
+                position: "absolute", height: 69.73, left: 0, right: 0.05,
+                top: i === 0 ? 0 : i === 1 ? 83.01 : 166.02,
+                background: "#FFFFFF", borderRadius: 15, border: "none", boxShadow: "none",
+              }}>
+                <CardContent className="flex h-full items-center p-0" style={{ paddingLeft: 20.28 }}>
                   <img
-                    className="h-[43px] w-[43px] shrink-0"
+                    src={detail.icon}
                     alt=""
                     aria-hidden="true"
-                    src={detail.icon}
+                    style={{ width: 43.18, height: 43.18, flexShrink: 0 }}
                   />
-                  <div className="flex min-w-0 flex-col justify-center">
-                    <p className="[font-family:'SF_Pro_Display-Light',Helvetica] text-lg font-light leading-[19.9px] text-[#11111199]">
+                  <div style={{ marginLeft: 83.55 - 20.28 - 43.18, display: "flex", flexDirection: "column", justifyContent: "center" }}>
+                    <p style={{
+                      fontFamily: "'SF Pro Display', Helvetica", fontWeight: 300, fontSize: 18,
+                      lineHeight: "20px", color: "rgba(17,17,17,0.6)", margin: 0,
+                    }}>
                       {detail.label}
                     </p>
-                    <p className="mt-1 [font-family:'SF_Pro_Display-Regular',Helvetica] text-xl font-normal leading-[23.2px] text-[#111111]">
+                    <p style={{
+                      fontFamily: "'SF Pro Display', Helvetica", fontWeight: 400, fontSize: 20,
+                      lineHeight: "23px", color: "#111111", margin: 0, marginTop: 4,
+                    }}>
                       {detail.value}
                     </p>
                   </div>

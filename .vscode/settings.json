@@ -1,0 +1,4 @@
+{
+    "jdk.telemetry.enabled": true,
+    "telemetry.editStats.details.enabled": true
+}

@@ -1,0 +1,604 @@
+/* Frame 1171276953 */
+
+width: 376px;
+height: 1158px;
+
+background: #F6F7F9;
+border-radius: 23px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Group 65 */
+
+position: absolute;
+width: 364px;
+height: 1087px;
+left: calc(50% - 364px/2);
+top: 35.47px;
+
+
+
+/* Frame 270 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 25px;
+
+position: absolute;
+width: 364px;
+height: 1087px;
+left: 6px;
+top: 35.47px;
+
+
+
+/* Border */
+
+box-sizing: border-box;
+
+width: 64px;
+height: 32px;
+
+border: 1px solid #202833;
+border-radius: 228.83px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FAQ */
+
+position: absolute;
+width: 29px;
+height: 14px;
+left: calc(50% - 29px/2 + 0.5px);
+top: calc(50% - 14px/2 + 0.53px);
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 114% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 1.716px;
+text-transform: uppercase;
+
+color: #202833;
+
+
+
+/* Frame 1171277004 */
+
+width: 364px;
+height: 683px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1171277003 */
+
+position: absolute;
+width: 300px;
+height: 253px;
+left: 32px;
+top: 0.47px;
+
+
+
+/* Heading 2 → Our Success Stories Real
+Results, Real Impact */
+
+position: absolute;
+width: 300px;
+height: 176px;
+left: 0px;
+top: 0.47px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+/* or 115% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #111111;
+
+
+
+/* Link */
+
+position: absolute;
+width: 124px;
+height: 46px;
+left: calc(50% - 124px/2);
+top: 206.53px;
+
+background: #0161FE;
+border-radius: 95.35px;
+
+
+/* Container */
+
+position: absolute;
+width: 52px;
+left: calc(50% - 52px/2 - 14.58px);
+top: 3.06px;
+bottom: 2.94px;
+
+
+
+/* View All */
+
+position: absolute;
+width: 60.98px;
+height: 16px;
+left: calc(50% - 60.98px/2 + 0.49px);
+top: calc(50% - 16px/2 + 0.07px);
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 13.4px;
+line-height: 20px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.067px;
+
+color: #FFFFFF;
+
+
+
+/* See More */
+
+position: absolute;
+width: 60.98px;
+height: 16px;
+left: calc(50% - 60.98px/2 + 0.49px);
+top: calc(50% - 16px/2 + 60.45px);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13.4px;
+line-height: 20px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.067px;
+
+color: #FFFFFF;
+
+
+
+/* 67a22e78f02af13d518a65dd_arrow%20right.svg */
+
+position: absolute;
+width: 22.88px;
+height: 22.88px;
+left: calc(50% - 22.88px/2 + 30.53px);
+top: calc(50% - 22.88px/2 + 0.17px);
+
+
+
+/* 67a22e78f02af13d518a65dd_arrow%20right.svg fill */
+
+position: absolute;
+width: 22.88px;
+height: 22.88px;
+left: 0px;
+top: 0px;
+
+
+
+/* 67a22e78f02af13d518a65dd_arrow%20right.svg */
+
+position: absolute;
+width: 22.88px;
+height: 22.88px;
+left: calc(50% - 22.88px/2);
+top: calc(50% - 22.88px/2);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 16.66%;
+right: 16.67%;
+top: 24.99%;
+bottom: 25.01%;
+
+border: 1.43px solid #FFFFFF;
+
+
+/* Group 32 */
+
+position: absolute;
+width: 364px;
+height: 395px;
+left: 0px;
+top: 287.53px;
+
+
+
+/* Background */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 24px;
+
+position: absolute;
+width: 347px;
+height: 231px;
+left: calc(50% - 347px/2 - 1.5px);
+top: 451.53px;
+
+background: #FFFFFF;
+border-radius: 15px;
+
+
+/* This project focuses on designing a user-centered digital platform that combines pilgrimage services and travel planning for Rameswaram. The goal is to create a seamless experience for devotees and travelers by simplifying temple services, travel bookings, and local guidance through an intuitive and respectful interface. */
+
+width: 327px;
+height: 211px;
+
+font-family: 'SF Pro Rounded';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+/* or 187% */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #6D6D6E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Paragraph+Background */
+
+position: absolute;
+width: 364px;
+height: 149px;
+left: 0px;
+top: 287.53px;
+
+background: #0161FE;
+border-radius: 15px;
+
+
+/* Frame 189 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 131px;
+height: 57px;
+left: calc(50% - 131px/2);
+top: 8.47px;
+
+
+
+/* Overview */
+
+width: 111px;
+height: 37px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height, or 130% */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 188 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 342px;
+height: 75px;
+left: calc(50% - 342px/2);
+top: 65.47px;
+
+
+
+/* What is the My Rameswaram Trip UX/UI project about? */
+
+width: 322px;
+height: 55px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 300;
+font-size: 18.1px;
+line-height: 27px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 33 */
+
+width: 364px;
+height: 149px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Paragraph+Background */
+
+position: absolute;
+width: 364px;
+height: 149px;
+left: 0px;
+top: 765px;
+
+background: #FFFFFF;
+border-radius: 15px;
+
+
+/* Frame 189 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 252px;
+height: 57px;
+left: calc(50% - 252px/2 + 0.5px);
+top: 8.47px;
+
+
+
+/* Platform & Booking */
+
+width: 232px;
+height: 37px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height, or 130% */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 188 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 342px;
+height: 75px;
+left: calc(50% - 342px/2);
+top: 65.47px;
+
+
+
+/* What UX research methods were used in this project? */
+
+width: 322px;
+height: 55px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 300;
+font-size: 18.1px;
+line-height: 27px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(17, 17, 17, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 34 */
+
+width: 364px;
+height: 148px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Paragraph+Background */
+
+position: absolute;
+width: 364px;
+height: 148px;
+left: 0px;
+top: 939px;
+
+background: #FFFFFF;
+border-radius: 15px;
+
+
+/* Frame 189 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 223px;
+height: 57px;
+left: calc(50% - 223px/2 + 0.5px);
+top: 8px;
+
+
+
+/* Travel & Logistics */
+
+width: 203px;
+height: 37px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 27.2px;
+line-height: 36px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 188 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 342px;
+height: 75px;
+left: calc(50% - 342px/2);
+top: 65px;
+
+
+
+/* What key user problems did the research uncover? */
+
+width: 322px;
+height: 55px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 300;
+font-size: 18.1px;
+line-height: 27px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(17, 17, 17, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;

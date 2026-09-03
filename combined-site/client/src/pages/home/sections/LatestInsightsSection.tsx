@@ -12,17 +12,17 @@ export const LatestInsightsSection = (): React.JSX.Element => {
         flexDirection: "column",
         alignItems: "flex-start",
         padding: 0,
-        gap: 25,
+        gap: 30,
         position: "relative",
         width: 1420,
-        height: 849,
+        height: 923,
         boxSizing: "border-box",
         background: "#F6F7F9",
         borderRadius: 20.4131,
       }}
     >
       {/* Inner frame: left:42, top:50 */}
-      <div style={{ position: "absolute", left: 42, top: 50, display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 25 }}>
+      <div style={{ position: "absolute", left: 42, top: 50, display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 30 }}>
       {/* Border — badge */}
       <div
         style={{
@@ -66,7 +66,7 @@ export const LatestInsightsSection = (): React.JSX.Element => {
           padding: 0,
           gap: 726,
           width: 1335,
-          height: 55,
+          height: 61,
           flexShrink: 0,
           alignSelf: "stretch",
         }}
@@ -74,8 +74,8 @@ export const LatestInsightsSection = (): React.JSX.Element => {
         {/* Heading */}
         <span
           style={{
-            width: 475,
-            height: 46,
+            width: 302,
+            height: 61,
             fontFamily: "'SF Pro Display', Helvetica",
             fontStyle: "normal",
             fontWeight: 400,
@@ -83,16 +83,17 @@ export const LatestInsightsSection = (): React.JSX.Element => {
             lineHeight: "38px",
             display: "flex",
             alignItems: "center",
+            flexWrap: "wrap",
             color: "#111111",
             flexShrink: 0,
           }}
         >
-          Latest insights and trends
+          Latest insights &amp;&nbsp;trends
         </span>
 
         {/* View All button */}
         <div
-          onClick={() => navigate("/blog")}
+          onClick={() => { navigate("/blog"); window.scrollTo(0, 0); }}
           style={{
             display: "flex",
             flexDirection: "row",
@@ -163,12 +164,14 @@ export const LatestInsightsSection = (): React.JSX.Element => {
       >
         {/* Card 1 — My Rameswaram Trip */}
         <div
+          onClick={() => { navigate("/blog-details"); window.scrollTo(0, 0); }}
           style={{
             position: "relative",
             width: 661,
             height: 613,
             borderRadius: 20.4131,
             flexShrink: 0,
+            cursor: "pointer",
           }}
         >
           {/* Image Box */}
@@ -181,7 +184,7 @@ export const LatestInsightsSection = (): React.JSX.Element => {
               left: "calc(50% - 661px/2 - 0.45px)",
               top: "calc(50% - 436px/2 - 86.31px)",
               background: "#FEFEFE",
-              border: "0.5px solid #E5E5E5",
+              border: "0.1px solid rgba(142,131,131,0.3)",
               borderRadius: 23.6864,
               overflow: "hidden",
             }}
@@ -222,9 +225,9 @@ export const LatestInsightsSection = (): React.JSX.Element => {
             style={{
               position: "absolute",
               width: 651,
-              height: 66,
+              height: 113,
               left: "calc(50% - 651px/2)",
-              top: 469,
+              top: 469.25,
               fontFamily: "'SF Pro Display', Helvetica",
               fontWeight: 400,
               fontSize: 32,
@@ -235,7 +238,7 @@ export const LatestInsightsSection = (): React.JSX.Element => {
               color: "rgba(17,17,17,0.8)",
             }}
           >
-            My Rameswaram Trip: Book Pandits &amp; Temple Services with Our New Website
+            A Complete Guide to Planning a Seamless Rameswaram Pilgrimage with MyRameswaramTrip
           </div>
 
           {/* Frame 1171276961 — bottom row */}
@@ -245,7 +248,7 @@ export const LatestInsightsSection = (): React.JSX.Element => {
               width: 661,
               height: 46,
               left: 0,
-              top: 569,
+              top: 614,
             }}
           >
             {/* Frame 126 */}
@@ -265,7 +268,7 @@ export const LatestInsightsSection = (): React.JSX.Element => {
             >
               {/* Background button */}
               <div
-                onClick={() => navigate("/blog")}
+                onClick={(e) => { e.stopPropagation(); navigate("/blog-details"); window.scrollTo(0, 0); }}
                 style={{
                   display: "flex",
                   flexDirection: "row",
@@ -293,13 +296,9 @@ export const LatestInsightsSection = (): React.JSX.Element => {
             </div>
           </div>
         </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       </div>
     </div>
   );
 };
+

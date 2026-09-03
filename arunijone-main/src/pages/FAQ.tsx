@@ -19,16 +19,10 @@ const FAQ = () => {
 
       {/* ====== MOBILE VIEW ====== */}
       <div className="md:hidden bg-white w-full overflow-x-hidden">
-        <div
-          className="relative overflow-hidden bg-white mx-auto"
-          style={{ height: 7800, width: "100%" }}
-        >
+        <div className="relative overflow-hidden bg-white mx-auto w-full min-h-screen">
           <MobBanner iconSrc="/assets/faqmob/images/group.svg" />
 
-          <div
-            className="absolute flex flex-col items-end gap-[25px]"
-            style={{ height: 7650, width: "calc(100% - 16px)", left: 8, top: 78 }}
-          >
+          <div className="absolute flex flex-col items-end gap-[25px] w-[calc(100%-16px)] left-[8px] top-[78px] min-h-[7650px]">
             <div
               className="relative overflow-hidden w-full rounded-[22.88px]"
               style={{ height: 592, background: "#F6F7F9" }}
@@ -129,7 +123,7 @@ const FAQ = () => {
                 <div
                   key={idx}
                   className="relative w-full rounded-[23px]"
-                  style={{ background: "#F6F7F9", minHeight: sec.isFirst ? 1280 : idx === 3 ? 1500 : 1280 }}
+                  style={{ background: "#F6F7F9", minHeight: sec.isFirst ? 1280 : "auto" }}
                 >
                   <div
                     className="absolute flex flex-col items-center gap-[25px]"

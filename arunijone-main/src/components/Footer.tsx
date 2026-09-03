@@ -289,7 +289,7 @@ const Footer: React.FC = () => {
 
         <div
           id="Footer__Link_FAQ"
-          className="absolute h-[40.80px] w-[160px] right-[50.00px] top-[213.23px]"
+          className="absolute h-[40.80px] w-[160px] opacity-70 right-[50.00px] top-[213.23px]"
         >
           <span
             id="Footer__FAQ"
