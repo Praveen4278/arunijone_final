@@ -404,165 +404,39 @@ const FAQ = () => {
                         </div>
                       </div>
 
-                      <div id="_493_309__Group_36" className="relative w-full flex flex-col gap-[25px]">
-                        <div
-                          id="_493_320__Frame_1171277007"
-                          className="relative h-auto w-full flex flex-col justify-start items-start flex-nowrap gap-2.5"
-                        >
-                          <div
-                            id="_493_321__Paragraph_Background"
-                            className="relative bg-[rgba(1,97,254,1.00)] w-full flex flex-row justify-start items-center flex-nowrap px-[15px] py-[6px] rounded-[20px]"
-                            style={{ height: 69, boxSizing: "border-box" }}
-                          >
-                            <div
-                              id="_493_322__Frame_189"
-                              className="relative h-[37.00px] flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
-                              style={{ width: 420, flexShrink: 0 }}
-                            >
-                              <span
-                                id="_493_323__Overview"
-                                className="flex justify-start text-left items-center h-[37.00px] w-[108.00px] relative"
-                              >
-                                <span
-                                  className="whitespace-nowrap bg-white bg-clip-text text-transparent not-italic text-[27.200000762939453px] font-normal leading-[36.27px] capitalize"
-                                  style={{ fontFamily: "SF Pro Display" }}
-                                >
-                                  Overview
-                                </span>
-                              </span>
+                      <div id="_493_309__Group_36" style={{ position: "relative", width: "100%", display: "flex", flexDirection: "column", gap: 25 }}>
+                        {/* Active row + answer */}
+                        <div style={{ position: "relative", width: "100%", display: "flex", flexDirection: "column", gap: 10 }}>
+                          <div style={{ display: "flex", flexDirection: "row", alignItems: "center", padding: "6px 15px", width: "100%", height: 69, background: "#0161FE", borderRadius: 20, boxSizing: "border-box", position: "relative" }}>
+                            <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-start", padding: "10px", width: 420, flexShrink: 0 }}>
+                              <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 27.2, lineHeight: "36px", color: "#FFFFFF", textTransform: "capitalize", whiteSpace: "nowrap" }}>Overview</span>
                             </div>
-
-                            <div
-                              id="_493_324__Frame_188"
-                              className="absolute flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
-                              style={{ left: 750, right: 25, top: "50%", transform: "translateY(-50%)" }}
-                            >
-                              <div
-                                id="_493_325__Frame_1171277006"
-                                className="relative h-[30.00px] flex flex-row justify-center items-center flex-nowrap gap-2.5"
-                              >
-                                <span
-                                  id="_493_326__What_is_the_My_Rames"
-                                  className="flex justify-start text-left items-center h-[30.00px] w-[446.00px] relative"
-                                >
-                                  <span
-                                    className="whitespace-nowrap bg-white bg-clip-text text-transparent not-italic text-[18.0px] font-normal leading-[30.00px]"
-                                    style={{ fontFamily: "SF Pro Display" }}
-                                  >
-                                    What is the My Rameswaram Trip UX/UI project
-                                    about?
-                                  </span>
-                                </span>
-                              </div>
+                            <div style={{ position: "absolute", left: 750, right: 25, display: "flex", alignItems: "center", padding: "10px 10px 10px 0" }}>
+                              <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 18, lineHeight: "30px", color: "#FFFFFF", whiteSpace: "nowrap" }}>What is the My Rameswaram Trip UX/UI project about?</span>
                             </div>
                           </div>
-
-                          <div
-                            id="_493_327__Background"
-                            className="relative bg-white h-auto min-h-[128px] w-full flex flex-row justify-start items-center flex-nowrap gap-6 p-[22px] rounded-[20px]"
-                          >
-                            <span
-                              id="_493_328__This_project_focuses"
-                              className="flex justify-start text-left items-center w-full relative"
-                            >
-                              <span
-                                className="bg-[rgba(109,109,110,0.80)] bg-clip-text text-transparent not-italic text-[20.0px] font-normal leading-[28.00px] capitalize"
-                                style={{ fontFamily: "SF Pro Display" }}
-                              >
-                                This project focuses on designing a user-centered
-                                digital platform that combines pilgrimage services
-                                and travel planning for Rameswaram. The goal is to
-                                create a seamless experience for devotees and
-                                travelers by simplifying temple services, travel
-                                bookings, and local guidance through an intuitive
-                                and respectful interface.
-                              </span>
+                          <div style={{ position: "relative", width: "calc(100% - 20px)", left: 10, background: "#FFFFFF", borderRadius: 20, padding: 22, boxSizing: "border-box", display: "flex", alignItems: "center", minHeight: 128 }}>
+                            <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 20, lineHeight: "28px", color: "rgba(109,109,110,0.8)", textTransform: "capitalize" }}>
+                              This project focuses on designing a user-centered digital platform that combines pilgrimage services and travel planning for Rameswaram. The goal is to create a seamless experience for devotees and travelers by simplifying temple services, travel bookings, and local guidance through an intuitive and respectful interface.
                             </span>
                           </div>
                         </div>
-
-                        <div
-                          id="_493_315__Paragraph_Background"
-                          className="relative bg-white w-full flex flex-row justify-start items-center flex-nowrap px-[15px] py-[6px] rounded-[20px]"
-                          style={{ height: 69, boxSizing: "border-box" }}
-                        >
-                          <div
-                            id="_493_316__Frame_189"
-                            className="relative h-[37.00px] flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
-                            style={{ width: 420, flexShrink: 0 }}
-                          >
-                            <span
-                              id="_493_317__UX_Research_Approach"
-                              className="flex justify-start text-left items-center h-[37.00px] w-[266.00px] relative"
-                            >
-                              <span
-                                className="whitespace-nowrap bg-black bg-clip-text text-transparent not-italic text-[27.200000762939453px] font-normal leading-[36.27px] capitalize"
-                                style={{ fontFamily: "SF Pro Display" }}
-                              >
-                                UX Research Approach
-                              </span>
-                            </span>
+                        {/* Row 2 */}
+                        <div style={{ display: "flex", flexDirection: "row", alignItems: "center", padding: "6px 15px", width: "100%", height: 69, background: "#FFFFFF", borderRadius: 20, boxSizing: "border-box", position: "relative" }}>
+                          <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-start", padding: "10px", width: 420, flexShrink: 0 }}>
+                            <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 27.2, lineHeight: "36px", color: "#000000", textTransform: "capitalize", whiteSpace: "nowrap" }}>UX Research Approach</span>
                           </div>
-
-                          <div
-                            id="_493_318__Frame_188"
-                            className="absolute flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
-                            style={{ left: 750, right: 25, top: "50%", transform: "translateY(-50%)" }}
-                          >
-                            <span
-                              id="_493_319__What_UX_research_met"
-                              className="flex justify-start text-left items-center h-[30.00px] w-[532.00px] relative"
-                            >
-                              <span
-                                className="whitespace-nowrap bg-[rgba(17,17,17,0.60)] bg-clip-text text-transparent not-italic text-[18.0px] font-normal leading-[30.00px]"
-                                style={{ fontFamily: "SF Pro Display" }}
-                              >
-                                What UX research methods were used in this
-                                project?
-                              </span>
-                            </span>
+                          <div style={{ position: "absolute", left: 750, right: 25, display: "flex", alignItems: "center", padding: "10px 10px 10px 0" }}>
+                            <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 18, lineHeight: "30px", color: "rgba(17,17,17,0.6)", whiteSpace: "nowrap" }}>What UX research methods were used in this project?</span>
                           </div>
                         </div>
-
-                        <div
-                          id="_493_310__Paragraph_Background"
-                          className="relative bg-white w-full flex flex-row justify-start items-center flex-nowrap px-[15px] py-[6px] rounded-[20px]"
-                          style={{ height: 69, boxSizing: "border-box" }}
-                        >
-                          <div
-                            id="_493_311__Frame_189"
-                            className="relative h-[37.00px] flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
-                            style={{ width: 420, flexShrink: 0 }}
-                          >
-                            <span
-                              id="_493_312__User_Problems_Identi"
-                              className="flex justify-start text-left items-center h-[37.00px] w-[278.00px] relative"
-                            >
-                              <span
-                                className="whitespace-nowrap bg-black bg-clip-text text-transparent not-italic text-[27.200000762939453px] font-normal leading-[36.27px] capitalize"
-                                style={{ fontFamily: "SF Pro Display" }}
-                              >
-                                User Problems Identified
-                              </span>
-                            </span>
+                        {/* Row 3 */}
+                        <div style={{ display: "flex", flexDirection: "row", alignItems: "center", padding: "6px 15px", width: "100%", height: 69, background: "#FFFFFF", borderRadius: 20, boxSizing: "border-box", position: "relative" }}>
+                          <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-start", padding: "10px", width: 420, flexShrink: 0 }}>
+                            <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 27.2, lineHeight: "36px", color: "#000000", textTransform: "capitalize", whiteSpace: "nowrap" }}>User Problems Identified</span>
                           </div>
-
-                          <div
-                            id="_493_313__Frame_188"
-                            className="absolute flex flex-row justify-center items-center flex-nowrap gap-2.5 p-2.5"
-                            style={{ left: 750, right: 25, top: "50%", transform: "translateY(-50%)" }}
-                          >
-                            <span
-                              id="_493_314__What_key_user_proble"
-                              className="flex justify-start text-left items-center h-[30.00px] w-[517.00px] relative"
-                            >
-                              <span
-                                className="whitespace-nowrap bg-[rgba(17,17,17,0.60)] bg-clip-text text-transparent not-italic text-[18.0px] font-normal leading-[30.00px]"
-                                style={{ fontFamily: "SF Pro Display" }}
-                              >
-                                What key user problems did the research uncover?
-                              </span>
-                            </span>
+                          <div style={{ position: "absolute", left: 750, right: 25, display: "flex", alignItems: "center", padding: "10px 10px 10px 0" }}>
+                            <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 18, lineHeight: "30px", color: "rgba(17,17,17,0.6)", whiteSpace: "nowrap" }}>What key user problems did the research uncover?</span>
                           </div>
                         </div>
                       </div>
@@ -583,7 +457,7 @@ const FAQ = () => {
       <MobilePageWrapper designHeight={0}>
         <div className="bg-white w-full">
           <MobBanner iconSrc="/assets/faqmob/images/group.svg" />
-          <div className="w-[calc(100%-16px)] flex flex-col gap-[25px] mx-auto pt-[20px] pb-[20px]">
+          <div className="w-[calc(100%-16px)] flex flex-col gap-[25px] mx-auto pt-[3px] pb-[20px]">
 
             {/* ── 1. HERO ── */}
             <div className="relative overflow-hidden w-full rounded-[22.88px] bg-[#F6F7F9]" style={{ height: 592 }}>

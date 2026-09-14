@@ -41,7 +41,7 @@ const faq: PillFaqTexts = {
   },
 };
 
-export default function DevelopmentSection() {
+export default function DevelopmentSection({ logoSrc }: { logoSrc?: string }) {
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%", gap: 50 }}>
       <div
@@ -665,7 +665,7 @@ export default function DevelopmentSection() {
 
       </div>
       </div>
-      <PillMilestoneSection {...milestone} />
+      <PillMilestoneSection {...milestone} mockupImageSrc={logoSrc ?? milestone.mockupImageSrc} />
       <PillQuoteSection {...quote} />
       <PillFaqSection {...faq} />
     </div>

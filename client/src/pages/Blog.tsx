@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLocation, Link } from "wouter";
 import DesktopPageWrapper from "../components/DesktopPageWrapper";
 import MobBanner from "../components/MobBanner";
@@ -10,6 +10,7 @@ import { BusinessEcosystemAndCapabilitiesSection } from "./about/sections/Busine
 
 const BlogDesktop = () => {
   const [, navigate] = useLocation();
+  const [desktopEco, setDesktopEco] = useState("products");
 
   return (
     <>
@@ -97,8 +98,9 @@ const BlogDesktop = () => {
             ></div>
           </div>
 
-          <BusinessEcosystemAndCapabilitiesSection />
+          <BusinessEcosystemAndCapabilitiesSection onEcoChange={(s) => setDesktopEco(s.toLowerCase())} showServiceMeta serviceBadge="BLOGS" serviceHeading={<>Insights, Ideas &amp; Stories<br />That Matter</>} />
 
+          {desktopEco === "products" && (
           <div
             id="_236_960__Big_box"
             style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "50px 49px 55px", gap: 60, width: 1420, background: "#F6F7F9", borderRadius: 23.6864, flexShrink: 0, alignSelf: "stretch" }}
@@ -164,6 +166,7 @@ const BlogDesktop = () => {
               </div>
             </div>
           </div>
+          )}
 
           <SiteFooterSection />
           <div style={{ height: 10 }} />
@@ -173,7 +176,7 @@ const BlogDesktop = () => {
       <MobilePageWrapper designHeight={0}>
       <div className="bg-white w-full">
         <MobBanner iconSrc="/assets/homemob/images/group_5.svg" />
-        <div className="w-[calc(100%-16px)] flex flex-col gap-[25px] mx-auto pt-[20px] pb-[20px]">
+        <div className="w-[calc(100%-16px)] flex flex-col gap-[25px] mx-auto pt-[3px] pb-[20px]">
 
           {/* HERO */}
           <div className="relative overflow-hidden bg-[#F6F7F9] w-full rounded-[22px] flex flex-col items-center pt-[24px] pb-[24px] gap-[16px]">
@@ -234,7 +237,7 @@ const BlogDesktop = () => {
           {/* BLOG CARDS */}
           <div
             className="relative w-full rounded-[22.88px]"
-            style={{ height: 794, background: "#F6F7F9" }}
+            style={{ height: 835, background: "#F6F7F9" }}
           >
             {/* Group 19: badge + heading + description — left:9, top:38, w:359, h:293 */}
             <div style={{ position: "absolute", width: 359, height: 293, left: 9, top: 38 }}>
@@ -273,13 +276,15 @@ const BlogDesktop = () => {
                 </div>
                 {/* Explore button row */}
                 <div style={{ width: 360, height: 40.1, flexShrink: 0, position: "relative" }}>
-                  <div style={{ position: "absolute", width: 116, height: 40.1, left: "calc(50% - 58px)", top: -0.08, display: "flex", flexDirection: "row", alignItems: "center", gap: 15 }}>
+                  {/* Frame 274 */}
+                  <div style={{ position: "absolute", width: 116, height: 40.1, left: "calc(50% - 58px)", top: -0.08, display: "flex", flexDirection: "row", alignItems: "center", padding: 0, gap: 15 }}>
+                    {/* Group 3 / Background */}
                     <div
                       onClick={() => { navigate('/blog-details'); window.scrollTo(0, 0); }}
-                      style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-end", padding: "11.33px 18.31px", gap: 3.49, width: 115.74, height: 40.1, background: "#0161FE", borderRadius: 86.02, cursor: "pointer", boxSizing: "border-box" }}
+                      style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-end", padding: "11.3316px 18.305px", gap: 3.49, width: 115.74, height: 40.1, background: "#0161FE", borderRadius: 86.0175, cursor: "pointer", boxSizing: "border-box", flexShrink: 0 }}
                     >
-                      <span style={{ fontFamily: "SF Pro Display", fontWeight: 500, fontSize: 13.78, lineHeight: "21px", letterSpacing: -0.068, color: "#FFFFFF", width: 58.4, height: 17.43, display: "flex", alignItems: "center", textAlign: "center" }}>Explore</span>
-                      <img src="/assets/bl/images/vector_10.svg" alt="" style={{ width: 16.51, height: 17.34 }} />
+                      <span style={{ fontFamily: "SF Pro Display", fontStyle: "normal", fontWeight: 500, fontSize: 13.7757, lineHeight: "21px", display: "flex", alignItems: "center", textAlign: "center", letterSpacing: -0.0684557, color: "#FFFFFF", width: 58.4, height: 17.43, flexShrink: 0 }}>Explore</span>
+                      <img src="/assets/blogs/images/vector_14.svg" alt="" style={{ width: 16.51, height: 17.34, flexShrink: 0 }} />
                     </div>
                   </div>
                 </div>

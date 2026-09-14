@@ -43,7 +43,7 @@ const faq: PillFaqTexts = {
   },
 };
 
-export default function DesignSection() {
+export default function DesignSection({ logoSrc }: { logoSrc?: string }) {
   return (
     <div
       style={{
@@ -621,7 +621,7 @@ export default function DesignSection() {
         </div>
       </div>
       </div>
-      <PillMilestoneSection {...milestone} />
+      <PillMilestoneSection {...milestone} mockupImageSrc={logoSrc ?? milestone.mockupImageSrc} />
       <PillQuoteSection {...quote} />
       <PillFaqSection {...faq} />
     </div>

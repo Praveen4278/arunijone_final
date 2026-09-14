@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+  <rect width="180" height="180" rx="24" fill="#EEF3FF"/>
+  <rect x="40" y="40" width="100" height="100" rx="16" fill="#0161FE" opacity="0.15"/>
+  <rect x="60" y="65" width="60" height="50" rx="8" fill="none" stroke="#0161FE" stroke-width="5"/>
+  <path d="M70 85 L110 85 M70 95 L100 95" stroke="#0161FE" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="90" cy="55" r="10" fill="#0161FE" opacity="0.3"/>
+  <text x="90" y="150" text-anchor="middle" font-family="SF Pro Display, sans-serif" font-size="13" fill="#0161FE" font-weight="500">Service 6</text>
+</svg>

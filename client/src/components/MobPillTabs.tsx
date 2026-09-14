@@ -28,16 +28,16 @@ const pillLabel: Record<PillTab, string> = {
 function Pill({ id, width, height, active, onChange }: {
   id: PillTab; width: number; height: number; active: boolean; onChange: (t: PillTab) => void;
 }) {
-  const iconContainerSize = height === 60.6 ? 44 : 43.5;
-  const iconBorderRadius = height === 60.6 ? 38.1 : 37.7;
-  const padding = height === 60.6 ? "8.3px 18.7788px" : "8.25px 17.6248px";
-  const gap = height === 60.6 ? 18.78 : 17.62;
+  const iconContainerSize = 43.72;
+  const iconBorderRadius = 38;
+  const padding = "17px 28px";
+  const gap = 14;
   const br = height === 60.6 ? 18.5334 : 17.3944;
   return (
     <div
       onClick={() => onChange(id)}
       style={{
-        cursor: "pointer", display: "flex", flexDirection: "row", alignItems: "center",
+        cursor: "pointer", display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center",
         padding, gap, width, height, boxSizing: "border-box", flexShrink: 0,
         background: active ? "#0161FE" : "#FFFFFF",
         border: active ? "none" : "0.1px solid rgba(142,131,131,0.3)",

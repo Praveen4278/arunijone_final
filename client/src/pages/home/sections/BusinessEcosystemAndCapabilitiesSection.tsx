@@ -151,8 +151,13 @@ const expertiseItems: PillItem[] = [
   { label: "Marketing",    iconName: "marketing" },
 ];
 
-export const BusinessEcosystemAndCapabilitiesSection = (): React.JSX.Element => {
+export const BusinessEcosystemAndCapabilitiesSection = ({ onChange }: { onChange?: (val: string) => void }): React.JSX.Element => {
   const [selectedEco, setSelectedEco] = useState("Products");
+
+  const handleSelect = (val: string) => {
+    setSelectedEco(val);
+    onChange?.(val);
+  };
 
   return (
     <div style={{ width: 1420, height: 367, display: "flex", flexDirection: "column", gap: 50, flexShrink: 0 }}>
@@ -163,7 +168,7 @@ export const BusinessEcosystemAndCapabilitiesSection = (): React.JSX.Element => 
         titleWidth={466}
         items={ecosystemItems}
         selected={selectedEco}
-        onSelect={setSelectedEco}
+        onSelect={handleSelect}
         height={367}
       />
     </div>

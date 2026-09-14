@@ -44,7 +44,7 @@ const faq: PillFaqTexts = {
   },
 };
 
-export default function MarketingSection() {
+export default function MarketingSection({ logoSrc }: { logoSrc?: string }) {
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%", gap: 50 }}>
       <div
@@ -219,7 +219,7 @@ export default function MarketingSection() {
           </div>
         </div>
       </div>
-      <PillMilestoneSection {...milestone} />
+      <PillMilestoneSection {...milestone} mockupImageSrc={logoSrc ?? milestone.mockupImageSrc} />
       <PillQuoteSection {...quote} />
       <PillFaqSection {...faq} />
     </div>

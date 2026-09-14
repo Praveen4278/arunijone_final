@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useLocation } from "wouter";
 
 const pillBase: React.CSSProperties = {
   display: "flex", flexDirection: "row", alignItems: "center",
@@ -151,9 +152,23 @@ const expertiseItems: PillItem[] = [
   { label: "Marketing",    iconName: "marketing" },
 ];
 
-export const BusinessEcosystemAndCapabilitiesSection = ({ expertiseOnly = false }: { expertiseOnly?: boolean }): React.JSX.Element => {
+// Service cards shown below the ecosystem pills when "Services" is active
+const serviceCards = [
+  { route: "/portfolio5", img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_1.svg", alt: "Service 1" },
+  { route: "/portfolio6", img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_2_resora.svg", alt: "Service 2" },
+  { route: "/portfolio7", img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_3.png", alt: "Service 3" },
+  { route: "/portfolio8", img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_4.png", alt: "Service 4" },
+];
+
+export const BusinessEcosystemAndCapabilitiesSection = ({ expertiseOnly = false, onEcoChange, showServiceMeta = false, showServiceCards = true, serviceBadge = "OUR SERVICES", serviceHeading }: { expertiseOnly?: boolean; onEcoChange?: (s: string) => void; showServiceMeta?: boolean; showServiceCards?: boolean; serviceBadge?: string; serviceHeading?: React.ReactNode }): React.JSX.Element => {
   const [selectedEco, setSelectedEco] = useState("Products");
   const [selectedExp, setSelectedExp] = useState("Research");
+  const [, navigate] = useLocation();
+
+  const handleEcoChange = (s: string) => {
+    setSelectedEco(s);
+    onEcoChange?.(s);
+  };
 
   if (expertiseOnly) {
     return (
@@ -171,15 +186,128 @@ export const BusinessEcosystemAndCapabilitiesSection = ({ expertiseOnly = false 
   }
 
   return (
-    <SectionPanel
-      badge="OUR ECOSYSTEM"
-      badgeWidth={174}
-      title="Explore Our Business Ecosystem"
-      titleWidth={466}
-      items={ecosystemItems}
-      selected={selectedEco}
-      onSelect={setSelectedEco}
-      height={367}
-    />
+    <>
+      <SectionPanel
+        badge="OUR ECOSYSTEM"
+        badgeWidth={174}
+        title="Explore Our Business Ecosystem"
+        titleWidth={466}
+        items={ecosystemItems}
+        selected={selectedEco}
+        onSelect={handleEcoChange}
+        height={367}
+      />
+
+      {/* Services content panel — shown when Services pill is active */}
+      {selectedEco === "Services" && showServiceCards && (
+        <section style={{
+          width: 1420, background: "#F6F7F9", borderRadius: 20.4131,
+          flexShrink: 0, padding: "50px 49px", boxSizing: "border-box",
+        }}>
+          {/* Badge */}
+          <div style={{
+            display: "inline-flex", flexDirection: "row", justifyContent: "center",
+            alignItems: "center", padding: "9px 20px", gap: 10,
+            height: 38,
+            border: "0.969561px solid #202833", borderRadius: 236.844,
+            boxSizing: "border-box", marginBottom: 30,
+          }}>
+            <span style={{
+              fontFamily: "'SF Pro Display'", fontWeight: 500, fontSize: 14,
+              lineHeight: "20px", letterSpacing: "2.07195px", textTransform: "uppercase",
+              color: "#202833", whiteSpace: "nowrap",
+            }}>{ serviceBadge }</span>
+          </div>
+
+          {/* Heading + description row */}
+          <div style={{
+            display: "flex", flexDirection: "row", justifyContent: "space-between",
+            alignItems: "flex-start", marginBottom: 40, width: "100%",
+          }}>
+            <span style={{
+              fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 35,
+              lineHeight: "42px", color: "#111111",
+              display: "flex", flexDirection: "column", alignItems: "flex-start",
+            }}>
+              {serviceHeading ?? (
+                <>
+                  <span style={{ whiteSpace: "nowrap" }}>Tailored Services.</span>
+                  <span>Built for Your Business.</span>
+                </>
+              )}
+            </span>
+            <span style={{
+              fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 16,
+              lineHeight: "23.69px", color: "rgba(109,109,110,0.80)", width: 404,
+            }}>
+              Discover the full range of services crafted to support your vision — from UX/UI design and digital marketing to brand identity and equity research. Each engagement is built to deliver measurable results.
+            </span>
+          </div>
+
+          {/* Row 1 — 3 logos, Row 2 — 1 logo */}
+          <div style={{ display: "flex", flexDirection: "column", gap: 20, width: 1322 }}>
+
+            {/* Row 1: cards 1, 2, 3 */}
+            <div style={{ display: "flex", flexDirection: "row", alignItems: "flex-start", gap: 20 }}>
+              {[
+                { route: "/portfolio5", img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_1.svg", imgW: 161.68, imgH: 161, title: "Building Better Music Experiences Through Smart UX/UI Design" },
+                { route: "/portfolio6", img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_2_resora.svg", imgW: 213.3, imgH: 61.44, title: "Designing Seamless Hotel Booking Experiences for Modern Travelers" },
+                { route: "/portfolio7", img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_3.png", imgW: 243, imgH: 90, title: "Digital Marketing Strategies That Drive Business Growth" },
+              ].map((card) => (
+                <div key={card.route} style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 20, width: 427, flexShrink: 0 }}>
+                  {/* Image box */}
+                  <div onClick={() => { navigate(card.route); window.scrollTo(0, 0); }} style={{ width: 426.67, height: 320, background: "#FFFFFF", borderRadius: 17.3813, cursor: "pointer", overflow: "hidden", flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    <img src={card.img} alt={card.title} style={{ width: card.imgW, height: card.imgH, objectFit: "contain" }} />
+                  </div>
+                  {/* Title + Explore button — blog page only */}
+                  {showServiceMeta && (
+                  <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", padding: "0px 10px", gap: 15, width: 427 }}>
+                    <span style={{ width: 407, fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 25, lineHeight: "35px", textAlign: "center", color: "rgba(17,17,17,0.8)" }}>{card.title}</span>
+                    <div style={{ width: 427, display: "flex", justifyContent: "center" }}>
+                      <button
+                        onClick={() => { navigate(card.route); window.scrollTo(0, 0); }}
+                        style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", padding: "13px 21px", gap: 4, width: 132.78, height: 46, background: "#0161FE", borderRadius: 98.6819, border: "none", cursor: "pointer" }}
+                      >
+                        <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 500, fontSize: 16, lineHeight: "24px", color: "#FFFFFF" }}>Explore</span>
+                        <svg width="18.94" height="19.89" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M3 10H16M16 10L10 4M16 10L10 16" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                  )}
+                </div>
+              ))}
+            </div>
+
+            {/* Row 2: card 4 only — centered */}
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "center", gap: 20 }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 20, width: 427 }}>
+                <div onClick={() => { navigate("/portfolio8"); window.scrollTo(0, 0); }} style={{ width: 426.67, height: 320, background: "#FFFFFF", borderRadius: 17.3813, cursor: "pointer", overflow: "hidden", flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                  <img src="/assets/Home/images/ecosystem_logos/ecosystem_logo_4.png" alt="Service 4" style={{ width: 266, height: 97, objectFit: "contain" }} />
+                </div>
+                {showServiceMeta && (
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", padding: "0px 10px", gap: 15, width: 427 }}>
+                  <span style={{ width: 407, fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 25, lineHeight: "35px", textAlign: "center", color: "rgba(17,17,17,0.8)" }}>Equity Research That Uncovers Market Opportunities</span>
+                  <div style={{ width: 427, display: "flex", justifyContent: "center" }}>
+                    <button
+                      onClick={() => { navigate("/portfolio8"); window.scrollTo(0, 0); }}
+                      style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", padding: "13px 21px", gap: 4, width: 132.78, height: 46, background: "#0161FE", borderRadius: 98.6819, border: "none", cursor: "pointer" }}
+                    >
+                      <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 500, fontSize: 16, lineHeight: "24px", color: "#FFFFFF" }}>Explore</span>
+                      <svg width="18.94" height="19.89" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 10H16M16 10L10 4M16 10L10 16" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                )}
+              </div>
+            </div>
+
+          </div>
+        </section>
+      )}
+    </>
   );
 };

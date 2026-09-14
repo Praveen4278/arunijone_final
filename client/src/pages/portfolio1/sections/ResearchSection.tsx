@@ -41,7 +41,7 @@ const faq: PillFaqTexts = {
   },
 };
 
-export default function ResearchSection() {
+export default function ResearchSection({ logoSrc }: { logoSrc?: string }) {
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%", gap: 50 }}>
       <div style={{ width: 1420, background: "#FFFFFF", borderRadius: 23.6864, padding: "55px 49px", display: "flex", flexDirection: "column", alignItems: "center", gap: 60, boxSizing: "border-box" }}>
@@ -290,7 +290,7 @@ export default function ResearchSection() {
         </div>
       </div>
       </div>
-      <PillMilestoneSection {...milestone} />
+      <PillMilestoneSection {...milestone} mockupImageSrc={logoSrc ?? milestone.mockupImageSrc} />
       <PillQuoteSection {...quote} />
       <PillFaqSection {...faq} />
     </div>

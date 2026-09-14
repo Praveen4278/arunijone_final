@@ -1189,7 +1189,7 @@ const FAQDetails = () => {
       <MobilePageWrapper designHeight={0}>
         <div className="bg-white w-full">
           <MobBanner iconSrc="/assets/faq-detailsmob/images/group.svg" />
-          <div className="w-[calc(100%-16px)] flex flex-col gap-[20px] mx-auto pt-[20px] pb-[20px]">
+          <div className="w-[calc(100%-16px)] flex flex-col gap-[20px] mx-auto pt-[3px] pb-[20px]">
 
             {/* ── 1. HERO ── */}
             <div

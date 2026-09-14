@@ -8,7 +8,7 @@ const MobFooter = () => {
     <div
       id="_274_1158__Section"
       className="relative overflow-hidden w-full"
-      style={{ height: 756 }}
+      style={{ height: 816, paddingBottom: 60 }}
     >
       <div
         id="_274_1159__Background"
@@ -36,8 +36,8 @@ const MobFooter = () => {
             <div key={label} style={{ position: "absolute", height: 30.5, left: 0, right: 0.22, top, opacity: 0.7 }}>
               <span
                 role="button" tabIndex={0}
-                onClick={() => navigate(path)}
-                onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && navigate(path)}
+                onClick={() => { navigate(path); window.scrollTo(0, 0); }}
+                onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { navigate(path); window.scrollTo(0, 0); } }}
                 style={{ position: "absolute", width: w, height: 19, left: 0, top: 4.82, fontFamily: label === "Explore" ? "Inter" : "SF Pro Display", fontWeight: 400, fontSize: 16, lineHeight: "22px", display: "flex", alignItems: "center", color: "#FFFFFF", cursor: "pointer" }}
               >
                 {label}
@@ -56,7 +56,10 @@ const MobFooter = () => {
             { label: "Marketing",   w: 99,    top: 181.88, lft: 29.08 },
           ].map(({ label, w, top, lft }) => (
             <div key={label} style={{ position: "absolute", height: label === "Research" ? 30 : 31, left: lft, top, opacity: 0.7 }}>
-              <span style={{ position: "absolute", width: w, height: 19, left: label === "Research" ? 0 : -0.92, top: label === "Research" ? 4.82 : label === "Design" ? 4.78 : label === "Development" ? 5.03 : 5.27, fontFamily: "SF Pro Display", fontWeight: 400, fontSize: 16, lineHeight: "22px", display: "flex", alignItems: "center", color: "#FFFFFF" }}>
+              <span
+                role="button" tabIndex={0}
+                onClick={() => { navigate("/portfolio1"); window.scrollTo(0, 0); }}
+                style={{ position: "absolute", width: w, height: 19, left: label === "Research" ? 0 : -0.92, top: label === "Research" ? 4.82 : label === "Design" ? 4.78 : label === "Development" ? 5.03 : 5.27, fontFamily: "SF Pro Display", fontWeight: 400, fontSize: 16, lineHeight: "22px", display: "flex", alignItems: "center", color: "#FFFFFF", cursor: "pointer" }}>
                 {label}
               </span>
             </div>
@@ -77,7 +80,7 @@ const MobFooter = () => {
           <div style={{ position: "absolute", height: 30.5, left: 0, right: 0.22, top: 45.27, opacity: 0.7 }}>
             <span
               role="button" tabIndex={0}
-              onClick={() => navigate("/contact")}
+              onClick={() => { navigate("/contact"); window.scrollTo(0, 0); }}
               style={{ position: "absolute", width: 84.22, height: 19, left: 0, top: 4.82, fontFamily: "SF Pro Display", fontWeight: 400, fontSize: 16, lineHeight: "22px", display: "flex", alignItems: "center", color: "#FFFFFF", cursor: "pointer" }}
             >
               Contact
@@ -86,7 +89,7 @@ const MobFooter = () => {
           <div style={{ position: "absolute", height: 30.5, left: 0, right: 0.22, top: 90.77 }}>
             <span
               role="button" tabIndex={0}
-              onClick={() => navigate("/faq")}
+              onClick={() => { navigate("/faq"); window.scrollTo(0, 0); }}
               style={{ position: "absolute", width: 64.85, height: 19, left: 0, top: 4.82, fontFamily: "SF Pro Display", fontWeight: 400, fontSize: 16, lineHeight: "22px", display: "flex", alignItems: "center", color: "#FFFFFF", opacity: 0.7, cursor: "pointer" }}
             >
               FAQ

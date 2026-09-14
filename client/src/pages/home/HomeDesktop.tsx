@@ -13,6 +13,7 @@ import DesktopPageWrapper from "../../components/DesktopPageWrapper";
 
 export const HomeDesktop = (): React.JSX.Element => {
   const [, navigate] = useLocation();
+  const [ecosystemSelected, setEcosystemSelected] = useState("Products");
 
   const [formData, setFormData] = useState({
     firstName: "",
@@ -94,9 +95,9 @@ export const HomeDesktop = (): React.JSX.Element => {
             <HeroSection />
             <QualityCommitmentSection />
             <ServiceShowcaseSection />
-            <BusinessEcosystemAndCapabilitiesSection />
-            <SuccessStoriesSection />
-            <LatestInsightsSection />
+            <BusinessEcosystemAndCapabilitiesSection onChange={setEcosystemSelected} />
+            <SuccessStoriesSection activeEco={ecosystemSelected} />
+            <LatestInsightsSection activeEco={ecosystemSelected} />
             <ContactInformationSection />
             <SiteFooterSection />
             <div style={{ height: 10 }} />
