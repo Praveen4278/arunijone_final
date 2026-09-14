@@ -253,15 +253,15 @@ const Portfolio1UXUIUIDesignWebsite = () => {
           <div className="w-[calc(100%-16px)] flex flex-col gap-[20px] mx-auto pt-[3px] pb-[20px]">
 
             {/* HERO */}
-            <div className="bg-[#F6F7F9] w-full rounded-[20px] flex flex-col items-center pt-[25px] pb-[12px] px-[15px]" style={{ gap: 30 }}>
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: 0, gap: 21.62, width: '100%' }}>
-                <span style={{ width: '100%', fontFamily: "'SF Pro Display'", fontStyle: 'normal', fontWeight: 400, fontSize: 28, lineHeight: '36px', textAlign: 'center', color: '#111111' }}>
+            <div className="bg-[#F6F7F9] w-full rounded-[20px] flex flex-col items-center pt-[25px] pb-[16px] px-[15px]" style={{ gap: 30 }}>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: 0, gap: 21.62, width: 359.5, minWidth: 359.5, height: 208.73 }}>
+                <span style={{ width: 359, height: 208, fontFamily: "'SF Pro Display'", fontStyle: 'normal', fontWeight: 400, fontSize: 40.8113, lineHeight: '52px', display: 'flex', alignItems: 'center', textAlign: 'center', color: '#111111' }}>
                   My Rameswaram Trip – Travel &amp; Temple Service Platform
                 </span>
               </div>
               <PortfolioMetadataMobile assetBasePath="/assets/p1/images" siteViewColor="#1B66FE" />
-              <div style={{ width: 359.74, height: 230.08, background: '#FFFFFF', borderRadius: 15.26, flexShrink: 0, alignSelf: 'stretch', flexGrow: 0, position: 'relative', overflow: 'hidden' }}>
-                <img src="/assets/p1/images/gemini_logo_removed_1.png" alt="" style={{ position: 'absolute', width: 360, height: 230, left: 'calc(50% - 180px - 0.5px)', top: 'calc(50% - 115px + 0.16px)', objectFit: 'cover' }} />
+              <div style={{ width: '100%', height: 230.08, background: '#FFFFFF', borderRadius: 15.26, flexShrink: 0, alignSelf: 'stretch', flexGrow: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
+                <img src="/assets/p1/images/gemini_logo_removed_1.png" alt="" style={{ width: 360, height: 230, objectFit: 'cover', borderRadius: 15.26 }} />
               </div>
             </div>
 

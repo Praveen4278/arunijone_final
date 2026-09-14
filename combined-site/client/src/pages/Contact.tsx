@@ -460,7 +460,7 @@ const ContactDesktop = () => {
       <MobilePageWrapper designHeight={0}>
       <div className="bg-white w-full">
         <MobBanner iconSrc="/assets/contact/images/group.svg" />
-        <div className="w-[calc(100%-16px)] flex flex-col gap-[30px] mx-auto pt-[20px] pb-[20px]">
+        <div className="w-[calc(100%-16px)] flex flex-col gap-[30px] mx-auto pt-[3px] pb-[20px]">
 
           {/* ── 1. WHATSAPP SECTION ── */}
           <div className="relative overflow-hidden bg-[#F6F7F9] w-full rounded-[22.88px] flex flex-col items-center pt-[35px] pb-[35px] gap-[16px]">

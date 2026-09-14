@@ -3,22 +3,22 @@ import { IPhoneMockup } from "./MobCreativeMain";
 
 const rows = [
   {
-    src: "/assets/portfolio/creative/creative_image_275_4cb19c.png",
+    src: "/assets/portfolio/design/design_image_279.png",
     text: "Explore trusted pujas, temple rituals, tours, and local services for a meaningful Rameswaram journey.",
     imgW: 109, imgH: 236, imgOffsetX: 0, imgOffsetY: -0.34, imgRadius: 18, theme: "dark" as const,
   },
   {
-    src: "/assets/portfolio/creative/creative_image_274_616651.png",
+    src: "/assets/portfolio/design/design_image_280.png",
     text: "Browse traditional pujas and rituals, compare services, and choose the right ceremony for your occasion.",
     imgW: 116, imgH: 241, imgOffsetX: 0.5, imgOffsetY: 0.12, imgRadius: 21, theme: "dark" as const,
   },
   {
-    src: "/assets/portfolio/creative/creative_image_276.png",
+    src: "/assets/portfolio/design/design_image_281.png",
     text: "Explore puja benefits, rituals, timings, inclusions, and pandit details before making your booking.",
     imgW: 113, imgH: 237, imgOffsetX: 1, imgOffsetY: 1.06, imgRadius: 15, theme: "light" as const,
   },
   {
-    src: "/assets/portfolio/creative/creative_image_277.png",
+    src: "/assets/portfolio/design/design_image_282.png",
     text: "Provide your preferred date, devotee details, and booking information to arrange your puja seamlessly.",
     imgW: 112, imgH: 240, imgOffsetX: 0.5, imgOffsetY: -0.48, imgRadius: 19, theme: "light" as const,
   },
@@ -58,9 +58,9 @@ export default function MobDesignMain() {
           style={{
             display: "flex",
             flexDirection: "column",
-            alignItems: "flex-start",
+            alignItems: "center",
             gap: 35,
-            width: 359.74,
+            width: "100%",
           }}
         >
           <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 28, lineHeight: "34px", color: "#111111", textAlign: "center", width: "100%" }}>

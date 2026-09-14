@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLocation, Link } from "wouter";
 import DesktopPageWrapper from "../components/DesktopPageWrapper";
 import MobBanner from "../components/MobBanner";
@@ -10,6 +10,7 @@ import { BusinessEcosystemAndCapabilitiesSection } from "./about/sections/Busine
 
 const BlogDesktop = () => {
   const [, navigate] = useLocation();
+  const [desktopEco, setDesktopEco] = useState("products");
 
   return (
     <>
@@ -97,8 +98,9 @@ const BlogDesktop = () => {
             ></div>
           </div>
 
-          <BusinessEcosystemAndCapabilitiesSection />
+          <BusinessEcosystemAndCapabilitiesSection onEcoChange={(s) => setDesktopEco(s.toLowerCase())} showServiceMeta serviceBadge="BLOGS" serviceHeading={<>Insights, Ideas &amp; Stories<br />That Matter</>} />
 
+          {desktopEco === "products" && (
           <div
             id="_236_960__Big_box"
             style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "50px 49px 55px", gap: 60, width: 1420, background: "#F6F7F9", borderRadius: 23.6864, flexShrink: 0, alignSelf: "stretch" }}
@@ -164,6 +166,7 @@ const BlogDesktop = () => {
               </div>
             </div>
           </div>
+          )}
 
           <SiteFooterSection />
           <div style={{ height: 10 }} />
@@ -173,7 +176,7 @@ const BlogDesktop = () => {
       <MobilePageWrapper designHeight={0}>
       <div className="bg-white w-full">
         <MobBanner iconSrc="/assets/homemob/images/group_5.svg" />
-        <div className="w-[calc(100%-16px)] flex flex-col gap-[25px] mx-auto pt-[20px] pb-[20px]">
+        <div className="w-[calc(100%-16px)] flex flex-col gap-[25px] mx-auto pt-[3px] pb-[20px]">
 
           {/* HERO */}
           <div className="relative overflow-hidden bg-[#F6F7F9] w-full rounded-[22px] flex flex-col items-center pt-[24px] pb-[24px] gap-[16px]">

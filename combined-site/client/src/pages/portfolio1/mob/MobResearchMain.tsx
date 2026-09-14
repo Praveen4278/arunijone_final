@@ -210,18 +210,21 @@ export default function MobResearchMain() {
         boxSizing: "border-box",
         display: "flex",
         flexDirection: "column",
+        alignItems: "center",
         gap: 20,
       }}
     >
-      <div style={{ border: "1px solid #202833", borderRadius: 228, padding: "6px 16px", alignSelf: "flex-start", display: "inline-flex" }}>
-        <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 500, fontSize: 11, letterSpacing: 1.716, textTransform: "uppercase", color: "#202833", whiteSpace: "nowrap" }}>
-          Research Report
-        </span>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <div style={{ boxSizing: "border-box", width: 159, height: 32, border: "1px solid #202833", borderRadius: 228.83, display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 500, fontSize: 12, lineHeight: "14px", letterSpacing: 1.716, textTransform: "uppercase", color: "#202833", whiteSpace: "nowrap" }}>
+            Research Report
+          </span>
+        </div>
       </div>
-      <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 24, lineHeight: "32px", color: "#111111" }}>
+      <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 35, lineHeight: "36px", color: "#111111", textAlign: "center", width: "100%" }}>
         The Macro-Environment of Pilgrimage UX and Digital Trust
       </span>
-      <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 14, lineHeight: "22px", color: "rgba(109,109,110,0.8)" }}>
+      <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 16, lineHeight: "24px", color: "rgba(109,109,110,0.8)", textAlign: "center", width: 343 }}>
         Discover how our solutions have delivered real results, solved complex challenges, and accelerated business growth.
       </span>
       <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>

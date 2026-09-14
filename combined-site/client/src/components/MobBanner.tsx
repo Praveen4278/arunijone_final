@@ -21,8 +21,9 @@ const MobBanner = ({
 }: MobBannerProps) => {
   const [location, navigate] = useLocation();
 
+  const exploreRoutes = ["/explore", "/portfolio1"];
   const activeIdx = navItems.findIndex(n => n.href === location);
-  const active = activeIdx >= 0 ? activeIdx : 0;
+  const active = activeIdx >= 0 ? activeIdx : exploreRoutes.includes(location) ? 2 : 0;
 
   return (
     <>

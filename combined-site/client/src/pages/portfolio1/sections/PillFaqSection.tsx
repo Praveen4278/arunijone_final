@@ -16,8 +16,8 @@ export interface PillFaqTexts {
   viewAllOnClick?: () => void;
   viewAllLabel?: string;
   activeRow: PillFaqRow & { answerText: ReactNode; active: true };
-  row2: PillFaqRow;
-  row3: PillFaqRow;
+  row2?: PillFaqRow;
+  row3?: PillFaqRow;
 }
 
 export default function PillFaqSection({
@@ -35,10 +35,10 @@ export default function PillFaqSection({
   const RightQuestionStartFromLeft = 750;
   const ActiveLeftColor = activeRow.leftColor ?? "#FFFFFF";
   const ActiveRightColor = activeRow.rightColor ?? "#FFFFFF";
-  const Row2LeftColor = row2.leftColor ?? "#000000";
-  const Row2RightColor = row2.rightColor ?? "rgba(17, 17, 17, 0.6)";
-  const Row3LeftColor = row3.leftColor ?? "#000000";
-  const Row3RightColor = row3.rightColor ?? "rgba(17, 17, 17, 0.6)";
+  const Row2LeftColor = row2?.leftColor ?? "#000000";
+  const Row2RightColor = row2?.rightColor ?? "rgba(17, 17, 17, 0.6)";
+  const Row3LeftColor = row3?.leftColor ?? "#000000";
+  const Row3RightColor = row3?.rightColor ?? "rgba(17, 17, 17, 0.6)";
 
   return (
     <div
@@ -320,7 +320,7 @@ export default function PillFaqSection({
                     whiteSpace: "nowrap",
                   }}
                 >
-                  {row2.leftLabel}
+                  {row2?.leftLabel}
                 </span>
               </div>
               <div
@@ -346,7 +346,7 @@ export default function PillFaqSection({
                     textAlign: "left",
                   }}
                 >
-                  {row2.rightQuestion}
+                  {row2?.rightQuestion}
                 </span>
               </div>
             </div>
@@ -388,7 +388,7 @@ export default function PillFaqSection({
                     whiteSpace: "nowrap",
                   }}
                 >
-                  {row3.leftLabel}
+                  {row3?.leftLabel}
                 </span>
               </div>
               <div
@@ -414,7 +414,7 @@ export default function PillFaqSection({
                     textAlign: "left",
                   }}
                 >
-                  {row3.rightQuestion}
+                  {row3?.rightQuestion}
                 </span>
               </div>
             </div>

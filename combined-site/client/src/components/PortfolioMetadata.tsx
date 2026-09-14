@@ -27,7 +27,23 @@ const valueText = (w: number, color = '#111111'): React.CSSProperties => ({
   color, flexGrow: 1,
 });
 
-const PortfolioMetadata = () => {
+interface Props {
+  nameCorp?: string;
+  duration?: string;
+  releaseDate?: string;
+  siteView?: string;
+  siteViewColor?: string;
+  siteViewHref?: string;
+}
+
+const PortfolioMetadata = ({
+  nameCorp = "Arunijone",
+  duration = "3 Months",
+  releaseDate = "Jannuary 1, 2026",
+  siteView = "myrameswaramtrip.com",
+  siteViewColor = "#0D5CFF",
+  siteViewHref = "https://www.myrameswaramtrip.com",
+}: Props) => {
   return (
     <div
       id="_231_4690__Frame_233"
@@ -41,26 +57,26 @@ const PortfolioMetadata = () => {
       {/* Name Corp — Frame 220 */}
       <div style={col(153)}>
         <div style={labelRow(153)}><span style={labelText(153)}>Name Corp</span></div>
-        <div style={valueRow(153)}><span style={valueText(153)}>Arunijone</span></div>
+        <div style={valueRow(153)}><span style={valueText(153)}>{nameCorp}</span></div>
       </div>
 
       {/* Project Duration — Frame 221 */}
       <div style={col(147)}>
         <div style={labelRow(147)}><span style={labelText(147)}>Project Duration</span></div>
-        <div style={{ ...valueRow(147), alignSelf: 'stretch' }}><span style={valueText(147)}>3 Months</span></div>
+        <div style={{ ...valueRow(147), alignSelf: 'stretch' }}><span style={valueText(147)}>{duration}</span></div>
       </div>
 
       {/* Release Date — Frame 225 */}
       <div style={col(147)}>
         <div style={labelRow(147)}><span style={labelText(147)}>Release Date</span></div>
-        <div style={{ ...valueRow(147), alignSelf: 'stretch' }}><span style={valueText(147)}>Jannuary 1, 2026</span></div>
+        <div style={{ ...valueRow(147), alignSelf: 'stretch' }}><span style={valueText(147)}>{releaseDate}</span></div>
       </div>
 
       {/* Site View — Frame 223 */}
       <div style={col(184)}>
         <div style={labelRow(184)}><span style={labelText(184)}>Site View</span></div>
         <div style={valueRow(204)}>
-          <a href="https://www.myrameswaramtrip.com" target="_blank" rel="noopener noreferrer" style={{ ...valueText(204, '#0D5CFF'), textDecoration: 'none', cursor: 'pointer' }}>myrameswaramtrip.com</a>
+          <a href={siteViewHref} target="_blank" rel="noopener noreferrer" style={{ ...valueText(204, siteViewColor), textDecoration: 'none', cursor: 'pointer' }}>{siteView}</a>
         </div>
       </div>
     </div>

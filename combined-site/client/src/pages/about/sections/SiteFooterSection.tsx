@@ -101,7 +101,7 @@ export const SiteFooterSection = (): React.JSX.Element => {
                 ...linkStyle,
                 position: "absolute", left: 0, right: 0, top: i * 54.4,
                 background: "none", border: "none",
-                fontWeight: link.bold ? 600 : 400,
+                fontWeight: 400,
               }}
             >
               {link.label}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+  <rect width="180" height="180" rx="24" fill="#EEF3FF"/>
+  <rect x="40" y="40" width="100" height="100" rx="16" fill="#0161FE" opacity="0.15"/>
+  <circle cx="90" cy="90" r="28" fill="none" stroke="#0161FE" stroke-width="5"/>
+  <path d="M78 90 L86 98 L102 82" stroke="#0161FE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="90" y="150" text-anchor="middle" font-family="SF Pro Display, sans-serif" font-size="13" fill="#0161FE" font-weight="500">Service 8</text>
+</svg>

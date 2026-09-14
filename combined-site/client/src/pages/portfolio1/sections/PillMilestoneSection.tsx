@@ -67,9 +67,22 @@ export default function PillMilestoneSection({
               left: "50%",
               top: "50%",
               transform: "translate(-50%, calc(-50% - 0.5px))",
-              background: `url(${mockupImageSrc}) center / cover no-repeat`,
             }}
-          />
+          >
+            {/* Shadow dots */}
+            <div style={{ position: 'absolute', left: '42.5%',  right: '54.21%', top: '45.74%', bottom: '45.93%', background: '#0161FE', border: '0.368668px solid #0161FE' }} />
+            <div style={{ position: 'absolute', left: '44.07%', right: '38.25%', top: '36.08%', bottom: '36.27%', background: '#0161FE', border: '0.368668px solid #0161FE' }} />
+            <div style={{ position: 'absolute', left: '33.6%',  right: '60.63%', top: '39.57%', bottom: '39.8%',  background: '#0161FE', border: '0.368668px solid #0161FE' }} />
+            <div style={{ position: 'absolute', left: '38.06%', right: '57.43%', top: '42.66%', bottom: '42.88%', background: '#0161FE', border: '0.368668px solid #0161FE' }} />
+            <div style={{ position: 'absolute', left: '66.11%', right: '25.33%', top: '34.65%', bottom: '34.85%', background: '#0161FE', border: '0.368668px solid #0161FE' }} />
+            <div style={{ position: 'absolute', left: '25.49%', right: '51.18%', top: '25.9%',  bottom: '34.87%', background: '#0161FE', border: '0.368668px solid #0161FE' }} />
+            <div style={{ position: 'absolute', left: '34.63%', right: '34.46%', top: '65.66%', bottom: '25.87%', background: '#0161FE', border: '0.368668px solid #0161FE' }} />
+            <div style={{ position: 'absolute', left: '51.39%', right: '34.49%', top: '25.87%', bottom: '65.85%', background: '#0161FE', border: '0.368668px solid #0161FE' }} />
+            {/* Group 13 — logo centered */}
+            <div style={{ position: 'absolute', width: 288, height: 288, left: 'calc(50% - 144px)', top: 'calc(50% - 144px)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <img src={mockupImageSrc} alt="" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+            </div>
+          </div>
         </div>
       </div>
 

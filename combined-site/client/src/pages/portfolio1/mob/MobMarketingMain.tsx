@@ -17,20 +17,21 @@ export default function MobMarketingMain() {
         boxSizing: "border-box",
         display: "flex",
         flexDirection: "column",
+        alignItems: "center",
         gap: 30,
       }}
     >
-      <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-        <div style={{ border: "1px solid #202833", borderRadius: 228, padding: "6px 16px", alignSelf: "flex-start", display: "inline-flex" }}>
-          <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 500, fontSize: 11, letterSpacing: 1.716, textTransform: "uppercase", color: "#202833", whiteSpace: "nowrap" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
+        <div style={{ boxSizing: "border-box", width: 159, height: 32, border: "1px solid #202833", borderRadius: 228.83, display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 500, fontSize: 12, lineHeight: "14px", letterSpacing: 1.716, textTransform: "uppercase", color: "#202833", whiteSpace: "nowrap" }}>
             Marketing
           </span>
         </div>
-        <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 24, lineHeight: "32px", color: "#111111" }}>
+        <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 35, lineHeight: "36px", color: "#111111", textAlign: "center", width: 372 }}>
           Analytics Architecture and Marketing Integrations
         </span>
-        <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 14, lineHeight: "22px", color: "rgba(109,109,110,0.8)" }}>
-          This section details the technical framework used to capture user telemetry, outlining the implementation of data, event pipelines, and server-side tracking.
+        <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 16, lineHeight: "24px", color: "rgba(109,109,110,0.8)", textAlign: "center", width: 343.16 }}>
+         This section details the technical framework used to capture user telemetry, outlining the implementation of data, event pipelines, and server-side tracking.
         </span>
       </div>
 
@@ -41,29 +42,16 @@ export default function MobMarketingMain() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            gap: 16,
-            background: "#F6F7F9",
-            borderRadius: 16,
-            padding: "16px",
+            gap: 35,
+            width: "100%",
           }}
         >
-          <img
-            src={src}
-            alt=""
-            style={{ width: "100%", height: "auto", borderRadius: 10, objectFit: "cover", border: "10px solid #F7F9FD", boxSizing: "border-box" }}
-          />
-          <span
-            style={{
-              fontFamily: "'SF Pro Display'",
-              fontWeight: 400,
-              fontSize: 18,
-              lineHeight: "28px",
-              color: "#111111",
-              textAlign: "center",
-            }}
-          >
+          <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 28, lineHeight: "34px", color: "#111111", textAlign: "center", width: "100%" }}>
             {text}
           </span>
+          <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
+            <img src={src} alt="" style={{ width: "100%", height: "auto", borderRadius: 16, objectFit: "cover" }} />
+          </div>
         </div>
       ))}
     </div>
