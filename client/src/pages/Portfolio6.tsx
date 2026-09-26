@@ -69,14 +69,6 @@ const Portfolio6ServiceCaseStudy = () => {
               <PortfolioMetadata nameCorp={META_CORP} duration={META_DURATION} releaseDate={META_RELEASE} siteView={META_SITE} siteViewColor="#0D5CFF" siteViewHref={META_HREF} />
               <div style={{ position: 'relative', overflow: 'hidden', width: 1331, height: 625, borderRadius: 20.4131, flex: 'none', order: 2, alignSelf: 'stretch', flexGrow: 0 }}>
                 <div style={{ position: 'absolute', overflow: 'hidden', width: 1335.11, height: 627.5, left: 0, top: 0, backgroundColor: '#FFFFFF', borderRadius: 20.4131 }}>
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '38%',  top: '20%',  background: '#0161FE' }} />
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '58%',  top: '18%',  background: '#0161FE' }} />
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '64%',  top: '35%',  background: '#0161FE' }} />
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '62%',  top: '62%',  background: '#0161FE' }} />
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '42%',  top: '72%',  background: '#0161FE' }} />
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '34%',  top: '55%',  background: '#0161FE' }} />
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '36%',  top: '38%',  background: '#0161FE' }} />
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '55%',  top: '74%',  background: '#0161FE' }} />
                   <div style={{ position: 'absolute', width: 301, height: 299.73, left: 'calc(50% - 150.5px)', top: 'calc(50% - 149.865px)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <img src={HERO_IMG} alt={PAGE_TITLE} style={{ width: 300, height: 300, objectFit: 'contain' }} />
                   </div>

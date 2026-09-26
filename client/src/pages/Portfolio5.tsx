@@ -136,15 +136,6 @@ const Portfolio5ServiceCaseStudy = () => {
                 >
                   {/* White backdrop */}
                   <div style={{ position: 'absolute', width: 1335.11, height: 627.5, left: 0, top: 0, background: '#FFFFFF' }} />
-                  {/* Decorative blue dots scattered around the logo */}
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '38%',  top: '20%',  background: '#0161FE' }} />
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '58%',  top: '18%',  background: '#0161FE' }} />
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '64%',  top: '35%',  background: '#0161FE' }} />
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '62%',  top: '62%',  background: '#0161FE' }} />
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '42%',  top: '72%',  background: '#0161FE' }} />
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '34%',  top: '55%',  background: '#0161FE' }} />
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '36%',  top: '38%',  background: '#0161FE' }} />
-                  <div style={{ position: 'absolute', width: 8, height: 8, borderRadius: '50%', left: '55%',  top: '74%',  background: '#0161FE' }} />
                   {/* Logo — Group 12, centered, on top */}
                   <img src="/assets/Home/images/ecosystem_logos/ecosystem_logo_1.svg" alt="Service 1" style={{ position: 'absolute', width: 301, height: 299.73, left: 'calc(50% - 150.5px)', top: 'calc(50% - 149.865px)', objectFit: 'contain' }} />
                 </div>
