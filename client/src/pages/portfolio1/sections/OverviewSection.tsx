@@ -8,11 +8,11 @@ import type { PillFaqTexts } from "./PillFaqSection";
 const milestone: PillMilestoneTexts = {
   heading: "Key milestones and outcomes of the project",
   description:
-    "This platform improves travel planning for pilgrims and tourists visiting Rameswaram through user research, usability analysis, and clear, intuitive design.",
+    "This project created a seamless music discovery experience, helping users identify songs instantly by simply playing or listening to the music.",
   keyAchievementBody:
-    "Improved information clarity and user navigation by structuring content around real user needs and journey flows.",
+    "Built an intuitive song recognition experience that quickly identifies music and provides relevant song details.",
   clientImpactBody:
-    "The platform offers a smoother, intuitive experience that helps visitors plan trips and access temple services with confidence.",
+    "Made music discovery faster and effortless, allowing users to find songs without needing to know the title or artist.",
 };
 
 const quote: PillQuoteTexts = {
