@@ -116,14 +116,256 @@ const Portfolio5ServiceCaseStudy = () => {
                   Find Pattu: The Art of Instant Music Recognition
                 </span>
 
-                <PortfolioMetadata
-                  nameCorp="Client Alpha"
-                  duration="4 Months"
-                  releaseDate="2025"
-                  siteView="service1.example.com"
-                  siteViewColor="#0D5CFF"
-                  siteViewHref="https://service1.example.com"
-                />
+                <div style={{
+                  display: 'flex',
+                  flexDirection: 'row',
+                  alignItems: 'flex-start',
+                  padding: '0px',
+                  gap: '91px',
+                  width: '543px',
+                  height: '48.5px',
+                  flex: 'none',
+                  order: 1,
+                  flexGrow: 0,
+                  margin: '0 auto',
+                }}>
+                  {/* Frame 220 - Client Alpha */}
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'flex-start',
+                    padding: '0px',
+                    gap: '12px',
+                    width: '153px',
+                    height: '48.5px',
+                    flex: 'none',
+                    order: 0,
+                    flexGrow: 0,
+                  }}>
+                    <div style={{
+                      display: 'flex',
+                      flexDirection: 'row',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      padding: '0px',
+                      gap: '10px',
+                      width: '153px',
+                      height: '16.5px',
+                      flex: 'none',
+                      order: 0,
+                      alignSelf: 'stretch',
+                      flexGrow: 0,
+                    }}>
+                      <span style={{
+                        width: '153px',
+                        height: '16.5px',
+                        fontFamily: "'SF Pro Display'",
+                        fontStyle: 'normal',
+                        fontWeight: 300,
+                        fontSize: '18px',
+                        lineHeight: '20px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        color: 'rgba(17, 17, 17, 0.6)',
+                        flex: 'none',
+                        order: 0,
+                        flexGrow: 1,
+                      }}>
+                        Client
+                      </span>
+                    </div>
+                    <div style={{
+                      display: 'flex',
+                      flexDirection: 'row',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      padding: '0px',
+                      gap: '10px',
+                      width: '153px',
+                      height: '20px',
+                      flex: 'none',
+                      order: 1,
+                      alignSelf: 'stretch',
+                      flexGrow: 0,
+                    }}>
+                      <span style={{
+                        width: '153px',
+                        height: '20px',
+                        fontFamily: "'SF Pro Display'",
+                        fontStyle: 'normal',
+                        fontWeight: 400,
+                        fontSize: '20px',
+                        lineHeight: '24px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        color: '#111111',
+                        flex: 'none',
+                        order: 0,
+                        flexGrow: 1,
+                      }}>
+                        Client Alpha
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Frame 221 - Duration */}
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'flex-start',
+                    padding: '0px',
+                    gap: '12px',
+                    width: '147px',
+                    height: '48.5px',
+                    flex: 'none',
+                    order: 1,
+                    flexGrow: 0,
+                  }}>
+                    <div style={{
+                      display: 'flex',
+                      flexDirection: 'row',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      padding: '0px',
+                      gap: '10px',
+                      width: '147px',
+                      height: '16.5px',
+                      flex: 'none',
+                      order: 0,
+                      alignSelf: 'stretch',
+                      flexGrow: 0,
+                    }}>
+                      <span style={{
+                        width: '147px',
+                        height: '16.5px',
+                        fontFamily: "'SF Pro Display'",
+                        fontStyle: 'normal',
+                        fontWeight: 300,
+                        fontSize: '18px',
+                        lineHeight: '20px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        color: 'rgba(17, 17, 17, 0.6)',
+                        flex: 'none',
+                        order: 0,
+                        flexGrow: 1,
+                      }}>
+                        Project Duration
+                      </span>
+                    </div>
+                    <div style={{
+                      display: 'flex',
+                      flexDirection: 'row',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      padding: '0px',
+                      gap: '10px',
+                      width: '147px',
+                      height: '20px',
+                      flex: 'none',
+                      order: 1,
+                      alignSelf: 'stretch',
+                      flexGrow: 0,
+                    }}>
+                      <span style={{
+                        width: '147px',
+                        height: '20px',
+                        fontFamily: "'SF Pro Display'",
+                        fontStyle: 'normal',
+                        fontWeight: 400,
+                        fontSize: '20px',
+                        lineHeight: '24px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        color: '#111111',
+                        flex: 'none',
+                        order: 0,
+                        flexGrow: 1,
+                      }}>
+                        4 Months
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Frame 222 - Work As */}
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'flex-start',
+                    padding: '0px',
+                    gap: '12px',
+                    width: '147px',
+                    height: '48.5px',
+                    flex: 'none',
+                    order: 2,
+                    flexGrow: 0,
+                  }}>
+                    <div style={{
+                      display: 'flex',
+                      flexDirection: 'row',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      padding: '0px',
+                      gap: '10px',
+                      width: '147px',
+                      height: '16.5px',
+                      flex: 'none',
+                      order: 0,
+                      alignSelf: 'stretch',
+                      flexGrow: 0,
+                    }}>
+                      <span style={{
+                        width: '147px',
+                        height: '16.5px',
+                        fontFamily: "'SF Pro Display'",
+                        fontStyle: 'normal',
+                        fontWeight: 300,
+                        fontSize: '18px',
+                        lineHeight: '20px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        color: 'rgba(17, 17, 17, 0.6)',
+                        flex: 'none',
+                        order: 0,
+                        flexGrow: 1,
+                      }}>
+                        Work As
+                      </span>
+                    </div>
+                    <div style={{
+                      display: 'flex',
+                      flexDirection: 'row',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      padding: '0px',
+                      gap: '10px',
+                      width: '147px',
+                      height: '20px',
+                      flex: 'none',
+                      order: 1,
+                      alignSelf: 'stretch',
+                      flexGrow: 0,
+                    }}>
+                      <span style={{
+                        width: '147px',
+                        height: '20px',
+                        fontFamily: "'SF Pro Display'",
+                        fontStyle: 'normal',
+                        fontWeight: 400,
+                        fontSize: '20px',
+                        lineHeight: '24px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        color: '#111111',
+                        flex: 'none',
+                        order: 0,
+                        flexGrow: 1,
+                      }}>
+                        UX/UI Design
+                      </span>
+                    </div>
+                  </div>
+                </div>
 
                 <div
                   id="_231_4687__Image_Box"
