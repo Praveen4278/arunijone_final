@@ -19,6 +19,7 @@ export default function Portfolio7MarketingSection() {
       </div>
 
       <PillMilestoneSection
+        mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_3.png"
         heading="Marketing strategy and market positioning"
         description="This project developed market positioning strategies for B2B hospitality suppliers in emerging GCC markets with expanding infrastructure."
         keyAchievementBody="Identified key marketing channels and messaging frameworks for reaching hotel procurement teams within rapidly growing hospitality sectors."

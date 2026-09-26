@@ -19,6 +19,7 @@ export default function Portfolio8MarketingSection() {
       </div>
 
       <PillMilestoneSection
+        mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_4.png"
         heading="Marketing strategy and launch planning"
         description="This project developed comprehensive go-to-market strategies for new product and service offerings targeting specific customer segments."
         keyAchievementBody="Identified optimal marketing channels, messaging frameworks, and audience segmentation to drive brand awareness and customer acquisition."

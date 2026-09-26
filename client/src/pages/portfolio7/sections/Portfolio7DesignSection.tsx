@@ -19,6 +19,7 @@ export default function Portfolio7DesignSection() {
       </div>
 
       <PillMilestoneSection
+        mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_3.png"
         heading="Design research and B2B supplier analysis"
         description="This project evaluated B2B hospitality supplier positioning and digital platform design through competitive analysis and UX audit."
         keyAchievementBody="Identified critical design gaps in enterprise e-commerce platforms and supplier digital presence within the hospitality supply vertical."

@@ -19,6 +19,7 @@ export default function Portfolio6DesignSection() {
       </div>
 
       <PillMilestoneSection
+        mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_2_resora.svg"
         heading="Design milestones and system evaluation"
         description="This project evaluated resort booking application design through UI/UX analysis, usability testing, and accessibility compliance review."
         keyAchievementBody="Identified core design patterns and interaction models for high-converting mobile booking interfaces with multi-persona support."

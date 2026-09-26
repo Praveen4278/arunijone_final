@@ -56,6 +56,7 @@ export default function Portfolio7ResearchSection() {
       </div>
 
       <PillMilestoneSection
+        mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_3.png"
         heading="Research milestones and strategic insights"
         description="This project analyzed Midco Kuwait's market positioning within Kuwait's Vision 2035 hospitality expansion framework, examining B2B supply chain dynamics and macroeconomic drivers."
         keyAchievementBody="Identified critical market positioning and operational capacity of enterprise-level hospitality suppliers within the GCC ecosystem, including product portfolio analysis and competitive positioning."

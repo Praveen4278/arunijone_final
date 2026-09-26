@@ -19,6 +19,7 @@ export default function Portfolio7CreativeSection() {
       </div>
 
       <PillMilestoneSection
+        mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_3.png"
         heading="Creative development and brand communications"
         description="This project developed creative frameworks for communicating B2B value propositions to institutional hospitality buyers."
         keyAchievementBody="Created messaging and positioning that emphasizes reliability, scale, and strategic importance of supplier partnerships in hospitality operations."

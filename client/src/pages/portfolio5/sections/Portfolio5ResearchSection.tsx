@@ -249,6 +249,7 @@ export default function Portfolio5ResearchSection() {
       </div>
 
       <PillMilestoneSection
+        mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_1.svg"
         heading="Research milestones and heuristic findings"
         description="This project evaluated music discovery app usability through heuristic analysis, MIR research, and gamification evaluation."
         keyAchievementBody="Identified core UX patterns and system architecture requirements for progressive, level-based music identification."

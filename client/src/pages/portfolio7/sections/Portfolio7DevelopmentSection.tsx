@@ -19,6 +19,7 @@ export default function Portfolio7DevelopmentSection() {
       </div>
 
       <PillMilestoneSection
+        mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_3.png"
         heading="Technical infrastructure and platform development"
         description="This project engineered scalable e-commerce and data management systems supporting B2B hospitality supplier operations."
         keyAchievementBody="Built multi-tenant digital platforms integrating product catalogs, pricing systems, and procurement workflows for enterprise hospitality buyers."

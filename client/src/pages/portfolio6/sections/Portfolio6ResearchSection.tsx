@@ -180,6 +180,7 @@ export default function Portfolio6ResearchSection() {
       </div>
 
       <PillMilestoneSection
+        mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_2_resora.svg"
         heading="Research milestones and technical findings"
         description="This project evaluated white-label hospitality platform architecture through comprehensive technical analysis, database optimization strategies, and compliance frameworks."
         keyAchievementBody="Identified core architectural patterns for high-performance resort booking systems, including faceted search optimization and multi-tenant data isolation."

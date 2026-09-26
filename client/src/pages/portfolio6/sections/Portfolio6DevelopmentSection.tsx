@@ -19,6 +19,7 @@ export default function Portfolio6DevelopmentSection() {
       </div>
 
       <PillMilestoneSection
+        mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_2_resora.svg"
         heading="Development milestones and technical architecture"
         description="This project implemented a robust white-label booking platform with advanced search optimization, multi-tenant data isolation, and channel management integration."
         keyAchievementBody="Built high-performance Elasticsearch + Redis dual-system architecture supporting faceted search, real-time availability, and sub-100ms query response times."

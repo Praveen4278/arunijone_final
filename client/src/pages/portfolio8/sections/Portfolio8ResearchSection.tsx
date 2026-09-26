@@ -68,6 +68,7 @@ export default function Portfolio8ResearchSection() {
       </div>
 
       <PillMilestoneSection
+        mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_4.png"
         heading="Research insights and strategic analysis"
         description="This project conducted comprehensive market and competitive analysis for emerging opportunities in portfolio expansion."
         keyAchievementBody="Identified key market trends, competitive positioning, and strategic opportunities for business growth and market penetration."

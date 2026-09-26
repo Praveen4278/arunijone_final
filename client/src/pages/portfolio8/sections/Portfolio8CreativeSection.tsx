@@ -19,6 +19,7 @@ export default function Portfolio8CreativeSection() {
       </div>
 
       <PillMilestoneSection
+        mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_4.png"
         heading="Creative direction and brand development"
         description="This project developed creative frameworks and brand positioning for new market entries and portfolio expansion."
         keyAchievementBody="Created compelling brand narratives and creative assets that communicate value propositions and differentiate offerings in competitive markets."
