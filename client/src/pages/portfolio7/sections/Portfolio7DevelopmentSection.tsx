@@ -1,4 +1,8 @@
 import React from "react";
+import PillMilestoneSection from "../../portfolio1/sections/PillMilestoneSection";
+import PillQuoteSection from "../../portfolio1/sections/PillQuoteSection";
+import PillFaqSection from "../../portfolio1/sections/PillFaqSection";
+
 export default function Portfolio7DevelopmentSection() {
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%", gap: 50 }}>
@@ -13,6 +17,48 @@ export default function Portfolio7DevelopmentSection() {
           <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 18, lineHeight: "28px", color: "#808080" }}>Development content for Portfolio 7 will be added here.</span>
         </div>
       </div>
+
+      <PillMilestoneSection
+        heading="Technical infrastructure and platform development"
+        description="This project engineered scalable e-commerce and data management systems supporting B2B hospitality supplier operations."
+        keyAchievementBody="Built multi-tenant digital platforms integrating product catalogs, pricing systems, and procurement workflows for enterprise hospitality buyers."
+        clientImpactBody="Delivered production infrastructure enabling rapid digital transformation and market expansion for traditional hospitality suppliers."
+      />
+
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%", gap: 40, padding: "60px 49px", background: "#F6F7F9", borderRadius: 23.6864 }}>
+        <span style={{
+          fontFamily: "'SF Pro Display'", fontStyle: "normal", fontWeight: 400,
+          fontSize: 36, lineHeight: "45px", textAlign: "center", color: "#111111",
+          maxWidth: 900,
+        }}>
+          Development prioritized scalability, integration with procurement workflows, and support for enterprise B2B operations at scale.
+        </span>
+        <span style={{
+          fontFamily: "'SF Pro Display'", fontStyle: "normal", fontWeight: 400,
+          fontSize: 18, lineHeight: "28px", textAlign: "center", color: "rgba(109, 109, 110, 0.8)",
+          maxWidth: 900,
+        }}>
+          Through modern e-commerce architecture, inventory management systems, and seamless integration with hospitality procurement platforms, this development enables suppliers to meet the operational demands of rapidly expanding hotel portfolios.
+        </span>
+      </div>
+
+      <PillFaqSection
+        faqHeading="B2B E-Commerce and Supplier Platform Development"
+        activeRow={{
+          leftLabel: "Platform Architecture",
+          rightQuestion: "How is the e-commerce platform structured for B2B operations?",
+          active: true,
+          answerText: "The platform combines product catalog management, dynamic pricing, inventory tracking, order management, and procurement integrations to support complex B2B workflows.",
+        }}
+        row2={{
+          leftLabel: "Integration",
+          rightQuestion: "How does the platform integrate with hotel procurement systems?",
+        }}
+        row3={{
+          leftLabel: "Scalability",
+          rightQuestion: "Can the system support rapid growth and expansion?",
+        }}
+      />
     </div>
   );
 }

@@ -1,4 +1,8 @@
 import React from "react";
+import PillMilestoneSection from "../../portfolio1/sections/PillMilestoneSection";
+import PillQuoteSection from "../../portfolio1/sections/PillQuoteSection";
+import PillFaqSection from "../../portfolio1/sections/PillFaqSection";
+
 export default function Portfolio7DesignSection() {
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%", gap: 50 }}>
@@ -13,6 +17,48 @@ export default function Portfolio7DesignSection() {
           <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 18, lineHeight: "28px", color: "#808080" }}>Design content for Portfolio 7 will be added here.</span>
         </div>
       </div>
+
+      <PillMilestoneSection
+        heading="Design research and B2B supplier analysis"
+        description="This project evaluated B2B hospitality supplier positioning and digital platform design through competitive analysis and UX audit."
+        keyAchievementBody="Identified critical design gaps in enterprise e-commerce platforms and supplier digital presence within the hospitality supply vertical."
+        clientImpactBody="Provided comprehensive design recommendations for improving product discovery, pricing clarity, and supplier credibility for hospitality procurement teams."
+      />
+
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%", gap: 40, padding: "60px 49px", background: "#F6F7F9", borderRadius: 23.6864 }}>
+        <span style={{
+          fontFamily: "'SF Pro Display'", fontStyle: "normal", fontWeight: 400,
+          fontSize: 36, lineHeight: "45px", textAlign: "center", color: "#111111",
+          maxWidth: 900,
+        }}>
+          This design evaluation emphasized operational clarity and brand credibility for B2B suppliers navigating complex hospitality procurement workflows.
+        </span>
+        <span style={{
+          fontFamily: "'SF Pro Display'", fontStyle: "normal", fontWeight: 400,
+          fontSize: 18, lineHeight: "28px", textAlign: "center", color: "rgba(109, 109, 110, 0.8)",
+          maxWidth: 900,
+        }}>
+          Through analysis of supplier digital presence, competitor benchmarking, and hospitality procurement patterns, this evaluation provides a strategic framework for positioning specialized suppliers within evolving digital marketplaces.
+        </span>
+      </div>
+
+      <PillFaqSection
+        faqHeading="B2B Hospitality Supply Chain and Digital Positioning"
+        activeRow={{
+          leftLabel: "Market Positioning",
+          rightQuestion: "How do suppliers differentiate in the B2B hospitality space?",
+          active: true,
+          answerText: "Effective positioning emphasizes product quality, supply reliability, competitive pricing, and trusted partnerships. Digital presence, transparent ordering systems, and responsive customer support build credibility with hotel procurement teams.",
+        }}
+        row2={{
+          leftLabel: "Digital Strategy",
+          rightQuestion: "What digital transformation is needed for traditional suppliers?",
+        }}
+        row3={{
+          leftLabel: "Market Growth",
+          rightQuestion: "How do macroeconomic trends impact hospitality suppliers?",
+        }}
+      />
     </div>
   );
 }
