@@ -17,27 +17,27 @@ const milestone: PillMilestoneTexts = {
 
 const quote: PillQuoteTexts = {
   solidLine:
-    "This project was approached with a user-first mindset, focusing on the needs of pilgrims and travelers visiting Rameswaram.",
+    "The app was designed around one simple idea: find any song just by playing it.",
   mutedLine:
-    "Through research, journey mapping, and usability testing, the platform was designed to balance travel convenience with the spiritual context of temple services, ensuring clarity, accessibility, and trust at every step.",
+    "User research, journey mapping, and usability testing helped shape a fast and intuitive experience that lets users recognize music, discover song details, and enjoy a seamless journey from sound to song.",
 };
 
 const faq: PillFaqTexts = {
-  faqHeading: "My Rameswaram Trip – Travel & Temple Service Platform",
+  faqHeading: "Find Pattu – Smarter Way to Discover, Explore & Choose Your Perfect Pattu",
   activeRow: {
     leftLabel: "Overview",
-    rightQuestion: "What is the myrameswaramtrip.com platform overview?",
+    rightQuestion: "What is the My Rameswaram Trip UX/UI project about?",
     active: true,
     answerText:
-      "This platform presents a geographically distributed, user-centered digital overview of myrameswaramtrip.com. The goal is to demonstrate how the service unifies regional pilgrimage touchpoints, from temple bookings to local travel, through an intuitive and trustworthy interface that scales across visitor regions.",
+      "This Project Focuses On Designing A User-Centered Digital Platform That Combines Pilgrimage Services And Travel Planning For Rameswaram. The Goal Is To Create A Seamless Experience For Devotees And Travelers By Simplifying Temple Services, Travel Bookings, And Local Guidance Through An Intuitive And Respectful Interface.",
   },
   row2: {
-    leftLabel: "Coverage Strategy",
-    rightQuestion: "How is the solution built for businesses across regions?",
+    leftLabel: "UX Research Approach",
+    rightQuestion: "What UX research methods were used in this project?",
   },
   row3: {
     leftLabel: "User Problems Identified",
-    rightQuestion: "What regional discovery problems did the overview address?",
+    rightQuestion: "What key user problems did the research uncover?",
   },
 };
 
