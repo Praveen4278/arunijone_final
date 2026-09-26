@@ -68,7 +68,333 @@ const Portfolio7ServiceCaseStudy = () => {
               <span style={{ width: 1331, height: 49, fontFamily: "'SF Pro Display'", fontStyle: 'normal', fontWeight: 400, fontSize: 40.8113, lineHeight: '47px', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', color: '#111111', flex: 'none', order: 0, alignSelf: 'stretch', flexGrow: 0 }}>
                 {PAGE_TITLE}
               </span>
-              <PortfolioMetadata nameCorp={META_CORP} duration={META_DURATION} releaseDate={META_RELEASE} siteView={META_SITE} siteViewColor="#0D5CFF" siteViewHref={META_HREF} />
+              <div style={{
+                display: 'flex',
+                flexDirection: 'row',
+                alignItems: 'flex-start',
+                padding: '0px',
+                gap: '91px',
+                width: '895px',
+                height: '48.5px',
+                flex: 'none',
+                order: 1,
+                flexGrow: 0,
+                margin: '0 auto',
+              }}>
+                {/* Frame 220 - Client: Midcokuwait */}
+                <div style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'flex-start',
+                  padding: '0px',
+                  gap: '12px',
+                  width: '153px',
+                  height: '48.5px',
+                  flex: 'none',
+                  order: 0,
+                  flexGrow: 0,
+                }}>
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    padding: '0px',
+                    gap: '10px',
+                    width: '153px',
+                    height: '16.5px',
+                    flex: 'none',
+                    order: 0,
+                    alignSelf: 'stretch',
+                    flexGrow: 0,
+                  }}>
+                    <span style={{
+                      width: '153px',
+                      height: '16.5px',
+                      fontFamily: "'SF Pro Display'",
+                      fontStyle: 'normal',
+                      fontWeight: 300,
+                      fontSize: '18px',
+                      lineHeight: '20px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      color: 'rgba(17, 17, 17, 0.6)',
+                      flex: 'none',
+                      order: 0,
+                      flexGrow: 1,
+                    }}>
+                      Client
+                    </span>
+                  </div>
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    padding: '0px',
+                    gap: '10px',
+                    width: '153px',
+                    height: '20px',
+                    flex: 'none',
+                    order: 1,
+                    flexGrow: 0,
+                  }}>
+                    <span style={{
+                      width: '153px',
+                      height: '20px',
+                      fontFamily: "'SF Pro Display'",
+                      fontStyle: 'normal',
+                      fontWeight: 400,
+                      fontSize: '20px',
+                      lineHeight: '24px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      color: '#111111',
+                      flex: 'none',
+                      order: 0,
+                      flexGrow: 1,
+                    }}>
+                      Midcokuwait
+                    </span>
+                  </div>
+                </div>
+
+                {/* Frame 225 - Release Date */}
+                <div style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'flex-start',
+                  padding: '0px',
+                  gap: '12px',
+                  width: '147px',
+                  height: '48.5px',
+                  flex: 'none',
+                  order: 1,
+                  flexGrow: 0,
+                }}>
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    padding: '0px',
+                    gap: '10px',
+                    width: '147px',
+                    height: '16.5px',
+                    flex: 'none',
+                    order: 0,
+                    alignSelf: 'stretch',
+                    flexGrow: 0,
+                  }}>
+                    <span style={{
+                      width: '147px',
+                      height: '16.5px',
+                      fontFamily: "'SF Pro Display'",
+                      fontStyle: 'normal',
+                      fontWeight: 300,
+                      fontSize: '18px',
+                      lineHeight: '20px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      color: 'rgba(17, 17, 17, 0.6)',
+                      flex: 'none',
+                      order: 0,
+                      flexGrow: 1,
+                    }}>
+                      Release Date
+                    </span>
+                  </div>
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    padding: '0px',
+                    gap: '10px',
+                    width: '147px',
+                    height: '20px',
+                    flex: 'none',
+                    order: 1,
+                    alignSelf: 'stretch',
+                    flexGrow: 0,
+                  }}>
+                    <span style={{
+                      width: '147px',
+                      height: '20px',
+                      fontFamily: "'SF Pro Display'",
+                      fontStyle: 'normal',
+                      fontWeight: 400,
+                      fontSize: '20px',
+                      lineHeight: '24px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      color: '#111111',
+                      flex: 'none',
+                      order: 0,
+                      flexGrow: 1,
+                    }}>
+                      In Progress
+                    </span>
+                  </div>
+                </div>
+
+                {/* Frame 222 - Work As */}
+                <div style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'flex-start',
+                  padding: '0px',
+                  gap: '12px',
+                  width: '175px',
+                  height: '48.5px',
+                  flex: 'none',
+                  order: 2,
+                  flexGrow: 0,
+                }}>
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    padding: '0px',
+                    gap: '10px',
+                    width: '175px',
+                    height: '16.5px',
+                    flex: 'none',
+                    order: 0,
+                    alignSelf: 'stretch',
+                    flexGrow: 0,
+                  }}>
+                    <span style={{
+                      width: '175px',
+                      height: '16.5px',
+                      fontFamily: "'SF Pro Display'",
+                      fontStyle: 'normal',
+                      fontWeight: 300,
+                      fontSize: '18px',
+                      lineHeight: '20px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      color: 'rgba(17, 17, 17, 0.6)',
+                      flex: 'none',
+                      order: 0,
+                      flexGrow: 1,
+                    }}>
+                      Work As
+                    </span>
+                  </div>
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    padding: '0px',
+                    gap: '10px',
+                    width: '175px',
+                    height: '20px',
+                    flex: 'none',
+                    order: 1,
+                    flexGrow: 0,
+                  }}>
+                    <span style={{
+                      width: '175px',
+                      height: '20px',
+                      fontFamily: "'SF Pro Display'",
+                      fontStyle: 'normal',
+                      fontWeight: 400,
+                      fontSize: '20px',
+                      lineHeight: '24px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      color: '#111111',
+                      flex: 'none',
+                      order: 0,
+                      flexGrow: 1,
+                    }}>
+                      Creative & Marketing
+                    </span>
+                  </div>
+                </div>
+
+                {/* Frame 223 - Site View */}
+                <div style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'flex-start',
+                  padding: '0px',
+                  gap: '12px',
+                  width: '184px',
+                  height: '48.5px',
+                  flex: 'none',
+                  order: 3,
+                  flexGrow: 0,
+                }}>
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    padding: '0px',
+                    gap: '10px',
+                    width: '184px',
+                    height: '16.5px',
+                    flex: 'none',
+                    order: 0,
+                    alignSelf: 'stretch',
+                    flexGrow: 0,
+                  }}>
+                    <span style={{
+                      width: '184px',
+                      height: '16.5px',
+                      fontFamily: "'SF Pro Display'",
+                      fontStyle: 'normal',
+                      fontWeight: 300,
+                      fontSize: '18px',
+                      lineHeight: '20px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      color: 'rgba(17, 17, 17, 0.6)',
+                      flex: 'none',
+                      order: 0,
+                      flexGrow: 1,
+                    }}>
+                      Site View
+                    </span>
+                  </div>
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    padding: '0px',
+                    gap: '10px',
+                    width: '204px',
+                    height: '20px',
+                    flex: 'none',
+                    order: 1,
+                    flexGrow: 0,
+                  }}>
+                    <a href="https://midcokuwait.com" target="_blank" rel="noopener noreferrer" style={{
+                      width: '204px',
+                      height: '20px',
+                      fontFamily: "'SF Pro Display'",
+                      fontStyle: 'normal',
+                      fontWeight: 400,
+                      fontSize: '20px',
+                      lineHeight: '24px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      color: '#0D5CFF',
+                      textDecoration: 'none',
+                      flex: 'none',
+                      order: 0,
+                      flexGrow: 0,
+                    }}>
+                      midcokuwait.com
+                    </a>
+                  </div>
+                </div>
+              </div>
               <div style={{ position: 'relative', overflow: 'hidden', width: 1331, height: 625, borderRadius: 20.4131, flex: 'none', order: 2, alignSelf: 'stretch', flexGrow: 0 }}>
                 <div style={{ position: 'absolute', width: 1335.11, height: 627.5, left: 0, top: 0, background: '#FFFFFF' }}>
                   <img src={HERO_IMG} alt={PAGE_TITLE} style={{ position: 'absolute', width: 301, height: 299.73, left: 'calc(50% - 150.5px)', top: 'calc(50% - 149.865px)', objectFit: 'contain' }} />
