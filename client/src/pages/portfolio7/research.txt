@@ -1,0 +1,794 @@
+/* Big box */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 55px 49px;
+gap: 60px;
+
+width: 1420px;
+height: 2698px;
+
+border-radius: 23.6864px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 129 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 1322px;
+height: 145px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Border */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 20px;
+gap: 10px;
+
+width: 194px;
+height: 38px;
+
+border: 0.969561px solid #202833;
+border-radius: 236.844px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* research report */
+
+width: 154px;
+height: 20px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+letter-spacing: 2.07195px;
+text-transform: uppercase;
+
+color: #202833;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 128 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 393px;
+
+width: 1322px;
+height: 92px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 126 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 10px 10px 0px;
+gap: 10px;
+
+width: 421px;
+height: 92px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Heading 2 → Our Success Stories Real Results,
+Real Impact */
+
+width: 411px;
+height: 72px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 36px;
+/* or 103% */
+display: flex;
+align-items: center;
+
+color: #111111;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 127 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 515px;
+height: 92px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Explore how research and user-focused design improved product discovery, strengthened digital presence, and created a clearer experience for showcasing hotel products and hospitality supplies. */
+
+width: 505px;
+height: 72px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 148% */
+display: flex;
+align-items: center;
+
+color: rgba(109, 109, 110, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Inner Box */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 250px;
+gap: 40px;
+
+width: 1322px;
+height: 2438px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 145 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 23px;
+
+width: 822px;
+height: 2400px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 145 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 2400px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* List */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 822px;
+height: 2400px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 822px;
+height: 53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Introduction: The Macroeconomic Transformation of Kuwait's Hospitality Sector */
+
+position: absolute;
+width: 792px;
+height: 50px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* or 117% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Item */
+
+width: 816px;
+height: 191px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* The State of Kuwait is currently navigating a profound macroeconomic restructuring driven by the strategic imperatives outlined in the Kuwait Vision 2035 framework, locally branded as "New Kuwait". Historically reliant on hydrocarbon revenues, the Kuwaiti government has recognized the acute vulnerabilities associated with global oil price volatility, a burgeoning youth demographic, and the overarching need to foster a robust private sector. In response, the national development plan seeks to transform the nation into a premier financial, commercial, and cultural hub within the Gulf Cooperation Council (GCC) and the broader Middle East. */
+
+position: absolute;
+width: 752px;
+height: 188px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+
+/* Item */
+
+width: 816px;
+height: 394px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* A central pillar of this transformation is the aggressive expansion of the tourism and hospitality sectors. Unlike neighboring states that have pursued mass tourism or entertainment-driven mega-projects, Kuwait's approach is characterized by a "culture-first" strategy. This framework leverages the country's maritime history, unique cultural traditions, and coastal geography to curate specialized, high-yield luxury travel experiences aimed at discerning international and regional travelers. The execution of this vision relies heavily on the concomitant expansion of hospitality infrastructure. The national pipeline includes substantial state and private investments, such as the ongoing expansion of Kuwait International Airport to handle 25 million passengers annually by 2025, and the addition of thousands of new hotel keys across luxury and extended-stay segments. Kuwait's ambitious hospitality pipeline anticipates a 6.7 percent compound annual growth rate (CAGR) in room supply, featuring major international brand deployments such as a 200-key Waldorf Astoria, a 300-key Grand Hyatt, a 400-key Hilton Garden Inn, and a massive master agreement with Alshaya Group to develop 70 Hampton by Hilton properties across the wider region, with the initial rollout anchored in Kuwait. */
+
+position: absolute;
+width: 752px;
+height: 391px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+
+/* Item */
+
+width: 816px;
+height: 191px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* This top-down mandate for high-end hospitality creates massive downstream demand for specialized business-to-business (B2B) supply chains. Hotels, resorts, and institutional facilities require vast, highly reliable networks of local suppliers to maintain the stringent operational standards demanded by international luxury brands and high-net-worth guests. Within this rapidly expanding ecosystem, Midco Kuwait has emerged as a critical nodal player. Formally registered as MidcoKuwait General Trading Cont. Est., the enterprise has positioned itself as a leading supplier of hospitality hygiene supplies, luxury room amenities, operational hardware, and specialized enterprise software. */
+
+position: absolute;
+width: 752px;
+height: 188px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+
+/* Item */
+
+width: 816px;
+height: 143px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* The following report provides an exhaustive, multi-dimensional analysis of Midco Kuwait. By dissecting its complex product portfolio, pricing matrices, technological integrations, competitive market positioning against legacy players, and the broader macroeconomic drivers of the GCC hospitality market, this analysis elucidates how enterprise-level suppliers adapt to, and facilitate, state-sponsored economic diversification. */
+
+position: absolute;
+width: 752px;
+height: 140px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+
+/* Item */
+
+width: 822px;
+height: 31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Corporate Ontology and Geographic Footprint */
+
+position: absolute;
+width: 792px;
+height: 28px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height, or 117% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Item */
+
+width: 816px;
+height: 115px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* Understanding the operational capacity of Midco Kuwait requires a detailed examination of its legal structure, geographic footprint, and digital presence. The firm operates under the legal framework of a "General Trading and Contracting Establishment," a highly versatile corporate structure common in the GCC that permits entities to operate across multiple, disparate commercial verticals. */
+
+position: absolute;
+width: 752px;
+height: 112px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+
+/* Item */
+
+width: 816px;
+height: 171px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* The enterprise operates from its primary commercial headquarters located at the Al Tarbiya building, near Souk Safat, in the Mirqab district of Kuwait City. This central location provides the firm with strategic proximity to major commercial districts and hotel clusters within the capital, facilitating rapid deployment of B2B supplies. The company maintains direct communication channels through its official portal, offering dedicated support via its primary contact number (+965-51182233) and centralized email infrastructure (info@midcokuwait.com). */
+
+position: absolute;
+width: 752px;
+height: 168px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+
+/* The enterprise operates from its primary commercial headquarters located at the Al Tarbiya building, near Souk Safat, in the Mirqab district of Kuwait City. This central location provides the firm with strategic proximity to major commercial districts and hotel clusters within the capital, facilitating rapid deployment of B2B supplies. The company maintains direct communication channels through its official portal, offering dedicated support via its primary contact number (+965-51182233) and centralized email infrastructure (info@midcokuwait.com). */
+
+position: absolute;
+width: 752px;
+height: 168px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+
+/* Item */
+
+width: 822px;
+height: 31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Geographic Anomalies and Digital Deployment Artifacts */
+
+position: absolute;
+width: 792px;
+height: 28px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height, or 117% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Item */
+
+width: 816px;
+height: 171px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 0;
+
+
+/* A rigorous audit of the company's digital footprint reveals several operational anomalies that provide insight into the firm's digital deployment strategies. First, alongside its registered Kuwait City headquarters, the firm's official documentation and web presence repeatedly list a secondary, ostensibly international address: "503 Block Ridge, Manchester Carolina 591-909". This formatting suggests either a highly specific overseas logistics or procurement routing hub, or, more likely, a residual digital artifact from a templated e-commerce backend platform that was not fully localized during the website's development phase. */
+
+position: absolute;
+width: 816px;
+height: 168px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+
+/* Item */
+
+width: 816px;
+height: 283px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+flex-grow: 0;
+
+
+/* This hypothesis of digital deployment artifacts is strongly corroborated by the company's published customer testimonials. The official Midco Kuwait platform features numerous reviews from purported customers—identified as Emily R., Michael T., Sarah M., Alex K., and Jerome Bell—who universally praise a platform called "Shop.co" for its "fashion needs," "elegant dresses," and "unique fashion pieces" that align with the latest clothing trends. Given that Midco Kuwait is unequivocally a B2B hospitality and hotel supplier dealing in industrial hygiene products, linens, and enterprise software, the presence of these retail fashion reviews indicates that the enterprise likely utilized a turnkey e-commerce infrastructure (such as Shopify or WooCommerce) to rapidly digitize its catalog. The failure to scrub placeholder text from the digital storefront suggests that the company’s core competency lies heavily in physical logistics, procurement, and B2B relationships rather than in-house digital marketing or web development. */
+
+position: absolute;
+width: 816px;
+height: 280px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+
+/* Item */
+
+width: 822px;
+height: 31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 11;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* The Dual-Market Paradigm: Hospitality and Commodities Trading */
+
+position: absolute;
+width: 792px;
+height: 28px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height, or 117% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Item */
+
+width: 816px;
+height: 114px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 12;
+flex-grow: 0;
+
+
+/* While Midco Kuwait is predominantly recognized as a "one-stop shop" for hospitality needs—boasting a portfolio of over 2,000 high-quality products, partnerships with more than 200 international brands, and a client base exceeding 30,000 customers with a perfect on-time delivery metric—its operations extend significantly beyond traditional hotel supplies. */
+
+position: absolute;
+width: 816px;
+height: 111px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+
+/* Item */
+
+width: 816px;
+height: 171px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 13;
+flex-grow: 0;
+
+
+/* Global trade registry data and B2B marketplace platforms indicate that the legal entity "Midcokuwait," established in 2010 and managed by a primary executive identified as Nasser, also engages extensively in the international commodities trade. Specifically, the firm operates as a junior buyer and supplier within the global seafood market. Records from global procurement networks highlight the firm's active purchasing and supplying of fresh and chilled seafood products, utilizing its Kuwait City logistics base (Postal Code 13035) to facilitate cross-border agricultural and aquatic trade. */
+
+position: absolute;
+width: 816px;
+height: 168px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+
+/* Item */
+
+width: 816px;
+height: 142px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 14;
+flex-grow: 0;
+
+
+/* This bifurcation—operating a highly specialized luxury hospitality supply division alongside a bulk food commodities trading desk—is emblematic of dominant Gulf-based general trading firms. It serves as a sophisticated macroeconomic hedge: the hospitality supply division captures margin from domestic infrastructure growth, tourism influx, and foreign direct investment in real estate, while the seafood commodities division taps into essential, non-cyclical domestic food consumption patterns. */
+
+position: absolute;
+width: 816px;
+height: 139px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+

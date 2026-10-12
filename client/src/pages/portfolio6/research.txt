@@ -1,0 +1,3199 @@
+/* Frame 145 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 23px;
+
+width: 822px;
+height: 9477px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 143 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 13px;
+
+width: 822px;
+height: 9477px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* The Convergence of Experiential Hospitality and Digital Ecosystems */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277177 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 460px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 172 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 216px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* The hospitality industry is undergoing a profound architectural and operational shift, transitioning from highly fragmented, on-premise point solutions to unified, cloud-native digital ecosystems. This transformation is driven by the rising consumer demand for highly specialized, experiential lodging and the simultaneous operational necessity for properties to bypass exorbitant third-party distribution fees. Within this dynamic landscape, the term "Resora" occupies a dual significance, representing both the physical culmination of specialized experiential hospitality and the cutting-edge digital software required to manage, filter, and book such complex inventory. */
+
+width: 781px;
+height: 196px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 173 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 244px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Historically, luxury resorts, historical retreats, and premium residential complexes have relied on a disjointed array of applications to manage distinct operational silos. A property might utilize one system for property management, another for booking club amenities, a third for guest incident reporting, and a completely separate, loosely integrated widget for direct room reservations. This fragmentation routinely degrades the guest experience by forcing users to navigate multiple interfaces, while simultaneously impeding operational visibility for management. In response to this systemic inefficiency, a new generation of B2B white-label platforms has emerged, engineered to consolidate the entire resort lifecycle into a single, cohesive application. */
+
+width: 781px;
+height: 224px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* The Physical Manifestation of the Resora Brand */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277178 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 704px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 174 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 132px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* To understand the intricate filtering and booking requirements of modern hospitality software, one must first examine the complexity of the inventory it is designed to manage. The physical properties operating under the "Resora" moniker provide prime examples of highly specialized lodging that defies generic categorization on standard Online Travel Agencies (OTAs). */
+
+width: 781px;
+height: 112px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 175 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 328px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* In the United States, Resora represents a sprawling ,1600-acre agricultural and historical retreat located in Albany, Georgia. Situated on the Cypress Pond Plantation, this destination serves as the main campus for the New Communities Land Trust, an organization with deep roots in the Civil Rights Movement founded in 1968 by figures such as Charles and Shirley Sherrod, and Monroe Gaines. The property offers highly specific lodging experiences, such as the Slater King Cabin and the Monroe Gaines Cabin. These accommodations require granular filtering capabilities; for example, the Slater King Cabin is fully handicapped-accessible with a ramped entrance, features hardwood flooring, a gourmet galley kitchen with granite countertops, and offers specific views of Sherrod Manor, a 19th-century mansion. Furthermore, the property boasts an 85-acre pond for bass fishing, pecan orchards, and a muscadine vineyard, requiring an application that can bundle ancillary experiences (like agricultural tours or fishing access) alongside the room booking. */
+
+width: 781px;
+height: 308px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 176 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 244px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Conversely, in Wakayama, Japan, the brand is represented by Kada Beachglamping Resora RAINBOW, an exclusive five-star glamping resort located adjacent to Setonaikai National Park. This property redefines luxury outdoor lodging by offering 36-square-meter tents situated directly on Kada Beach. The booking parameters for this property are highly specific: it features limited exclusive inventory, strict check-in (3:00 PM) and check-out (10:00 AM) windows, and highly sought-after localized amenities such as fishing gear rentals for use in the crystal-clear waters of the Wakayama coastline. The property is also geographically indexed for travelers seeking proximity to historical sites like the Awashima Shrine and the Wakayama Castle, necessitating robust geospatial search capabilities within its booking engine. */
+
+width: 781px;
+height: 224px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* The Resora Digital Ecosystem and White-Label Architecture */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277179 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 320px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 177 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 188px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Addressing the technological deficit in the premium hospitality sector, the "Resora" software platform—developed by Antonio Sierra Saavedra and his engineering team based in Spain—functions as a comprehensive resort operating system. The platform is a prime example of a modern B2B white-label application. Instead of forcing a resort to direct its guests to a third-party aggregator, Resora provides a fully branded, standalone application that unifies community governance, club amenities, guest accommodations, and property administration into a single, cohesive interface. */
+
+width: 781px;
+height: 168px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 178 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 132px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* The architecture of a unified resort platform must simultaneously accommodate highly divergent user personas while maintaining stringent data isolation. The Resora application achieves this through a modular design that segments functionality based on the authenticated user's relationship with the property. */
+
+width: 781px;
+height: 112px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* Multi-Persona Module Capabilities and Operational Impact */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277180 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 376px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 179 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 132px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* The platform dynamically adjusts its interface and feature set based on four primary stakeholder categories. The underlying engineering challenge involves presenting these tailored user interfaces while routing all data into a centralized, highly secure backend management dashboard hosted on European servers in Frankfurt to ensure strict GDPR compliance. */
+
+width: 781px;
+height: 112px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 180 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 244px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* The integration of artificial intelligence within the management module—specifically, an AI assistant capable of cross-referencing real-time data to summarize critical daily issues—represents a sophisticated evolution in property management software. By parsing complex operational datasets into actionable intelligence, the system allows resort staff to redirect their focus from administrative triage to direct guest interaction. This operational intelligence is further augmented by sister applications within the developer's ecosystem, such as "Domovara," which utilizes AI to audit real estate portfolios and identify stalled deals, and "Sagesport," which provides AI-driven analytics for club members analyzing their athletic performance. */
+
+width: 781px;
+height: 224px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* The Economics of Direct Booking Engines and Mobile Conversion */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 181 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 160px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* The financial justification for adopting a robust white-label application like Resora centers heavily on neutralizing the dominant market position of Online Travel Agencies. Currently, aggregators such as Booking.com and Expedia control approximately 55% of the global hotel booking market. For a resort generating significant monthly revenue, the commission bleed to these indirect channels is a massive liability to net operating income. */
+
+width: 781px;
+height: 140px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+flex-grow: 0;
+
+
+/* Quantifying OTA Dependency */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277176 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 536px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 11;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 182 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 160px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* To understand the financial dynamics, one must examine the mathematics of third-party distribution. OTAs routinely charge commissions ranging from 15% to 30% on every reservation. Consider a mid-sized premium property processing 1,000 bookings monthly at an average rate of $150. If 60% of these bookings originate from OTAs charging a 20% commission, the property sacrifices $18,000 monthly, or $216,000 annually, in distribution costs. */
+
+width: 781px;
+height: 140px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 183 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 132px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Furthermore, the hidden cost of OTA dependency is the loss of the customer relationship. OTAs frequently employ data masking techniques, such as providing proxy email addresses, which prevents hotels from establishing direct, post-stay marketing relationships or enrolling guests in proprietary loyalty programs. */
+
+width: 781px;
+height: 112px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 184 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 244px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Implementing a white-label mobile app with a high-performing, proprietary booking engine directly combats this dependency. Industry benchmarks indicate that hotels deploying mobile-first, optimized booking engines observe a 15% to 25% increase in direct booking share within the first six to twelve months of operation. Direct hotel bookings completely eliminate the 15% to 30% OTA commission fee, replacing it with nominal payment gateway tokenization costs of 2% to 3%. Moreover, direct reservations generate up to 60% more revenue per booking on average, primarily due to the platform's ability to seamlessly present tailored upsells—such as late check-outs, dining packages, or spa credits—directly within the checkout flow. */
+
+width: 781px;
+height: 224px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 12;
+flex-grow: 0;
+
+
+/* The Imperative of Mobile Speed and Funnel Optimization */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277181 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 404px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 13;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 185 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 188px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* The shift in consumer behavior dictates that travel applications must be engineered for extreme speed and frictionless user experience. Across global markets, between 60% and 65% of all hotel bookings are now initiated on mobile devices. Data from major travel holding companies indicates that mobile users exhibit exceptionally low tolerance for latency. If a booking engine fails to display the first available rate within three seconds, or if the final confirmation process takes longer than a minute, abandonment rates spike dramatically, driving the frustrated user straight back to an OTA application. */
+
+width: 781px;
+height: 168px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 186 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 216px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* This reality mandates that white-label platforms optimize their search funnels rigorously. The first critical metric is the "time to first rate," which measures the latency between a user opening the application and seeing actionable pricing data. Heavy hero images, excessive tracking scripts loading before rates, and mandatory full-screen scrolling are lethal to conversion rates. A high-converting application must prioritize the rendering of the date selector, occupancy details, and a lead-in price above the fold to capture high-intent travelers immediately. A streamlined, mobile-optimized funnel that adheres to these principles routinely yields a 10% to 30% conversion lift. */
+
+width: 781px;
+height: 196px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 14;
+flex-grow: 0;
+
+
+/* Advanced Search Architecture: Faceted Search and Room Filtering */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277182 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 348px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 15;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 187 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 188px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* The core engine powering any successful resort booking application—the capability that truly defines a system like Resora—is its search and filtering architecture. Users expect to input complex, multi-dimensional queries and receive instant, accurate results. A user seeking a retreat at a property like the Slater King Cabin might search for "handicapped accessible," "two bedrooms," "under $400," and "available next weekend." Executing this query across a large portfolio requires a highly specialized technical infrastructure capable of faceted search. */
+
+width: 781px;
+height: 168px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 188 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 160px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Faceted search fundamentally differs from simple category filtering. It allows users to combine multiple, dynamic attributes (facets) simultaneously to refine a massive dataset interactively, ensuring that the user never encounters a frustrating "zero results" page. Delivering this functionality at sub-100 millisecond response times demands a sophisticated database strategy, typically involving hybrid data structures and specialized search engines like Elasticsearch. */
+
+width: 781px;
+height: 140px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 16;
+flex-grow: 0;
+
+
+/* Inverted Indexes vs. Doc Values */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277183 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 640px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 17;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 189 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 132px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* To power faceted room filtering, modern booking architectures must overcome the limitations of traditional relational databases (like PostgreSQL or MySQL), which struggle to perform complex text searches combined with multi-dimensional filtering at scale. Instead, systems rely on Elasticsearch, which utilizes distinct underlying data structures for different types of queries. */
+
+width: 781px;
+height: 112px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 152 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 10px 10px 30px;
+gap: 10px;
+
+width: 822px;
+height: 188px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* The Inverted Index (Optimized for Text Search): When a user searches for a specific string, such as "deluxe cabin" or "ocean view," the system utilizes an inverted index. This structure operates conceptually like the index at the back of a textbook. It maps individual terms (tokens) to a list of all documents (rooms or hotels) containing those terms. For example, the token "deluxe" might map directly to [Hotel_A, Hotel_B, Hotel_C]. While inverted indexes are incredibly fast for full-text search, they are highly inefficient for numerical comparisons, range queries, or exact-match filtering. */
+
+width: 805px;
+height: 168px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 190 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 10px 10px 30px;
+gap: 10px;
+
+width: 822px;
+height: 216px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Doc Values (Optimized for Filtering and Aggregations): For faceted attributes—such as price ranges, guest capacity, or specific categorical amenities (e.g., ["pool", "spa", "gym"])—the system relies on Doc Values. Doc Values utilize a columnar storage format, writing all values for a specific field into a single column on disk. For instance, all room prices are stored sequentially: [299, 599, 199, 450]. This architecture allows the engine to perform rapid numerical evaluations (e.g., finding all values where price < $300) and exact category matching without scanning unrelated data rows, mimicking the performance of enterprise columnar databases like Amazon Redshift or Google BigQuery. */
+
+width: 805px;
+height: 196px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 191 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* By seamlessly combining row-oriented inverted indexes with columnar Doc Values, the application achieves a hybrid search capability. This allows users to execute complex queries involving both free-text searches and strict numerical or categorical constraints simultaneously. */
+
+width: 781px;
+height: 84px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 18;
+flex-grow: 0;
+
+
+/* The Filter-First Execution Strategy */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277184 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 376px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 19;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 192 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* To achieve the minimal latency required for mobile conversions, advanced booking systems employ a "Filter-First" execution strategy within Elasticsearch. Traditional search engines often retrieve all matching documents and then score them for relevance, which is computationally expensive. */
+
+width: 781px;
+height: 84px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 193 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 272px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* In a Filter-First approach, the engine first evaluates the strict filters (e.g., location, date availability, capacity). The system creates "BitSets"—highly compressed binary arrays representing the documents that match each specific filter. It then performs rapid bitwise AND operations to find the intersection of these sets. The computationally expensive relevance scoring (such as the BM25 algorithm) is subsequently applied only to the tiny subset of rooms that survive the filtering phase. This architectural pattern drastically reduces CPU usage and can reduce query latency from 200 milliseconds down to 30 milliseconds, resulting in a performance improvement of up to 50x compared to scoring-first approaches. Furthermore, these BitSets are highly cacheable, meaning that popular filter combinations (e.g., "weekend," "2 guests," "pool") load almost instantaneously for subsequent users. */
+
+width: 781px;
+height: 252px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 20;
+flex-grow: 0;
+
+
+/* The SEO Implications of Faceted Navigation */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277185 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 508px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 21;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 194 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* While faceted search provides a superior user experience, it introduces severe Search Engine Optimization (SEO) complexities for the web-based version of the booking portal. Every combination of filters generates a unique URL (e.g., /rooms?type=deluxe&view=ocean&price=300). */
+
+width: 781px;
+height: 84px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 195 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 160px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Because facets can be combined infinitely, a relatively small inventory can generate an astronomical number of URLs. For example, a property with 10 room types, 8 amenity filters, 5 views, and 4 capacities could theoretically generate thousands of unique URL combinations. If left unchecked, search engine bots (like Googlebot) will attempt to crawl all these useless parameter combinations, leading to severe "crawl bloat" and massive duplicate content penalties, which destroy the site's organic search rankings. */
+
+width: 781px;
+height: 140px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 196 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 244px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* To mitigate this, platform architects must employ strict indexation controls. Best practices include implementing dynamic canonical tags that point all faceted URL variations back to the primary, un-filtered category page. Additionally, engineers apply noindex, follow directives via the robots.txt file to low-value filter combinations. The most sophisticated platforms utilize AJAX or JavaScript-based filtering, which updates the Document Object Model (DOM) and displays new results without actually changing the URL structure or generating a new page load, entirely eliminating the crawl bloat problem. Mastering this balance ensures that high-value pages rank prominently while the platform's crawl budget is preserved. */
+
+width: 781px;
+height: 224px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 22;
+flex-grow: 0;
+
+
+/* Inventory Synchronization and the Availability Tier */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 197 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 132px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 23;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* The operational heartbeat of any resort is its booking calendar. Beyond merely displaying reservations, the calendar functions as the central nervous system for inventory management. While Elasticsearch is unparalleled for faceted querying, it possesses a critical architectural limitation when handling live inventory. */
+
+width: 781px;
+height: 112px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 24;
+flex-grow: 0;
+
+
+/* The Lucene Update Penalty and Dual-System Architecture */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277186 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 470px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 25;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 198 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 132px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Elasticsearch is built on Apache Lucene, which stores data in immutable segments on disk. Consequently, Elasticsearch does not support fast, in-place data updates. When a room's availability changes (e.g., a guest books a room), the system must write a completely new document segment and mark the old one as deleted, a process known as the "update penalty". */
+
+width: 781px;
+height: 112px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 199 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 150px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* In the hospitality sector, room availability is highly volatile. If multiple guests are attempting to book the last available luxury glamping tent at Resora RAINBOW concurrently, the system must process updates in milliseconds to prevent a double-booking. Because Elasticsearch's immutable architecture cannot efficiently handle this high-throughput Online Transaction Processing (OLTP) workload, enterprise booking platforms must implement a dual-system architecture. */
+
+width: 781px;
+height: 140px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 200 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 188px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* In this dual-system flow, the user's query first hits the Search Tier (Elasticsearch) to rapidly filter the inventory down to rooms matching their amenities, location, and price criteria. The application then immediately passes this filtered subset to the Availability Tier (Redis) to verify real-time availability for the requested dates. Only the rooms confirmed by Redis as definitively available are returned to the user's screen. This two-step process leverages the strengths of both systems, guaranteeing sophisticated search capabilities without sacrificing absolute inventory accuracy. */
+
+width: 781px;
+height: 168px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 26;
+flex-grow: 0;
+
+
+/* The Booking Calendar and Channel Management */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277187 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 376px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 27;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 201 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 132px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* When a guest utilizes a white-label mobile app to confirm a reservation, a precise sequence of automated events executes. Upon successful payment processing, the reservation is recorded in the primary database, and the booking engine immediately pushes an update to the Property Management System (PMS). */
+
+width: 781px;
+height: 112px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 202 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 244px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Simultaneously, the calendar must synchronize with a Channel Manager. The Channel Manager is responsible for broadcasting the reduction in inventory across all connected third-party distribution networks, including OTAs (Expedia, Booking.com, Agoda) and Global Distribution Systems (GDS). This two-way, real-time synchronization is non-negotiable; even a latency of a few minutes can result in catastrophic double-bookings, severely damaging the resort's reputation and necessitating costly guest relocations. Furthermore, this synchronized calendar dictates daily physical operations, instantly updating the front desk regarding early check-ins and notifying housekeeping teams of room turnover requirements. */
+
+width: 781px;
+height: 224px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 28;
+flex-grow: 0;
+
+
+/* Cross-Platform Application Architecture and White-Label Scaling */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 203 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 160px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 29;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Delivering a high-performance white-label application to both iOS and Android ecosystems requires strategic architectural decisions. Developing completely separate native applications using Swift (for iOS) and Kotlin (for Android) is highly resource-intensive and effectively doubles the development and maintenance burden. Consequently, most modern hospitality platforms utilize cross-platform frameworks, predominantly React Native or Flutter. */
+
+width: 781px;
+height: 140px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 30;
+flex-grow: 0;
+
+
+/* React Native vs. Flutter in Hospitality */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277188 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 424px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 31;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 204 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Both frameworks allow development teams to maintain a single codebase that compiles to both major mobile operating systems, yet they take fundamentally different approaches to rendering user interfaces. */
+
+width: 781px;
+height: 56px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 205 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* For a white-label hospitality application, the chosen framework must efficiently handle dynamic theming and modular composition. A true white-label platform consists of a core application architecture that can spawn distinct, branded binaries for hundreds of different resorts. */
+
+width: 781px;
+height: 84px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 206 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 244px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* In a React Native implementation, this is achieved through strict separation of concerns. The core codebase contains all possible modules (e.g., golf booking, spa booking, incident reporting). During the automated build process for a specific client, the scripts inject the client's specific styling parameters (color palettes, typography) and strip out unnecessary modules. Crucially, the system programmatically alters the application's unique Bundle ID (for iOS) and Application ID (for Android) alongside the display name. This allows the resulting binary to be published to the Apple App Store and Google Play Store as a standalone, independent application fully owned by the resort brand, rather than existing as a sub-menu within a generic aggregator app. */
+
+width: 781px;
+height: 224px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 32;
+flex-grow: 0;
+
+
+/* Interoperability Standards: OpenTravel Alliance and API Ecosystems */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 207 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 160px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 33;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* A resort operating system cannot exist in a vacuum; it must communicate seamlessly with an extensive web of external systems, including payment gateways, electronic lock systems, CRM databases, and global distribution networks. The hospitality industry has historically struggled with profound interoperability challenges due to deeply entrenched legacy systems, proprietary data models, and complex fare calculation engines. */
+
+width: 781px;
+height: 140px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 34;
+flex-grow: 0;
+
+
+/* The Role of the OpenTravel Alliance (OTA) */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277189 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 292px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 35;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 208 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* To standardize communication across the fragmented travel sector, the OpenTravel Alliance (OTA) was formed. The OTA established a comprehensive set of XML schemas that provided a universal language for airlines, hotels, and car rental companies to exchange inventory and reservation data. */
+
+width: 781px;
+height: 84px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 209 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 188px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* For years, OTA XML standards (such as version 2003B, still used heavily by platforms like Booking.com) served as the backbone of hospitality integration. When a booking engine sends a reservation payload to a legacy PMS, it often wraps the data in a complex SOAP (Simple Object Access Protocol) envelope containing verbose XML tags. While these XML-over-HTTP structures are highly mature and feature robust error handling via SOAP Faults, they are exceptionally rigid, bandwidth-heavy, and difficult to adapt to modern, high-speed mobile applications. */
+
+width: 781px;
+height: 168px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 36;
+flex-grow: 0;
+
+
+/* The Transition to JSON and OpenTravel 2.0 */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277190 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 480px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 37;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 210 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Modern software development heavily favors Representational State Transfer (REST) architectures utilizing JavaScript Object Notation (JSON) payloads. JSON is significantly more lightweight, parses natively in web and mobile environments, and requires far less processing overhead than XML. */
+
+width: 781px;
+height: 84px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 211 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 160px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* The industry is currently in a transitional phase. While new booking engines and white-label mobile platforms are built on REST/JSON architectures, they must frequently interface with legacy suppliers and Global Distribution Systems that only accept XML. This requires advanced middleware integration engines capable of translating dynamic JSON requests from a mobile app into compliant OTA XML payloads in real-time, which adds latency and engineering complexity. */
+
+width: 781px;
+height: 140px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 212 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 216px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Recognizing this shift, the OpenTravel Alliance is advancing "OpenTravel 2.0" in partnership with the Linux Foundation. This initiative seeks to move beyond mere syntax changes, establishing standardized JSON reference architectures designed specifically for modern cloud deployments and artificial intelligence workflows. By standardizing object models in JSON, the industry aims to drastically reduce the engineering costs associated with building custom API connectors, enabling faster deployment of omni-channel booking solutions and allowing AI agents to read, interpret, and book travel inventory autonomously. */
+
+width: 781px;
+height: 196px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 38;
+flex-grow: 0;
+
+
+/* Security, Compliance, and Data Governance */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 213 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 132px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 39;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Given the sheer volume of sensitive data processed by resort applications—ranging from financial details to physical location tracking—rigorous adherence to international security frameworks is paramount. White-label platforms must architect their systems around two critical pillars of compliance: payment security and data privacy within multi-tenant environments. */
+
+width: 781px;
+height: 112px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 40;
+flex-grow: 0;
+
+
+/* PCI DSS and Secure Payment Tokenization */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277192 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 320px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 41;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 214 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Resort applications frequently handle high-value financial transactions. To mitigate the risk of catastrophic data breaches, modern booking engines are engineered to remain strictly out of scope for storing raw credit card data, relying instead on secure payment gateways. */
+
+width: 781px;
+height: 84px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 215 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 216px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* When a guest enters their credit card information into the app, the data is transmitted directly to a PCI DSS-certified payment processor (such as Stripe). The processor validates the card and returns a secure cryptographic "token" to the resort's application. This token represents the payment method but holds no intrinsic financial value and cannot be reverse-engineered by malicious actors. The resort's PMS and booking engine store only the token, allowing them to charge the guest for incidentals, restaurant tabs, or future stays seamlessly, while the hotel remains fully compliant with Payment Card Industry Data Security Standards (PCI DSS). */
+
+width: 781px;
+height: 196px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+width: 816px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 42;
+flex-grow: 0;
+
+
+/* Multi-Tenant Data Isolation and GDPR Compliance */
+
+position: absolute;
+width: 745px;
+height: 25px;
+left: 0px;
+top: 3px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+color: #191615;
+
+
+
+/* Frame 1171277191 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 822px;
+height: 480px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 43;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 216 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 132px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Supporting a fleet of white-labeled applications necessitates a highly secure multi-tenant backend architecture. When a user interacts with the app, the backend must dynamically serve data isolated to that specific resort tenant. If a multi-tenant system is poorly designed, it risks catastrophic data leakage—where an employee at Resort A might accidentally view the guest roster for Resort B. */
+
+width: 781px;
+height: 112px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 217 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 132px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* To prevent this, platforms implement strict logical isolation at the database layer, using unique Tenant IDs on every database row combined with granular, Role-Based Access Control (RBAC). This architecture ensures that end-users operate within a hermetically sealed environment, experiencing the platform solely through the lens of their specific brand. */
+
+width: 781px;
+height: 112px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 218 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 822px;
+height: 216px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Operating within global jurisdictions requires strict adherence to privacy laws like the General Data Protection Regulation (GDPR). Platforms processing Personally Identifiable Information (PII) must implement systemic privacy controls, including explicit consent management, the ability for guests to execute "Right to Access" requests, and automated data deletion workflows. When a guest requests deletion, sophisticated systems deploy obfuscation algorithms that anonymize the PII. This ensures the individual can no longer be identified, yet the underlying transactional data (e.g., room rate, length of stay) is preserved for aggregate financial reporting. */
+
+width: 781px;
+height: 196px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;

@@ -1,4 +1,5 @@
 import PillMilestoneSection from "../../portfolio1/sections/PillMilestoneSection";
+import PillQuoteSection from "../../portfolio1/sections/PillQuoteSection";
 import PillFaqSection from "../../portfolio1/sections/PillFaqSection";
 
 function StatusBar() {
@@ -264,48 +265,42 @@ export default function Portfolio5DesignSection() {
 
       {/* Milestone Section */}
       <PillMilestoneSection
-        heading="Research milestones and heuristic findings"
-        description="This project evaluated music discovery app usability through heuristic analysis, MIR research, and gamification evaluation."
-        keyAchievementBody="Identified core UX patterns and system architecture requirements for progressive, level-based music identification."
-        clientImpactBody="Provided a comprehensive technical and legal framework for building a Tamil music trivia and QBH application."
+        mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_1.svg"
+        heading="Key milestones and outcomes of the project"
+        description="The Find Pattu interface is designed to make song recognition quick, simple, and intuitive, with every screen focused on helping users move effortlessly from listening to discovering."
+        keyAchievementBody="Designed a clean, intuitive interface that makes identifying songs quick and effortless."
+        clientImpactBody="Created a seamless music discovery experience that improves usability and makes song recognition more engaging."
       />
 
       {/* Quote Section */}
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%", gap: 40, padding: "60px 49px", background: "#F6F7F9", borderRadius: 23.6864 }}>
-        <span style={{
-          fontFamily: "'SF Pro Display'", fontStyle: "normal", fontWeight: 400,
-          fontSize: 36, lineHeight: "45px", textAlign: "center", color: "#111111",
-          maxWidth: 900,
-        }}>
-          This research was approached with a user-first and technically rigorous mindset, focusing on the intersection of gamification, MIR, and Tamil musicology.
-        </span>
-        <span style={{
-          fontFamily: "'SF Pro Display'", fontStyle: "normal", fontWeight: 400,
-          fontSize: 18, lineHeight: "28px", textAlign: "center", color: "rgba(109, 109, 110, 0.8)",
-          maxWidth: 900,
-        }}>
-          Through deep evaluation of pitch estimation models, source separation techniques, sequence matching algorithms, and Indian copyright law, this report provides a complete blueprint for building a culturally authentic and legally compliant music identification platform.
-        </span>
-      </div>
+      <PillQuoteSection
+        solidLine="The design was centered around making music discovery fast, simple, and effortless."
+        mutedLine="Every screen and interaction was carefully crafted to support the core experience of identifying songs through sound, with a clean interface, intuitive navigation, and a seamless flow from listening to discovering."
+        textWidth={843}
+        textHeight={210}
+        outerWidth={1415}
+        outerMinHeight={410}
+        outerPaddingX={309}
+      />
 
       {/* FAQ Section */}
       <PillFaqSection
-        faqHeading="Responsive Web Design and Mobile Accessibility"
+        faqHeading="Find Pattu – Explore, Discover & Choose Your Perfect Pattu"
         activeRow={{
-          leftLabel: "Booking Flow",
-          rightQuestion: "How does the app design improve the user flow?",
-          answerText: "The design simplifies complex interactions by decomposing them into clear, sequential steps. Each screen guides users through the music discovery process with visual consistency and intuitive navigation patterns.",
+          leftLabel: "Overview",
+          rightQuestion: "What is the My Rameswaram Trip UX/UI project about?",
+          answerText: "This Project Focuses On Designing A User-Centered Digital Platform That Combines Pilgrimage Services And Travel Planning For Rameswaram. The Goal Is To Create A Seamless Experience For Devotees And Travelers By Simplifying Temple Services, Travel Bookings, And Local Guidance Through An Intuitive And Respectful Interface.",
           leftColor: "#FFFFFF",
           rightColor: "#FFFFFF",
           active: true,
         }}
         row2={{
-          leftLabel: "Screen Architecture",
-          rightQuestion: "Which key screens make up the design system?",
+          leftLabel: "UX Research Approach",
+          rightQuestion: "What UX research methods were used in this project?",
         }}
         row3={{
-          leftLabel: "Error Prevention",
-          rightQuestion: "What design patterns prevent errors during user interactions?",
+          leftLabel: "User Problems Identified",
+          rightQuestion: "What key user problems did the research uncover?",
         }}
       />
     </div>

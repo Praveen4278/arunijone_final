@@ -57,32 +57,32 @@ export default function Portfolio7ResearchSection() {
 
       <PillMilestoneSection
         mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_3.png"
-        heading="Research milestones and strategic insights"
-        description="This project analyzed Midco Kuwait's market positioning within Kuwait's Vision 2035 hospitality expansion framework, examining B2B supply chain dynamics and macroeconomic drivers."
-        keyAchievementBody="Identified critical market positioning and operational capacity of enterprise-level hospitality suppliers within the GCC ecosystem, including product portfolio analysis and competitive positioning."
-        clientImpactBody="Provided comprehensive market insights into how localized suppliers support large-scale national infrastructure and tourism initiatives, with analysis of dual-market strategies and digital deployment."
+        heading="Key milestones and outcomes of the project"
+        description="This project created a professional digital platform for Midco Kuwait to showcase hotel products, supplies, and hospitality solutions with a clear and structured product experience."
+        keyAchievementBody="Built an organized product showcase that makes it easier for customers to discover hotel supplies, explore product details."
+        clientImpactBody="Strengthened Midco Kuwait's digital presence by improving product visibility, simplifying navigation."
       />
 
       <PillQuoteSection
-        solidLine="This research examined the intersection of national economic diversification, hospitality infrastructure expansion, and B2B supply chain management in the GCC region."
-        mutedLine="Through analysis of corporate structure, geographic positioning, digital strategies, market segmentation, and macroeconomic hedging approaches, this report demonstrates how enterprise suppliers adapt to and facilitate state-sponsored economic transformation while maintaining operational efficiency and market responsiveness."
+        solidLine="This project was approached with a user-first mindset, focusing on the needs of hotels, hospitality businesses, and procurement teams."
+        mutedLine="Through research, content structuring, and user journey analysis, the platform was designed to present products clearly while making product discovery and business enquiries more efficient."
       />
 
       <PillFaqSection
-        faqHeading="Midco Kuwait and GCC Hospitality Supply Chain Strategy"
+        faqHeading="Midco Kuwait – Hotel Products, Supplies & Hospitality Solutions"
         activeRow={{
-          leftLabel: "Market Structure",
-          rightQuestion: "How do B2B hospitality suppliers support national tourism initiatives?",
+          leftLabel: "Overview",
+          rightQuestion: "What is the My Rameswaram Trip UX/UI project about?",
           active: true,
-          answerText: "Enterprise suppliers like Midco Kuwait play critical roles in supporting infrastructure expansion by providing reliable, high-quality supplies that meet international brand standards. They enable rapid hotel development and operational readiness while maintaining stringent quality and delivery schedules.",
+          answerText: "This Project Focuses On Designing A User-Centered Digital Platform That Combines Pilgrimage Services And Travel Planning For Rameswaram. The Goal Is To Create A Seamless Experience For Devotees And Travelers By Simplifying Temple Services, Travel Bookings, And Local Guidance Through An Intuitive And Respectful Interface.",
         }}
         row2={{
-          leftLabel: "Business Diversification",
-          rightQuestion: "Why do GCC trading firms operate across multiple verticals?",
+          leftLabel: "UX Research Approach",
+          rightQuestion: "What UX research methods were used in this project?",
         }}
         row3={{
-          leftLabel: "Digital Strategy",
-          rightQuestion: "How do traditional B2B suppliers adapt to digital markets?",
+          leftLabel: "User Problems Identified",
+          rightQuestion: "What key user problems did the research uncover?",
         }}
       />
     </div>

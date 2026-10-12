@@ -102,7 +102,7 @@ export const ServicePage = (): React.JSX.Element => {
             </div>
 
             {/* ── 2. OUR ECOSYSTEM & EXPERTISE ── */}
-            <BusinessEcosystemAndCapabilitiesSection onEcoChange={(s) => setDesktopEco(s.toLowerCase() as any)} serviceBadge="SERVICES" serviceHeading={<><span style={{ whiteSpace: "nowrap" }}>Proven Outcomes. Lasting Impact.</span><span>Our Services.</span></>} />
+            <BusinessEcosystemAndCapabilitiesSection onEcoChange={(s) => setDesktopEco(s.toLowerCase() as any)} serviceBadge="SERVICES" serviceHeading={<><span style={{ whiteSpace: "nowrap" }}>Proven Outcomes. Lasting Impact.</span><span>Our Services.</span></>} serviceCardsScrollable={false} />
 
             {/* ── 3. PROJECTS / SUCCESS STORIES ── */}
             {desktopEco === "products" && (

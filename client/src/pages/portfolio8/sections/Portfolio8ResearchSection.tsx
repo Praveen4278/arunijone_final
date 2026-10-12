@@ -69,10 +69,10 @@ export default function Portfolio8ResearchSection() {
 
       <PillMilestoneSection
         mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_4.png"
-        heading="Research insights and strategic analysis"
-        description="This project conducted comprehensive market and competitive analysis for emerging opportunities in portfolio expansion."
-        keyAchievementBody="Identified key market trends, competitive positioning, and strategic opportunities for business growth and market penetration."
-        clientImpactBody="Delivered actionable research insights supporting strategic planning and investment decision-making across portfolio categories."
+        heading="Key milestones and outcomes of the project"
+        description="This project focused on researching, creating, and publishing engaging product videos for Thendral Supermarket's social media platforms to improve product visibility and customer engagement."
+        keyAchievementBody="Developed product-focused video creatives supermarket products, offers, features, and benefits through engaging visual content."
+        clientImpactBody="Improved product awareness and social media engagement by presenting Supermarket's offerings consistent appealing video content."
       />
 
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%", gap: 40, padding: "60px 49px", background: "#F6F7F9", borderRadius: 23.6864 }}>
@@ -93,20 +93,20 @@ export default function Portfolio8ResearchSection() {
       </div>
 
       <PillFaqSection
-        faqHeading="Market Research and Strategic Planning"
+        faqHeading="Thendral Supermarket – Product Video & Social Media Campaign"
         activeRow={{
-          leftLabel: "Methodology",
-          rightQuestion: "What research methods were employed?",
+          leftLabel: "Overview",
+          rightQuestion: "What is the My Rameswaram Trip UX/UI project about?",
           active: true,
-          answerText: "Research combined primary market analysis, competitive benchmarking, trend analysis, and stakeholder interviews to develop comprehensive strategic insights.",
+          answerText: "This Project Focuses On Designing A User-Centered Digital Platform That Combines Pilgrimage Services And Travel Planning For Rameswaram. The Goal Is To Create A Seamless Experience For Devotees And Travelers By Simplifying Temple Services, Travel Bookings, And Local Guidance Through An Intuitive And Respectful Interface.",
         }}
         row2={{
-          leftLabel: "Market Opportunities",
-          rightQuestion: "What key opportunities were identified?",
+          leftLabel: "UX Research Approach",
+          rightQuestion: "What UX research methods were used in this project?",
         }}
         row3={{
-          leftLabel: "Strategic Implications",
-          rightQuestion: "How do research findings inform strategy?",
+          leftLabel: "User Problems Identified",
+          rightQuestion: "What key user problems did the research uncover?",
         }}
       />
     </div>

@@ -250,15 +250,15 @@ export default function Portfolio5ResearchSection() {
 
       <PillMilestoneSection
         mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_1.svg"
-        heading="Research milestones and heuristic findings"
-        description="This project evaluated music discovery app usability through heuristic analysis, MIR research, and gamification evaluation."
-        keyAchievementBody="Identified core UX patterns and system architecture requirements for progressive, level-based music identification."
-        clientImpactBody="Provided a comprehensive technical and legal framework for building a Tamil music trivia and QBH application."
+        heading="Music Information Retrieval System Architecture"
+        description="Comprehensive research on interactive gamification and Query-by-Humming systems for music identification, analyzing modern approaches to music retrieval beyond passive audio fingerprinting."
+        keyAchievementBody="Users want a quick way to identify a song without manually searching for lyrics, titles, or artists."
+        clientImpactBody="The research enabled a frictionless experience for quickly identifying songs and discovering key details."
       />
 
       <PillQuoteSection
-        solidLine="This research was approached with a user-first and technically rigorous mindset, focusing on the intersection of gamification, MIR, and Tamil musicology."
-        mutedLine=" Through deep evaluation of pitch estimation models, source separation techniques, sequence matching algorithms, and Indian copyright law, this report provides a complete blueprint for building a culturally authentic and legally compliant music identification platform."
+        solidLine="The research focused on understanding how users discover and identify unfamiliar songs."
+        mutedLine="Through user interviews, competitor analysis, journey mapping, and usability testing, key pain points were identified and translated into a simple, fast, and intuitive song recognition experience."
       />
 
       <PillFaqSection

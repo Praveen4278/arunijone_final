@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useLocation, Link } from "wouter";
-import OverviewSection from "./portfolio1/sections/OverviewSection";
+import Portfolio8OverviewSection from "./portfolio8/sections/Portfolio8OverviewSection";
 import Portfolio8ResearchSection from "./portfolio8/sections/Portfolio8ResearchSection";
 import Portfolio8CreativeSection from "./portfolio8/sections/Portfolio8CreativeSection";
 import Portfolio8MarketingSection from "./portfolio8/sections/Portfolio8MarketingSection";
@@ -24,7 +24,7 @@ const Portfolio8ServiceCaseStudy = () => {
   const [, navigate] = useLocation();
   const [activeTab, setActiveTab] = useState<"overview"|"research"|"creative"|"marketing"|"design"|"development">("overview");
 
-  const PAGE_TITLE = "Service 4 – Equity Research & Investment Strategy Platform";
+  const PAGE_TITLE = "Thendral Super Market - A Refreshing Shopping Experience.";
   const META_CORP = "Client Delta";
   const META_DURATION = "4 Months";
   const META_RELEASE = "July 1, 2026";
@@ -121,7 +121,7 @@ const Portfolio8ServiceCaseStudy = () => {
                       order: 0,
                       flexGrow: 1,
                     }}>
-                      Client
+                      Name Corp
                     </span>
                   </div>
                   <div style={{
@@ -361,10 +361,32 @@ const Portfolio8ServiceCaseStudy = () => {
             </div>
           </div>
 
-          {activeTab === "overview" && <OverviewSection logoSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_4.png" />}
+          {activeTab === "overview" && <Portfolio8OverviewSection />}
           {activeTab === "research" && <Portfolio8ResearchSection />}
           {activeTab === "creative" && <Portfolio8CreativeSection />}
           {activeTab === "marketing" && <Portfolio8MarketingSection />}
+
+          {/* Our Services Section */}
+          <div style={{ width: 1420, height: 586, background: "rgb(246, 247, 249)", borderRadius: 22.5181, position: "relative", flexShrink: 0, overflow: "hidden" }}>
+            <div style={{ position: "absolute", width: 1340, height: 64, left: 42, top: 49.84, display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", gap: 439 }}>
+              <span style={{ width: 310, height: 54, fontFamily: '"SF Pro Display"', fontWeight: 400, fontSize: 46, lineHeight: "52px", color: "rgb(17, 17, 17)", display: "flex", alignItems: "center" }}>Our Services</span>
+              <span style={{ width: 639, height: 64, fontFamily: '"SF Pro Display"', fontWeight: 400, fontSize: 16, lineHeight: "22px", color: "rgba(109, 109, 110, 0.8)", display: "flex", alignItems: "center" }}>At Arunijone, we deliver comprehensive business services spanning design, research, marketing, creative strategy, and development. Each engagement is driven by strategic thinking, meticulous execution, and a commitment to delivering measurable results for your brand</span>
+            </div>
+            <div style={{ position: "absolute", left: 42.05, top: 164.92, display: "flex", flexDirection: "row", alignItems: "center", gap: 15, overflowX: "auto", overflowY: "hidden", paddingBottom: "16px", maxWidth: "1330px" }}>
+              <div style={{ boxSizing: "border-box", width: 351.53, height: 370.59, border: "0.1px solid rgba(142, 131, 131, 0.12)", borderRadius: 22.5181, background: "rgb(255, 255, 255)", flexShrink: 0, position: "relative" }}>
+                <img src="/assets/Home/images/ecosystem_logos/ecosystem_logo_1.svg" alt="Partner 1" style={{ position: "absolute", width: 156.98, height: 156.33, left: "calc(50% - 78.34px)", top: "calc(50% - 78.225px)", objectFit: "contain" }} />
+              </div>
+              <div style={{ boxSizing: "border-box", width: 351.53, height: 370.59, border: "0.1px solid rgba(142, 131, 131, 0.12)", borderRadius: 22.5181, background: "rgb(255, 255, 255)", flexShrink: 0, position: "relative" }}>
+                <img src="/assets/Home/images/ecosystem_logos/ecosystem_logo_2_resora.svg" alt="Partner 2" style={{ position: "absolute", width: 200.6, height: 58.23, left: "calc(50% - 99.88px)", top: "calc(50% - 29.215px)", objectFit: "contain" }} />
+              </div>
+              <div style={{ boxSizing: "border-box", width: 351.53, height: 370.59, border: "0.1px solid rgba(142, 131, 131, 0.12)", borderRadius: 22.5181, background: "rgb(255, 255, 255)", flexShrink: 0, position: "relative" }}>
+                <img src="/assets/Home/images/ecosystem_logos/ecosystem_logo_3.png" alt="Partner 3" style={{ position: "absolute", width: 229.73, height: 85.61, left: "calc(50% - 114.405px)", top: "calc(50% - 43.225px)", objectFit: "contain" }} />
+              </div>
+              <div style={{ boxSizing: "border-box", width: 351.53, height: 370.59, border: "0.1px solid rgba(142, 131, 131, 0.12)", borderRadius: 22.5181, background: "rgb(255, 255, 255)", flexShrink: 0, position: "relative", overflow: "hidden" }}>
+                <img src="/assets/Home/images/ecosystem_logos/ecosystem_logo_4.png" alt="Partner 4" style={{ position: "absolute", width: 266, height: 97, left: "calc(50% - 132.95px)", top: "calc(50% - 48.72px)", objectFit: "contain" }} />
+              </div>
+            </div>
+          </div>
 
           <SiteFooterSection />
           <div style={{ height: 10 }} />

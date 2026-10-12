@@ -97,7 +97,7 @@ export const About = (): React.JSX.Element => {
                 </span>
               </div>
               {/* 4 partner cards */}
-              <div style={{ position: "absolute", left: 42.05, top: 164.92, display: "flex", flexDirection: "row", alignItems: "center", gap: 15 }}>
+              <div style={{ position: "absolute", left: 42.05, top: 164.92, display: "flex", flexDirection: "row", alignItems: "center", gap: 15, overflowX: "auto", overflowY: "hidden", paddingBottom: "16px", maxWidth: "1330px", width: "1330px" }}>
                 {/* Card 1 */}
                 <div style={{ boxSizing: "border-box", width: 351.53, height: 370.59, border: "0.1px solid rgba(142,131,131,0.12)", borderRadius: 22.5181, background: "#FFFFFF", flexShrink: 0, position: "relative" }}>
                   <img src="/assets/Home/images/ecosystem_logos/ecosystem_logo_1.svg" alt="Partner 1" style={{ position: "absolute", width: 156.98, height: 156.33, left: "calc(50% - 156.98px/2 + 0.15px)", top: "calc(50% - 156.33px/2 - 0.06px)", objectFit: "contain" }} />

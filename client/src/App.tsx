@@ -16,6 +16,10 @@ import ContactDesktop from "@/pages/Contact";
 import FAQDesktop from "@/pages/FAQ";
 import FAQDetailsDesktop from "@/pages/FAQDetails";
 import BlogDetails from "@/pages/BlogDetails";
+import BlogServiceDetails1 from "@/pages/ServiceBlog1Details";
+import BlogServiceDetails2 from "@/pages/ServiceBlog2Details";
+import BlogServiceDetails3 from "@/pages/ServiceBlog3Details";
+import BlogServiceDetails4 from "@/pages/ServiceBlog4Details";
 
 const queryClient = new QueryClient();
 
@@ -38,6 +42,10 @@ function Router() {
       <Route path="/faq" component={FAQDesktop} />
       <Route path="/faq-details" component={FAQDetailsDesktop} />
       <Route path="/blog-details" component={BlogDetails} />
+      <Route path="/service-blog-1" component={BlogServiceDetails1} />
+      <Route path="/service-blog-2" component={BlogServiceDetails2} />
+      <Route path="/service-blog-3" component={BlogServiceDetails3} />
+      <Route path="/service-blog-4" component={BlogServiceDetails4} />
     </Switch>
   );
 }

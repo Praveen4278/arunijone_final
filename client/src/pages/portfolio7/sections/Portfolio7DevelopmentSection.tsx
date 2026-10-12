@@ -26,22 +26,15 @@ export default function Portfolio7DevelopmentSection() {
         clientImpactBody="Delivered production infrastructure enabling rapid digital transformation and market expansion for traditional hospitality suppliers."
       />
 
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%", gap: 40, padding: "60px 49px", background: "#F6F7F9", borderRadius: 23.6864 }}>
-        <span style={{
-          fontFamily: "'SF Pro Display'", fontStyle: "normal", fontWeight: 400,
-          fontSize: 36, lineHeight: "45px", textAlign: "center", color: "#111111",
-          maxWidth: 900,
-        }}>
-          Development prioritized scalability, integration with procurement workflows, and support for enterprise B2B operations at scale.
-        </span>
-        <span style={{
-          fontFamily: "'SF Pro Display'", fontStyle: "normal", fontWeight: 400,
-          fontSize: 18, lineHeight: "28px", textAlign: "center", color: "rgba(109, 109, 110, 0.8)",
-          maxWidth: 900,
-        }}>
-          Through modern e-commerce architecture, inventory management systems, and seamless integration with hospitality procurement platforms, this development enables suppliers to meet the operational demands of rapidly expanding hotel portfolios.
-        </span>
-      </div>
+      <PillQuoteSection
+        solidLine="Development prioritized scalability, integration with procurement workflows, and support for enterprise B2B operations at scale."
+        mutedLine="Through modern e-commerce architecture, inventory management systems, and seamless integration with hospitality procurement platforms, this development enables suppliers to meet the operational demands of rapidly expanding hotel portfolios."
+        textWidth={843}
+        textHeight={210}
+        outerWidth={1415}
+        outerMinHeight={410}
+        outerPaddingX={309}
+      />
 
       <PillFaqSection
         faqHeading="B2B E-Commerce and Supplier Platform Development"

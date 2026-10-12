@@ -98,7 +98,7 @@ const BlogDesktop = () => {
             ></div>
           </div>
 
-          <BusinessEcosystemAndCapabilitiesSection onEcoChange={(s) => setDesktopEco(s.toLowerCase())} showServiceMeta serviceBadge="BLOGS" serviceHeading={<>Insights, Ideas &amp; Stories<br />That Matter</>} />
+          <BusinessEcosystemAndCapabilitiesSection onEcoChange={(s) => setDesktopEco(s.toLowerCase())} showServiceMeta serviceBadge="BLOGS" serviceHeading={<>Insights, Ideas &amp; Stories<br />That Matter</>} serviceCardsScrollable={false} cardRoutes={{ portfolio5: "/service-blog-1", portfolio6: "/service-blog-2", portfolio7: "/service-blog-3", portfolio8: "/service-blog-4" }} />
 
           {desktopEco === "products" && (
           <div

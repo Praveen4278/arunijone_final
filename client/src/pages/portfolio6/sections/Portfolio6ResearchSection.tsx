@@ -181,32 +181,30 @@ export default function Portfolio6ResearchSection() {
 
       <PillMilestoneSection
         mockupImageSrc="/assets/Home/images/ecosystem_logos/ecosystem_logo_2_resora.svg"
-        heading="Research milestones and technical findings"
-        description="This project evaluated white-label hospitality platform architecture through comprehensive technical analysis, database optimization strategies, and compliance frameworks."
-        keyAchievementBody="Identified core architectural patterns for high-performance resort booking systems, including faceted search optimization and multi-tenant data isolation."
-        clientImpactBody="Provided a complete technical blueprint for building scalable, compliant, direct-distribution booking platforms that eliminate OTA dependency."
+        heading="Key milestones and outcomes of the project"
+        description="This project shaped Resora into a streamlined room booking platform, making it easier for users to discover rooms, compare options, explore details, and complete bookings with confidence."
+        keyAchievementBody="Created a user-focused booking experience with clear room information, intuitive navigation, and a simplified reservation flow."
+        clientImpactBody="Resora simplifies room discovery, comparison, and booking for a smoother user experience."
       />
-
       <PillQuoteSection
-        solidLine="This research was approached with a systems-thinking mindset, focusing on the intersection of user experience, database architecture, and regulatory compliance."
-        mutedLine="Through evaluation of search optimization techniques, white-label deployment strategies, cross-platform frameworks, and security standards, this report provides a comprehensive roadmap for engineering high-converting resort booking applications that maximize direct revenue while maintaining enterprise-grade security and data protection."
+        solidLine="Resora was designed with a user-first approach, focusing on making room discovery and booking simple and convenient."
+        mutedLine="The website brings together room details, pricing, availability, and booking options in a clear and intuitive experience, helping users confidently choose and reserve their stay."
       />
-
       <PillFaqSection
-        faqHeading="White-Label Hospitality Platform Architecture and Booking Optimization"
+        faqHeading="Resora – Research Insights & Booking Experience"
         activeRow={{
-          leftLabel: "Search Architecture",
-          rightQuestion: "How do faceted search systems optimize booking engine performance?",
+          leftLabel: "Overview",
+          rightQuestion: "What is the My Rameswaram Trip UX/UI project about?",
           active: true,
-          answerText: "Faceted search combines inverted indexes (for text search) with columnar Doc Values (for filtering). Advanced systems employ 'Filter-First' execution strategies using BitSets to achieve sub-100ms response times, with intelligent caching of popular filter combinations.",
+          answerText: "This Project Focuses On Designing A User-Centered Digital Platform That Combines Pilgrimage Services And Travel Planning For Rameswaram. The Goal Is To Create A Seamless Experience For Devotees And Travelers By Simplifying Temple Services, Travel Bookings, And Local Guidance Through An Intuitive And Respectful Interface.",
         }}
         row2={{
-          leftLabel: "Multi-Tenant Design",
-          rightQuestion: "How is data isolation ensured in white-label multi-tenant systems?",
+          leftLabel: "UX Research Approach",
+          rightQuestion: "What UX research methods were used in this project?",
         }}
         row3={{
-          leftLabel: "Direct Booking Economics",
-          rightQuestion: "What is the ROI impact of implementing a white-label booking engine?",
+          leftLabel: "User Problems Identified",
+          rightQuestion: "What key user problems did the research uncover?",
         }}
       />
     </div>

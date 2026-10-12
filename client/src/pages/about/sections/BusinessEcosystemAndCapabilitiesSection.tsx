@@ -160,10 +160,18 @@ const serviceCards = [
   { route: "/portfolio8", img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_4.png", alt: "Service 4" },
 ];
 
-export const BusinessEcosystemAndCapabilitiesSection = ({ expertiseOnly = false, onEcoChange, showServiceMeta = false, showServiceCards = true, serviceBadge = "OUR SERVICES", serviceHeading }: { expertiseOnly?: boolean; onEcoChange?: (s: string) => void; showServiceMeta?: boolean; showServiceCards?: boolean; serviceBadge?: string; serviceHeading?: React.ReactNode }): React.JSX.Element => {
+export const BusinessEcosystemAndCapabilitiesSection = ({ expertiseOnly = false, onEcoChange, showServiceMeta = false, showServiceCards = true, serviceBadge = "OUR SERVICES", serviceHeading, serviceCardsScrollable = true, cardRoutes }: { expertiseOnly?: boolean; onEcoChange?: (s: string) => void; showServiceMeta?: boolean; showServiceCards?: boolean; serviceBadge?: string; serviceHeading?: React.ReactNode; serviceCardsScrollable?: boolean; cardRoutes?: { portfolio5: string; portfolio6: string; portfolio7: string; portfolio8: string } }): React.JSX.Element => {
   const [selectedEco, setSelectedEco] = useState("Products");
   const [selectedExp, setSelectedExp] = useState("Research");
   const [, navigate] = useLocation();
+
+  // Default routes point to Portfolio pages, can be overridden
+  const routes = cardRoutes || {
+    portfolio5: "/portfolio5",
+    portfolio6: "/portfolio6",
+    portfolio7: "/portfolio7",
+    portfolio8: "/portfolio8",
+  };
 
   const handleEcoChange = (s: string) => {
     setSelectedEco(s);
@@ -244,15 +252,14 @@ export const BusinessEcosystemAndCapabilitiesSection = ({ expertiseOnly = false,
             </span>
           </div>
 
-          {/* Row 1 — 3 logos, Row 2 — 1 logo */}
-          <div style={{ display: "flex", flexDirection: "column", gap: 20, width: 1322 }}>
-
-            {/* Row 1: cards 1, 2, 3 */}
-            <div style={{ display: "flex", flexDirection: "row", alignItems: "flex-start", gap: 20 }}>
+          {/* Row 1 — 4 logos scrollable or 3+1 grid */}
+          {serviceCardsScrollable ? (
+            <div style={{ display: "flex", flexDirection: "row", alignItems: "flex-start", gap: 20, overflowX: "auto", overflowY: "hidden", paddingBottom: "16px", maxWidth: "1322px", width: "100%" }}>
               {[
-                { route: "/portfolio5", img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_1.svg", imgW: 161.68, imgH: 161, title: "Building Better Music Experiences Through Smart UX/UI Design" },
-                { route: "/portfolio6", img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_2_resora.svg", imgW: 213.3, imgH: 61.44, title: "Designing Seamless Hotel Booking Experiences for Modern Travelers" },
-                { route: "/portfolio7", img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_3.png", imgW: 243, imgH: 90, title: "Digital Marketing Strategies That Drive Business Growth" },
+                { route: routes.portfolio5, img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_1.svg", imgW: 161.68, imgH: 161, title: "Building Better Music Experiences Through Smart UX/UI Design" },
+                { route: routes.portfolio6, img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_2_resora.svg", imgW: 213.3, imgH: 61.44, title: "Designing Seamless Hotel Booking Experiences for Modern Travelers" },
+                { route: routes.portfolio7, img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_3.png", imgW: 243, imgH: 90, title: "Digital Marketing Strategies That Drive Business Growth" },
+                { route: routes.portfolio8, img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_4.png", imgW: 266, imgH: 97, title: "Equity Research That Uncovers Market Opportunities" },
               ].map((card) => (
                 <div key={card.route} style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 20, width: 427, flexShrink: 0 }}>
                   {/* Image box */}
@@ -279,33 +286,74 @@ export const BusinessEcosystemAndCapabilitiesSection = ({ expertiseOnly = false,
                 </div>
               ))}
             </div>
-
-            {/* Row 2: card 4 only — centered */}
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "center", gap: 20 }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 20, width: 427 }}>
-                <div onClick={() => { navigate("/portfolio8"); window.scrollTo(0, 0); }} style={{ width: 426.67, height: 320, background: "#FFFFFF", borderRadius: 17.3813, cursor: "pointer", overflow: "hidden", flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
-                  <img src="/assets/Home/images/ecosystem_logos/ecosystem_logo_4.png" alt="Service 4" style={{ width: 266, height: 97, objectFit: "contain" }} />
-                </div>
-                {showServiceMeta && (
-                <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", padding: "0px 10px", gap: 15, width: 427 }}>
-                  <span style={{ width: 407, fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 25, lineHeight: "35px", textAlign: "center", color: "rgba(17,17,17,0.8)" }}>Equity Research That Uncovers Market Opportunities</span>
-                  <div style={{ width: 427, display: "flex", justifyContent: "center" }}>
-                    <button
-                      onClick={() => { navigate("/portfolio8"); window.scrollTo(0, 0); }}
-                      style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", padding: "13px 21px", gap: 4, width: 132.78, height: 46, background: "#0161FE", borderRadius: 98.6819, border: "none", cursor: "pointer" }}
-                    >
-                      <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 500, fontSize: 16, lineHeight: "24px", color: "#FFFFFF" }}>Explore</span>
-                      <svg width="18.94" height="19.89" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 10H16M16 10L10 4M16 10L10 16" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </button>
+          ) : (
+            // 3+1 grid layout for Blog and Explore pages
+            <div style={{ display: "flex", flexDirection: "column", gap: 20, width: "100%" }}>
+              {/* Row 1 — 3 logos */}
+              <div style={{ display: "flex", flexDirection: "row", alignItems: "flex-start", gap: 20, width: "100%", justifyContent: "flex-start" }}>
+                {[
+                  { route: routes.portfolio5, img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_1.svg", imgW: 161.68, imgH: 161, title: "Building Better Music Experiences Through Smart UX/UI Design" },
+                  { route: routes.portfolio6, img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_2_resora.svg", imgW: 213.3, imgH: 61.44, title: "Designing Seamless Hotel Booking Experiences for Modern Travelers" },
+                  { route: routes.portfolio7, img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_3.png", imgW: 243, imgH: 90, title: "Digital Marketing Strategies That Drive Business Growth" },
+                ].map((card) => (
+                  <div key={card.route} style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 20, width: 427, flexShrink: 0 }}>
+                    {/* Image box */}
+                    <div onClick={() => { navigate(card.route); window.scrollTo(0, 0); }} style={{ width: 426.67, height: 320, background: "#FFFFFF", borderRadius: 17.3813, cursor: "pointer", overflow: "hidden", flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                      <img src={card.img} alt={card.title} style={{ width: card.imgW, height: card.imgH, objectFit: "contain" }} />
+                    </div>
+                    {/* Title + Explore button — blog page only */}
+                    {showServiceMeta && (
+                    <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", padding: "0px 10px", gap: 15, width: 427 }}>
+                      <span style={{ width: 407, fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 25, lineHeight: "35px", textAlign: "center", color: "rgba(17,17,17,0.8)" }}>{card.title}</span>
+                      <div style={{ width: 427, display: "flex", justifyContent: "center" }}>
+                        <button
+                          onClick={() => { navigate(card.route); window.scrollTo(0, 0); }}
+                          style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", padding: "13px 21px", gap: 4, width: 132.78, height: 46, background: "#0161FE", borderRadius: 98.6819, border: "none", cursor: "pointer" }}
+                        >
+                          <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 500, fontSize: 16, lineHeight: "24px", color: "#FFFFFF" }}>Explore</span>
+                          <svg width="18.94" height="19.89" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 10H16M16 10L10 4M16 10L10 16" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    )}
                   </div>
-                </div>
-                )}
+                ))}
+              </div>
+
+              {/* Row 2 — 1 centered logo */}
+              <div style={{ display: "flex", flexDirection: "row", alignItems: "flex-start", gap: 20, width: "100%", justifyContent: "center" }}>
+                {[
+                  { route: routes.portfolio8, img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_4.png", imgW: 266, imgH: 97, title: "Equity Research That Uncovers Market Opportunities" },
+                ].map((card) => (
+                  <div key={card.route} style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 20, width: 427, flexShrink: 0 }}>
+                    {/* Image box */}
+                    <div onClick={() => { navigate(card.route); window.scrollTo(0, 0); }} style={{ width: 426.67, height: 320, background: "#FFFFFF", borderRadius: 17.3813, cursor: "pointer", overflow: "hidden", flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                      <img src={card.img} alt={card.title} style={{ width: card.imgW, height: card.imgH, objectFit: "contain" }} />
+                    </div>
+                    {/* Title + Explore button — blog page only */}
+                    {showServiceMeta && (
+                    <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", padding: "0px 10px", gap: 15, width: 427 }}>
+                      <span style={{ width: 407, fontFamily: "'SF Pro Display'", fontWeight: 400, fontSize: 25, lineHeight: "35px", textAlign: "center", color: "rgba(17,17,17,0.8)" }}>{card.title}</span>
+                      <div style={{ width: 427, display: "flex", justifyContent: "center" }}>
+                        <button
+                          onClick={() => { navigate(card.route); window.scrollTo(0, 0); }}
+                          style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", padding: "13px 21px", gap: 4, width: 132.78, height: 46, background: "#0161FE", borderRadius: 98.6819, border: "none", cursor: "pointer" }}
+                        >
+                          <span style={{ fontFamily: "'SF Pro Display'", fontWeight: 500, fontSize: 16, lineHeight: "24px", color: "#FFFFFF" }}>Explore</span>
+                          <svg width="18.94" height="19.89" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 10H16M16 10L10 4M16 10L10 16" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    )}
+                  </div>
+                ))}
               </div>
             </div>
-
-          </div>
+          )}
         </section>
       )}
     </>
