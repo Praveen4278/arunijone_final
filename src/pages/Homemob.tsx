@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import MobBanner from "../components/MobBanner";
 import MobStatHighlights from "../components/MobStatHighlights";
-import MobServiceCategories from "../components/MobServiceCategories";
 import MobFooter from "../components/MobFooter";
 const HomeUXUI = () => {
   const navigate = useNavigate();
+  const [selectedEcosystem, setSelectedEcosystem] = useState("Products");
   return (
     <>
       <div
@@ -410,7 +410,97 @@ const HomeUXUI = () => {
             </div>
           </div>
 
-          <MobServiceCategories />
+          {/* Our Ecosystem Section with Products/Services Toggle */}
+          <div className="relative overflow-hidden bg-[rgba(246,247,249,1.00)] w-full rounded-[20px]" style={{ height: '625px' }}>
+            <div className="absolute h-[582px] w-full left-0 top-[35px]" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '25px', padding: '0 16px' }}>
+              {/* Badge */}
+              <div className="border border-[#202833] rounded-[228.83px] flex items-center justify-center" style={{ width: '126px', height: '32px' }}>
+                <span className="font-medium text-[12px] leading-[14px] uppercase text-[#202833]" style={{ fontFamily: 'SF Pro Display', letterSpacing: '1.716px' }}>
+                  Our Ecosystem
+                </span>
+              </div>
+
+              {/* Heading */}
+              <span className="text-[#111111] text-center" style={{ fontFamily: 'SF Pro Display', fontWeight: 400, fontSize: '28px', lineHeight: '32px' }}>
+                Explore Our Business Ecosystem
+              </span>
+
+              {/* Pills Container */}
+              <div className="flex flex-row gap-3 justify-center items-center" style={{ width: '100%', flexWrap: 'wrap' }}>
+                {/* Products Pill */}
+                <button
+                  onClick={() => setSelectedEcosystem("Products")}
+                  className="flex items-center gap-2 px-4 py-3 rounded-full transition-all"
+                  style={{
+                    background: selectedEcosystem === "Products" ? "#0161FE" : "#FFFFFF",
+                    border: selectedEcosystem === "Products" ? "none" : "1px solid #C8C3C3",
+                    color: selectedEcosystem === "Products" ? "#FFFFFF" : "#0161FE",
+                  }}
+                >
+                  <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: selectedEcosystem === "Products" ? "#4D90FE" : "#0161FE", display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <svg width="20" height="20" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M13.5082 31.4825C12.9547 31.4825 12.4808 31.2854 12.0866 30.8912C11.6924 30.497 11.4954 30.0232 11.4954 29.4696V18.3989C11.4954 17.8453 11.6924 17.3715 12.0866 16.9773C12.4808 16.5831 12.9547 16.386 13.5082 16.386H17.534V14.3731C17.534 13.8196 17.731 13.3457 18.1252 12.9515C18.5194 12.5574 18.9933 12.3603 19.5468 12.3603H23.5726C24.1261 12.3603 24.6 12.5574 24.9941 12.9515C25.3883 13.3457 25.5854 13.8196 25.5854 14.3731V16.386H29.6112C30.1647 16.386 30.6386 16.5831 31.0327 16.9773C31.4269 17.3715 31.624 17.8453 31.624 18.3989V29.4696C31.624 30.0232 31.4269 30.497 31.0327 30.8912C30.6386 31.2854 30.1647 31.4825 29.6112 31.4825H13.5082ZM19.5468 16.386H23.5726V14.3731H19.5468V16.386ZM29.6112 25.4439H24.579V27.4568H18.5404V25.4439H13.5082V29.4696H29.6112V25.4439ZM20.5533 25.4439H22.5661V23.431H20.5533V25.4439ZM13.5082 23.431H18.5404V21.4182H24.579V23.431H29.6112V18.3989H13.5082V23.431Z" fill="white" />
+                    </svg>
+                  </div>
+                  <span style={{ fontFamily: 'SF Pro Display', fontWeight: 400, fontSize: '14px' }}>Products</span>
+                </button>
+
+                {/* Services Pill */}
+                <button
+                  onClick={() => setSelectedEcosystem("Services")}
+                  className="flex items-center gap-2 px-4 py-3 rounded-full transition-all"
+                  style={{
+                    background: selectedEcosystem === "Services" ? "#0161FE" : "#FFFFFF",
+                    border: selectedEcosystem === "Services" ? "none" : "1px solid #C8C3C3",
+                    color: selectedEcosystem === "Services" ? "#FFFFFF" : "#0161FE",
+                  }}
+                >
+                  <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: selectedEcosystem === "Services" ? "#4D90FE" : "#0161FE", display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <svg width="20" height="20" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.0772 30.193C11.5237 30.193 11.0498 29.9959 10.6556 29.6017C10.2614 29.2075 10.0643 28.7337 10.0643 28.1801H14.0901C13.5365 28.1801 13.0627 27.983 12.6685 27.5888C12.2743 27.1947 12.0772 26.7208 12.0772 26.1673V15.0965C12.0772 14.543 12.2743 14.0691 12.6685 13.6749C13.0627 13.2807 13.5365 13.0836 14.0901 13.0836H30.193C30.7465 13.0836 31.2204 13.2807 31.6146 13.6749C32.0088 14.0691 32.2059 14.543 32.2059 15.0965V26.1673C32.2059 26.7208 32.0088 27.1947 31.6146 27.5888C31.2204 27.983 30.7465 28.1801 30.193 28.1801H34.2187C34.2187 28.7337 34.0216 29.2075 33.6274 29.6017C33.2333 29.9959 32.7594 30.193 32.2059 30.193H12.0772ZM22.8586 28.8972C23.0515 28.7043 23.148 28.4653 23.148 28.1801C23.148 27.895 23.0515 27.6559 22.8586 27.463C22.6657 27.2701 22.4267 27.1737 22.1415 27.1737C21.8564 27.1737 21.6173 27.2701 21.4244 27.463C21.2315 27.6559 21.1351 27.895 21.1351 28.1801C21.1351 28.4653 21.2315 28.7043 21.4244 28.8972C21.6173 29.0901 21.8564 29.1866 22.1415 29.1866C22.4267 29.1866 22.6657 29.0901 22.8586 28.8972ZM14.0901 26.1673H30.193V15.0965H14.0901V26.1673Z" fill="white" />
+                    </svg>
+                  </div>
+                  <span style={{ fontFamily: 'SF Pro Display', fontWeight: 400, fontSize: '14px' }}>Services</span>
+                </button>
+              </div>
+
+              {/* Showcase/Logo Area - Changes based on selected */}
+              <div className="bg-white border border-[#8E8383] rounded-[22.88px] flex items-center justify-center w-[calc(100%-16px)]" style={{ height: '212px' }}>
+                <div style={{ width: '140px', height: '140px', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', backgroundPosition: 'center', backgroundImage: selectedEcosystem === "Products" ? 'url(/assets/homemob/images/image_26.png)' : 'url(/assets/homemob/images/ecosystem_logo_1.png)' }} />
+              </div>
+
+              {/* Thumbnail Logos - Different sets for Products vs Services */}
+              <div className="bg-white rounded-[15px] flex flex-row items-start gap-[8.3px] w-[calc(100%-16px)] overflow-x-auto" style={{ height: '78.6px', padding: '8.3px' }}>
+                {selectedEcosystem === "Products" ? (
+                  <>
+                    {[
+                      { img: '/assets/homemob/images/image_26.png' },
+                      { img: '/assets/homemob/images/image_10.png' },
+                      { img: '/assets/homemob/images/image_1_1.png' },
+                      { img: '/assets/homemob/images/image_85.png' },
+                    ].map((item, idx) => (
+                      <div key={idx} className="relative bg-white border border-[#8E8383] rounded-[4.98px] flex-shrink-0" style={{ width: '105px', height: '62px' }}>
+                        <div style={{ width: '80px', height: '45px', left: 'calc(50% - 40px)', top: 'calc(50% - 22.5px)', position: 'absolute', backgroundImage: `url(${item.img})`, backgroundRepeat: 'no-repeat', backgroundSize: 'contain', backgroundPosition: 'center' }} />
+                      </div>
+                    ))}
+                  </>
+                ) : (
+                  <>
+                    {[
+                      { img: '/assets/Home/images/ecosystem_logos/ecosystem_logo_1.svg' },
+                      { img: '/assets/Home/images/ecosystem_logos/ecosystem_logo_2_resora.svg' },
+                      { img: '/assets/Home/images/ecosystem_logos/ecosystem_logo_3.png' },
+                      { img: '/assets/Home/images/ecosystem_logos/ecosystem_logo_4.png' },
+                    ].map((item, idx) => (
+                      <div key={idx} className="relative bg-white border border-[#8E8383] rounded-[4.98px] flex-shrink-0" style={{ width: '105px', height: '62px' }}>
+                        <div style={{ width: '80px', height: '45px', left: 'calc(50% - 40px)', top: 'calc(50% - 22.5px)', position: 'absolute', backgroundImage: `url(${item.img})`, backgroundRepeat: 'no-repeat', backgroundSize: 'contain', backgroundPosition: 'center' }} />
+                      </div>
+                    ))}
+                  </>
+                )}
+              </div>
+            </div>
+          </div>
 
           <div
             id="_274_1036__Section"
