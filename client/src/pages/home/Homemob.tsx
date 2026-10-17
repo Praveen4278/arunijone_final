@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useLocation } from "wouter";
 import MobBanner from "../../components/MobBanner";
 import MobFooter from "../../components/MobFooter";
+import { BusinessEcosystemAndCapabilitiesSection } from "../about/sections/BusinessEcosystemAndCapabilitiesSection";
 
 const SERVICE_CARDS = [
   { route: "/portfolio5", img: "/assets/Home/images/ecosystem_logos/ecosystem_logo_1.svg", alt: "Service 1" },
@@ -325,25 +326,10 @@ const HomeUXUI = () => {
             </div>
             {/* Services cards — shown below pills when Services is active */}
             {mobileEco === "services" && (
-              <div className="flex flex-col gap-[15px] w-[calc(100%-16px)] mx-auto" style={{ marginTop: 376, paddingBottom: 35 }}>
-                <div style={{ boxSizing: "border-box", width: 122, height: 32, border: "1px solid #202833", borderRadius: 228.83, display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 10px" }}>
-                  <span style={{ fontFamily: "SF Pro Display", fontWeight: 500, fontSize: 12, lineHeight: "14px", textAlign: "center", letterSpacing: "1.716px", textTransform: "uppercase", color: "#202833" }}>OUR SERVICES</span>
+              <div style={{ overflowX: "auto", overflowY: "hidden", marginTop: 376, paddingBottom: 35, WebkitOverflowScrolling: "touch" }}>
+                <div style={{ display: "inline-flex" }}>
+                  <BusinessEcosystemAndCapabilitiesSection />
                 </div>
-                <span style={{ fontFamily: "SF Pro Display", fontWeight: 400, fontSize: 34, lineHeight: "38px", textAlign: "center", color: "#111111", marginBottom: 10 }}>
-                  Tailored Services.<br />Built for Your Business.
-                </span>
-                <span style={{ fontFamily: "SF Pro Display", fontWeight: 400, fontSize: 16, lineHeight: "24px", textAlign: "center", color: "rgba(109,109,110,0.8)", marginBottom: 20 }}>
-                  Explore the full range of services — from UX/UI design and digital marketing to brand identity and equity research.
-                </span>
-                {SERVICE_CARDS.map((card) => (
-                  <div
-                    key={card.route}
-                    onClick={() => { navigate(card.route); window.scrollTo(0, 0); }}
-                    className="relative overflow-hidden bg-white h-[230px] w-full rounded-[15.26px] flex justify-center items-center cursor-pointer"
-                  >
-                    <img src={card.img} alt={card.alt} className="h-[160px] w-[160px] object-contain" />
-                  </div>
-                ))}
               </div>
             )}
           </div>
