@@ -1,143 +1,206 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 
 const MobServiceCategories = () => {
+  const navigate = useNavigate();
+
   return (
     <div
-      id="mob-service-categories"
-      className="relative overflow-hidden h-[445.00px] w-full rounded-[22.8799991607666px]"
+      className="relative overflow-hidden bg-[rgba(246,247,249,1.00)] w-full rounded-[20px]"
+      style={{
+        width: "375px",
+        height: "625px",
+      }}
     >
-      <div className="absolute h-[375.00px] w-full left-0 top-[35.00px]">
+      <div
+        className="absolute flex flex-col items-center"
+        style={{
+          width: "370px",
+          height: "582px",
+          left: "3px",
+          top: "35px",
+          gap: "25px",
+        }}
+      >
         {/* Badge */}
-        <div className="absolute top-[-0.39px] left-1/2 -translate-x-1/2">
-          <div className="border h-[12.00px] w-[139.00px] flex flex-row justify-center items-center flex-nowrap gap-2.5 px-4 py-2 rounded-[228.8300018310547px] border-[#202833ff] border-solid">
-            <span className="flex justify-center text-center items-center h-[14.00px] w-[141.00px] relative">
-              <span
-                className="whitespace-nowrap bg-[rgba(32,40,51,1.00)] bg-clip-text text-transparent not-italic text-[12.0px] font-medium leading-[14.00px] tracking-[1.715999960899353px] uppercase"
-                style={{ fontFamily: "SF Pro Display" }}
-              >
-                project category
-              </span>
-            </span>
-          </div>
+        <div
+          className="border border-[#202833] rounded-[228.83px] flex items-center justify-center"
+          style={{
+            width: "126px",
+            height: "32px",
+          }}
+        >
+          <span
+            className="font-medium text-[12px] leading-[14px] uppercase text-[#202833]"
+            style={{
+              fontFamily: "SF Pro Display",
+              letterSpacing: "1.716px",
+            }}
+          >
+            our services
+          </span>
         </div>
 
         {/* Heading */}
-        <span className="flex justify-center text-center items-center h-[85.00px] w-[317.00px] absolute left-[50%] -translate-x-1/2 top-[55.00px]">
-          <span
-            className="bg-[rgba(17,17,17,1.00)] bg-clip-text text-transparent not-italic text-[36.0px] font-normal leading-[42.00px]"
-            style={{ fontFamily: "SF Pro Display" }}
-          >
-            Explore My Core Service Categories
-          </span>
+        <span
+          className="text-[#111111] text-center"
+          style={{
+            fontFamily: "SF Pro Display",
+            fontWeight: 400,
+            fontSize: "36px",
+            lineHeight: "42px",
+            width: "370px",
+            height: "auto",
+          }}
+        >
+          Proven Outcomes. Lasting Impact. Explore Our Services.
         </span>
 
-        {/* Cards */}
-        <div className="absolute h-[205.00px] w-full left-0 flex flex-col justify-start items-start flex-nowrap gap-2.5 top-[170.00px]">
-          <div className="relative h-[182.00px] w-[calc(100%-20px-20px)] flex flex-row justify-center items-start flex-nowrap gap-[7px] pt-0 pb-[23px] px-5 rounded-[calc(15.260000228881836px_*_1.0)]">
-            <div className="relative w-[344.00px] flex flex-col justify-start items-center flex-nowrap gap-[15px]">
-              {/* Row 1: UX/UI + Digital Marketing */}
-              <div className="relative h-[60.81px] w-[calc(100%-0px-0px)] flex flex-row justify-start items-center flex-nowrap gap-[15px]">
-                {/* UX/UI */}
-                <div className="relative bg-[rgba(1,97,254,1.00)] h-[34.81px] flex flex-row justify-start items-center flex-nowrap gap-[18px] px-[18px] py-[13px] rounded-[calc(18.533363342285156px_*_1.0)]">
-                  <div className="relative bg-[rgba(255,255,255,0.30)] h-[34.21px] w-[34.21px] rounded-[29.73302459716797px]">
-                    <img
-                      src="/assets/homemob/images/vector_5.svg"
-                      alt="Vector"
-                      className="absolute left-[calc(50%-8.88px)] top-[calc(50%-8.41px)]"
-                    />
-                  </div>
-                  <span className="flex justify-start text-left items-center h-[24.00px] w-[38.00px] relative">
-                    <span
-                      className="whitespace-nowrap bg-white bg-clip-text text-transparent not-italic text-[15.0px] font-normal leading-[24.00px] capitalize"
-                      style={{ fontFamily: "SF Pro Display" }}
-                    >
-                      UX/UI
-                    </span>
-                  </span>
-                </div>
+        {/* See More Button */}
+        <div
+          className="bg-[#0161FE] rounded-[95.35px] flex items-center justify-center gap-2 cursor-pointer hover:opacity-90 transition-opacity"
+          style={{
+            width: "136.84px",
+            height: "46.34px",
+          }}
+          onClick={() => navigate("/explore")}
+        >
+          <span
+            className="text-[#FFFFFF] text-center"
+            style={{
+              fontFamily: "SF Pro Display",
+              fontWeight: 400,
+              fontSize: "14px",
+              lineHeight: "22px",
+              width: "60.59px",
+            }}
+          >
+            See More
+          </span>
+          <div
+            className="relative overflow-hidden"
+            style={{
+              width: "22.88px",
+              height: "22.88px",
+            }}
+          >
+            <img
+              src="/assets/homemob/images/vector_15.svg"
+              alt="arrow"
+              className="absolute"
+              style={{
+                left: "calc(100% * 0.17)",
+                top: "calc(100% * 0.25)",
+              }}
+            />
+          </div>
+        </div>
 
-                {/* Digital Marketing */}
-                <div className="relative bg-white h-[34.61px] flex flex-row justify-start items-center flex-nowrap gap-[18px] px-[18px] py-[13px] rounded-[calc(18.533363342285156px_*_1.0)] border-[#C8C3C3]/40 border-solid border-[0.10000000149011612px]">
-                  <div className="relative bg-[rgba(1,97,254,1.00)] h-[34.21px] w-[34.21px] rounded-[29.73302459716797px]">
-                    <div className="absolute h-[14.58px] w-[14.48px] left-[calc(50%-7.43px)] top-[calc(50%-7.41px)]">
-                      <img src="/assets/homemob/images/vector_6.svg" alt="Vector" className="absolute left-[calc(100%_*_0.84)] top-[calc(100%_*_0.58)]" />
-                      <img src="/assets/homemob/images/vector_7.svg" alt="Vector" className="absolute top-[calc(100%_*_0.26)]" />
-                      <img src="/assets/homemob/images/vector_8.svg" alt="Vector" className="absolute left-[calc(100%_*_0.28)]" />
-                    </div>
-                  </div>
-                  <span className="flex justify-start text-left items-center h-[22.00px] w-[106.00px] relative">
-                    <span
-                      className="whitespace-nowrap bg-[rgba(1,97,254,1.00)] bg-clip-text text-transparent not-italic text-[15.0px] font-normal leading-[21.62px] capitalize"
-                      style={{ fontFamily: "SF Pro Display" }}
-                    >
-                      Digital Marketing
-                    </span>
-                  </span>
-                </div>
-              </div>
+        {/* Showcase Area */}
+        <div
+          className="bg-[#FEFEFD] border border-[#8E8383] rounded-[22.88px] flex items-center justify-center"
+          style={{
+            height: "212px",
+            left: "8px",
+            right: "8px",
+            position: "relative",
+            width: "calc(100% - 16px)",
+          }}
+        >
+          <div
+            className="absolute"
+            style={{
+              width: "140.49px",
+              height: "139.91px",
+              backgroundImage:
+                "url(/assets/homemob/images/ecosystem_logo_1.png)",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "contain",
+              backgroundPosition: "center",
+            }}
+          />
+        </div>
 
-              {/* Row 2: Equity Research Analysis */}
-              <div className="relative h-[57.07px] w-[242.00px] flex flex-row justify-start items-center flex-nowrap gap-2.5">
-                <div className="relative bg-white h-[32.87px] flex flex-row justify-start items-center flex-nowrap gap-[17px] px-[17px] py-3 rounded-[calc(17.394439697265625px_*_1.0)] border-[#C8C3C3]/40 border-solid border-[0.10000000149011612px]">
-                  <div className="relative bg-[rgba(1,97,254,1.00)] h-[32.11px] w-[32.11px] rounded-[27.905855178833008px]">
-                    <div className="absolute bg-[rgba(1,97,254,1.00)] h-[106.55%] w-[106.55%] left-[calc(100%_*_-0.01)] top-[calc(100%_*_-0.05)] rounded-[29.73302459716797px]">
-                      <img src="/assets/homemob/images/vector_9.svg" alt="Vector" className="absolute left-[calc(100%_*_0.27)] top-[calc(100%_*_0.67)]" />
-                      <img src="/assets/homemob/images/vector_10.svg" alt="Vector" className="absolute left-[calc(100%_*_0.46)] top-[calc(100%_*_0.25)]" />
-                      <img src="/assets/homemob/images/vector_11.svg" alt="Vector" className="absolute left-[calc(100%_*_0.31)] top-[calc(100%_*_0.39)]" />
-                      <img src="/assets/homemob/images/vector_12.svg" alt="Vector" className="absolute left-[calc(100%_*_0.62)] top-[calc(100%_*_0.50)]" />
-                    </div>
-                  </div>
-                  <span className="flex justify-start text-left items-center h-[21.00px] w-[157.00px] relative">
-                    <span
-                      className="whitespace-nowrap bg-[rgba(1,97,254,1.00)] bg-clip-text text-transparent not-italic text-[15.0px] font-normal leading-[20.29px] capitalize"
-                      style={{ fontFamily: "SF Pro Display" }}
-                    >
-                      Equity Research Analysis
-                    </span>
-                  </span>
-                </div>
-              </div>
+        {/* Service Thumbnails Container */}
+        <div
+          className="bg-[#FFFFFF] rounded-[15px] flex flex-row items-start gap-[8.3px]"
+          style={{
+            width: "361px",
+            height: "78.6px",
+            padding: "8.29787px",
+            position: "relative",
+          }}
+        >
+          {/* Thumbnail 1 */}
+          <div
+            className="relative bg-white border border-[#8E8383] rounded-[4.97872px]"
+            style={{
+              width: "114.61px",
+              height: "61.4px",
+            }}
+          >
+            <div
+              className="absolute"
+              style={{
+                width: "90px",
+                height: "50px",
+                left: "calc(50% - 45px)",
+                top: "calc(50% - 25px)",
+                backgroundImage:
+                  "url(/assets/homemob/images/ecosystem_logo_1.png)",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "contain",
+                backgroundPosition: "center",
+              }}
+            />
+          </div>
 
-              {/* Row 3: Full-Stack Development */}
-              <div className="relative h-[57.07px] w-[322.00px] flex flex-row justify-start items-center flex-nowrap gap-2.5">
-                <div className="relative bg-white h-[32.87px] flex flex-row justify-start items-center flex-nowrap gap-[17px] px-[17px] py-3 rounded-[calc(17.394439697265625px_*_1.0)] border-[#C8C3C3]/40 border-solid border-[0.10000000149011612px]">
-                  <div className="relative bg-[rgba(1,97,254,1.00)] h-[32.11px] w-[32.11px] rounded-[27.905855178833008px] flex items-center justify-center">
-                    <img
-                      src="/assets/homemob/images/vector_13.svg"
-                      alt="Vector"
-                    />
-                  </div>
-                  <span className="flex justify-start text-left items-center h-[21.00px] w-[157.00px] relative">
-                    <span
-                      className="whitespace-nowrap bg-[rgba(1,97,254,1.00)] bg-clip-text text-transparent not-italic text-[15.0px] font-normal leading-[20.29px] capitalize"
-                      style={{ fontFamily: "SF Pro Display" }}
-                    >
-                      Full - Stack Development
-                    </span>
-                  </span>
-                  {/* Team badge */}
-                  <div className="relative bg-[rgba(1,97,254,1.00)] h-[24.00px] w-[48.00px] flex flex-col justify-start items-start flex-nowrap gap-2.5 px-[7px] py-0.5 rounded-[85.04351043701172px]">
-                    <div className="relative overflow-hidden h-[24.00px] w-full">
-                      <div className="absolute h-[18.00px] w-[64.00px] left-[calc(50%-32.00px)] top-[calc(50%-9.00px)] flex flex-row justify-center items-center gap-1">
-                        <div className="relative overflow-hidden h-[11.00px] w-[11.00px]">
-                          <img
-                            src="/assets/homemob/images/vector_14.svg"
-                            alt="Vector"
-                            className="absolute left-[calc(100%_*_0.10)] top-[calc(100%_*_0.10)]"
-                          />
-                        </div>
-                        <span className="flex justify-center text-center items-center h-[18.00px] w-[29.00px] relative">
-                          <span className="whitespace-nowrap bg-white bg-clip-text text-transparent not-italic text-[12.003317832946777px] font-medium leading-[17.96px]">
-                            Team
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          {/* Thumbnail 2 */}
+          <div
+            className="relative bg-white border border-[#8E8383] rounded-[4.97872px]"
+            style={{
+              width: "105px",
+              height: "62px",
+            }}
+          >
+            <div
+              className="absolute"
+              style={{
+                width: "80px",
+                height: "45px",
+                left: "calc(50% - 40px)",
+                top: "calc(50% - 22.5px)",
+                backgroundImage:
+                  "url(/assets/homemob/images/ecosystem_logo_2.png)",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "contain",
+                backgroundPosition: "center",
+              }}
+            />
+          </div>
+
+          {/* Thumbnail 3 */}
+          <div
+            className="relative bg-white border border-[#8E8383] rounded-[4.97872px]"
+            style={{
+              width: "105px",
+              height: "62px",
+            }}
+          >
+            <div
+              className="absolute"
+              style={{
+                width: "80px",
+                height: "45px",
+                left: "calc(50% - 40px)",
+                top: "calc(50% - 22.5px)",
+                backgroundImage:
+                  "url(/assets/homemob/images/ecosystem_logo_3.png)",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "contain",
+                backgroundPosition: "center",
+              }}
+            />
           </div>
         </div>
       </div>
